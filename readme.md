@@ -13,6 +13,8 @@ I am using the `BZ` prefix for my items, as I have not seen it used or reference
 ### Shandalar's Cloak
 I wanted to use the lore from Shandalar and source books, and I thought that inthe off chance that a PC manages to defeat Shandalar, it would be a fun reward to give the player a cloak that they can use that looks and behaves kind of like Shandalar. For References to Shandalar, see: [Shandalar on the Forgottem Realms wiki](https://forgottenrealms.fandom.com/wiki/Shandalar). Note: Shandalar has two publications according to the wiki: Baldur's Gate and [Volo's Guide to the Sword Coast](https://forgottenrealms.fandom.com/wiki/Volo%27s_Guide_to_the_Sword_Coast).
 
+Cloak will be a + 2 protection cloak (+2 AC, +2 saving throws) which also grants 50% electrical resistance.
+
 ### Varscona +3
 Varscona is a _very_ decent sword in BG, probably _the_ capstone longsword for base BG1. That said, swords especially into SoD need to go into the +3 realm, and I want to allow the PC to take this beauty all the way to ToB. I'll have more mods for item import later.
 
