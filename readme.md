@@ -15,3 +15,7 @@ I wanted to use the lore from Shandalar and source books, and I thought that int
 
 ### Varscona +3
 Varscona is a _very_ decent sword in BG, probably _the_ capstone longsword for BG1. That said, swords especially into SoD need to go into the +3 realm, and I want to allow the PC to take this beauty all the way to ToB. I'll have more mods for item import later.
+
+**Cost:** Upgrades the +2 longsword to +3; requires 1 emerald, 1 cone of cold scroll, 1 lightning bolt scroll, and 5000 gp.
+
+Varscona +3 deals 1d8+3 slashing, 2d3 cold, 1d3 electrical damage, with a +3 enchantment and thac0 bonus.
