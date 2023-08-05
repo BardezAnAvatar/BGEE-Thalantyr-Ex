@@ -14,7 +14,7 @@ I am using the `BZ` prefix for my items, as I have not seen it used or reference
 I wanted to use the lore from Shandalar and source books, and I thought that inthe off chance that a PC manages to defeat Shandalar, it would be a fun reward to give the player a cloak that they can use that looks and behaves kind of like Shandalar. For References to Shandalar, see: [Shandalar on the Forgottem Realms wiki](https://forgottenrealms.fandom.com/wiki/Shandalar). Note: Shandalar has two publications according to the wiki: Baldur's Gate and [Volo's Guide to the Sword Coast](https://forgottenrealms.fandom.com/wiki/Volo%27s_Guide_to_the_Sword_Coast).
 
 ### Varscona +3
-Varscona is a _very_ decent sword in BG, probably _the_ capstone longsword for BG1. That said, swords especially into SoD need to go into the +3 realm, and I want to allow the PC to take this beauty all the way to ToB. I'll have more mods for item import later.
+Varscona is a _very_ decent sword in BG, probably _the_ capstone longsword for base BG1. That said, swords especially into SoD need to go into the +3 realm, and I want to allow the PC to take this beauty all the way to ToB. I'll have more mods for item import later.
 
 **Cost:** Upgrades the +2 longsword to +3; requires 1 emerald, 1 cone of cold scroll, 1 lightning bolt scroll, and 5000 gp.
 
