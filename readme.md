@@ -1,7 +1,7 @@
 # Thalantyr Item Upgrade Mod Extensions
-Version 0.0.1
-Bardez (https://github.com/BardezAnAvatar)
-Bugs reports to Git Issues in appropriate repository
+Version: 0.0.1
+Author: [Bardez](https://github.com/BardezAnAvatar)
+Bugs reports to [repository's GitHub Issues](https://github.com/BardezAnAvatar/BGEE-Thalantyr-Ex/issues)
 
 ## Introduction
 This mod is a collection of items that I want to expand or enhance using the Thalantyr Item Upgrade Mod.    
