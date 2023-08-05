@@ -4,7 +4,10 @@ Author: [Bardez](https://github.com/BardezAnAvatar)
 Bugs reports to [repository's GitHub Issues](https://github.com/BardezAnAvatar/BGEE-Thalantyr-Ex/issues)
 
 ## Introduction
-This mod is a collection of items that I want to expand or enhance using the Thalantyr Item Upgrade Mod.    
+This mod is a collection of items that I want to expand or enhance using the Thalantyr Item Upgrade Mod.
+
+## Remarks
+I am using the `BZ` prefix for my items, as Ihave not seen it used or referenced prior.
 
 ## Items
 ### Shandalar's Cloak
