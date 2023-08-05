@@ -10,8 +10,11 @@ Thalantyr has enchanted the blade further to make it all the more deadly.
 
 STATISTICS:
 
+Equipped abilities:
+– Fire Resistance: +20%
+
 THAC0: +3
-Damage: 1d8+3, +1d4 cold damage, 5% chance of 2 electrical damage
+Damage: 1d8+3, +2d3 cold damage; 5% chance to drain 1 hit point from target to wielder
 Damage type: Slashing
 Speed Factor: 3
 Proficiency Type: Long Sword
