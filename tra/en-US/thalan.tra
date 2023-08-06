@@ -1,5 +1,6 @@
-//Thalantyr Base responses
-@1000 = ~I don't need it right now. Maybe I have something else you could alter?~
+//Thalantyr Mod Base state/response
+@9000 = ~I don't need it right now. Maybe I have something else you could alter?~
+@9001 = ~Show me what you have, and I'll tell you if it can be altered.~ //the state with all the crafting
 
 //Shandalar's Cloak
 @1001 = ~I have a benign cloak belonging to Shandalar. Certainly you can restore its magic, yes?~
