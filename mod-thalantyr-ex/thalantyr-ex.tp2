@@ -1,0 +1,38 @@
+/* Backup folder */
+BACKUP ~%MOD_FOLDER%/backup~
+
+/* Author */
+AUTHOR ~Bardez~
+//SUPPORT ~https://github.com/BardezAnAvatar/BGEE-Thalantyr-Ex/issues~
+
+/* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
+VERSION ~v0.0.1~
+
+//TP2 flags
+MODDER // Enable all error messages; nothing suppressed. comment this out for release version
+ASK_EVERY_COMPONENT
+AUTO_EVAL_STRINGS
+AUTO_TRA ~%MOD_FOLDER%/tra/%s~ //match strings to matching *.d/*.tra files -- https://weidu.org/~thebigg/README-WeiDU.html#hevea_default184
+
+/****************
+*   languages   *
+****************/
+LANGUAGE
+    ~English~ 
+    ~en_US~
+        ~./mod-thalantyr-ex/tra/en_US/setup.tra~
+        ~./mod-thalantyr-ex/tra/en_US/shandalar-cloak.tra~
+        ~./mod-thalantyr-ex/tra/en_US/varscona3.tra~
+        ~./mod-thalantyr-ex/tra/en_US/thalan.tra~
+
+/**********************************
+*   Enough Setup, on to my mod    *
+**********************************/
+BEGIN @0 
+    //Require Thalantyr Item Upgrade Mod
+    REQUIRE_COMPONENT ~THALAN/THALAN.TP2~ "0" @1 //must have base mod installed
+
+// Get crafting state for THALAN.DLG
+PRINT @2
+OUTER_SET ThalantyrCraftingState = STATE_WHICH_SAYS @9001 FROM ~THALAN~
+PRINT @3 //found state
