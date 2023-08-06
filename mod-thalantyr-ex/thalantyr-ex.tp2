@@ -38,5 +38,8 @@ PRINT @2
 OUTER_SET ThalantyrCraftingState = STATE_WHICH_SAYS @9001 FROM ~THALAN~
 PRINT @3 //found state
 
+//copy over Shandalar's Cloak
+COPY ~%MOD_FOLDER%/shandalar-cloak/BZCLCK1I.BAM~ ~override/BZCLCK1I.BAM~
+
 //Update Thalantyr's dialog
 COMPILE ~%MOD_FOLDER%/dlg/THALAN.d~
