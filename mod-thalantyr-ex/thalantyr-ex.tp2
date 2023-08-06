@@ -37,3 +37,6 @@ BEGIN @0
 PRINT @2
 OUTER_SET ThalantyrCraftingState = STATE_WHICH_SAYS @9001 FROM ~THALAN~
 PRINT @3 //found state
+
+//Update Thalantyr's dialog
+COMPILE ~%MOD_FOLDER%/dlg/THALAN.d~
