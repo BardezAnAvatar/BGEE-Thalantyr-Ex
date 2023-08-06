@@ -40,6 +40,10 @@ PRINT @3 //found state
 
 //copy over Shandalar's Cloak
 COPY ~%MOD_FOLDER%/shandalar-cloak/BZCLCK1I.BAM~ ~override/BZCLCK1I.BAM~
+COPY ~%MOD_FOLDER%/shandalar-cloak/BZCLCK1.ITM~ ~override/BZCLCK1.ITM~
+    PATCH
+        SAY IDENTIFIED_DESC @202
+        SAY NAME2 @201
 
 //Update Thalantyr's dialog
 COMPILE ~%MOD_FOLDER%/dlg/THALAN.d~
