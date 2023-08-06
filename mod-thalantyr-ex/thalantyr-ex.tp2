@@ -20,6 +20,7 @@ AUTO_TRA ~%MOD_FOLDER%/tra/%s~ //match strings to matching *.d/*.tra files -- ht
 LANGUAGE
     ~English~ 
     ~en_US~
+        //There is a problem with using %MOD_FOLDER% here: https://forums.pocketplane.net/index.php?topic=29521.0
         ~./mod-thalantyr-ex/tra/en_US/setup.tra~
         ~./mod-thalantyr-ex/tra/en_US/shandalar-cloak.tra~
         ~./mod-thalantyr-ex/tra/en_US/varscona3.tra~
