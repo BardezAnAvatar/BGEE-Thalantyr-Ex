@@ -32,9 +32,11 @@ CreateVisualEffect("spcrtwpn",[330.230])~
   END
 END
 
-EXTEND_TOP ~THALAN~ %ThalantyrCraftingState% #16
-  IF ~PartyHasItem("CLCK22")~ 
-    THEN 
-        REPLY @1001 /* ~I have a benign cloak belonging to Shandalar. Certainly you can restore its magic, yes?~ */ 
-        GOTO bardez_thalantyr_shandalar_cloak
-  END
+EXTEND_TOP ~THALAN~ 
+  %ThalantyrCraftingState% //state number(s)
+  #15 //transition number; inject between 15 and 16
+    IF ~PartyHasItem("CLCK22")~ 
+      THEN 
+          REPLY @1001 /* ~I have a benign cloak belonging to Shandalar. Certainly you can restore its magic, yes?~ */ 
+          GOTO bardez_thalantyr_shandalar_cloak
+END
