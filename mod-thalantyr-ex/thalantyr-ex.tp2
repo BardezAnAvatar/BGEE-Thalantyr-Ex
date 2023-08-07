@@ -131,4 +131,4 @@ COPY_EXISTING ~CLCK02.ITM~ ~override/BZCLK1.ITM~ //cloak of protection +2 -> Sha
         END
 
 //Update Thalantyr's dialog
-COMPILE ~%MOD_FOLDER%/dlg/THALAN.d~
+COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dlg/THALAN.d~
