@@ -44,7 +44,7 @@ COPY_EXISTING ~CLCK02.ITM~ ~override/BZCLK1.ITM~ //cloak of protection +2 -> Sha
     //Patches
         SAY IDENTIFIED_DESC @202
         SAY NAME2 @201
-        WRITE_ASCII 0x3A "BZCLCK1I"
+        WRITE_ASCII 0x3A "BZCLK1I"
         LPF ~ADD_ITEM_EQEFFECT~
             INT_VAR
                 opcode = 29             // Type: Electrical Resistance Bonus
