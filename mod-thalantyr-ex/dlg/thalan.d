@@ -30,7 +30,7 @@ APPEND ~THALAN~
   END
 END
 
-EXTEND_TOP ~THALAN~ %ThalantyrCraftingState% 16 
+EXTEND_TOP ~THALAN~ %ThalantyrCraftingState% #16
   IF ~PartyHasItem("CLCK22")~ 
     THEN 
         REPLY @1001 /* ~I have a benign cloak belonging to Shandalar. Certainly you can restore its magic, yes?~ */ 
