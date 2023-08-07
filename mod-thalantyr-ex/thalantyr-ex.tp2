@@ -1,5 +1,5 @@
 /* Backup folder */
-BACKUP ~%MOD_FOLDER%/backup~
+BACKUP ~mod-thalantyr-ex/backup~ // %MOD_FOLDER% will be a literal (because it's not set yet?) so use hard-coded name
 
 /* Author */
 AUTHOR ~Bardez; support at: https://github.com/BardezAnAvatar/BGEE-Thalantyr-Ex/issues~
