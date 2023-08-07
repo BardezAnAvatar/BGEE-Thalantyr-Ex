@@ -13,6 +13,7 @@ ASK_EVERY_COMPONENT
 AUTO_EVAL_STRINGS
 AUTO_TRA ~%MOD_FOLDER%/tra/%s~ //match strings to matching *.d/*.tra files -- https://weidu.org/~thebigg/README-WeiDU.html#hevea_default184
 
+
 /****************
 *   languages   *
 ****************/
@@ -24,6 +25,7 @@ LANGUAGE
         ~./mod-thalantyr-ex/tra/en_US/shandalar-cloak.tra~
         ~./mod-thalantyr-ex/tra/en_US/varscona3.tra~
         ~./mod-thalantyr-ex/tra/en_US/thalan.tra~
+
 
 /**********************************
 *   Enough Setup, on to my mod    *
@@ -39,96 +41,7 @@ PRINT @3 //found state
 PRINT ~DEBUG: var `MOD_FOLDER`: %MOD_FOLDER%~
 
 //copy over Shandalar's Cloak
-COPY ~%MOD_FOLDER%/shandalar-cloak/BZCLK1I.BAM~ ~override/BZCLK1I.BAM~
-COPY_EXISTING ~CLCK02.ITM~ ~override/BZCLK1.ITM~ //cloak of protection +2 -> Shandalar's Cloak
-    //Patches
-        SAY IDENTIFIED_DESC @202
-        SAY NAME2 @201
-        WRITE_ASCII 0x3A "BZCLK1I"
-        LPF ~ADD_ITEM_EQEFFECT~
-            INT_VAR
-                opcode = 29             // Type: Electrical Resistance Bonus
-                target = 1              // Self
-                timing = 2              // Timing Mode: Instant/While Equipped
-                parameter1 = 50         // value of resistance bonus
-                parameter2 = 0          // Modifier Type: Increment
-                power = 0
-                resist_dispel = 0       // Natural/Nonmagical
-                duration = 0
-                probability1 = 100
-                probability2 = 0
-                dicenumber = 0
-                dicesize = 0
-                savingthrow = 0
-                savebonus = 0
-                special = 0
-                insert_point = "-1"     // add to end
-            STR_VAR
-                resource = ~~           // unused for opcode
-        END
-        LPF ~ADD_ITEM_EQEFFECT~
-            INT_VAR
-                opcode = 142            // Type: Display Portrait Icon
-                target = 1              // Self
-                timing = 2              // Timing Mode: Instant/While Equipped
-                parameter1 = 0          // unused 
-                parameter2 = 27         // Icon: Protection from Electricity
-                power = 0
-                resist_dispel = 0       // Natural/Nonmagical
-                duration = 0
-                probability1 = 100
-                probability2 = 0
-                dicenumber = 0
-                dicesize = 0
-                savingthrow = 0
-                savebonus = 0
-                special = 0
-                insert_point = "-1"     // add to end
-            STR_VAR
-                resource = ~~           // unused for opcode
-        END
-        LPF ~ADD_ITEM_EQEFFECT~
-            INT_VAR
-                opcode = 30             // Type: Fire Resistance Bonus
-                target = 1              // Self
-                timing = 2              // Timing Mode: Instant/While Equipped
-                parameter1 = 25         // value of resistance bonus
-                parameter2 = 0          // Modifier Type: Increment
-                power = 0
-                resist_dispel = 0       // Natural/Nonmagical
-                duration = 0
-                probability1 = 100
-                probability2 = 0
-                dicenumber = 0
-                dicesize = 0
-                savingthrow = 0
-                savebonus = 0
-                special = 0
-                insert_point = "-1"     // add to end
-            STR_VAR
-                resource = ~~           // unused for opcode
-        END
-        LPF ~ADD_ITEM_EQEFFECT~
-            INT_VAR
-                opcode = 142            // Type: Display Portrait Icon
-                target = 1              // Self
-                timing = 2              // Timing Mode: Instant/While Equipped
-                parameter1 = 0          // unused 
-                parameter2 = 16         // Icon: Protection from Fire
-                power = 0
-                resist_dispel = 0       // Natural/Nonmagical
-                duration = 0
-                probability1 = 100
-                probability2 = 0
-                dicenumber = 0
-                dicesize = 0
-                savingthrow = 0
-                savebonus = 0
-                special = 0
-                insert_point = "-1"     // add to end
-            STR_VAR
-                resource = ~~           // unused for opcode
-        END
+INCLUDE ~%MOD_FOLDER%/shandalar-cloak/shandalar-cloak.tph~
 
 //Update Thalantyr's dialog
 COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dlg/THALAN.d~
