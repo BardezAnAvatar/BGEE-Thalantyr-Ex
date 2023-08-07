@@ -89,7 +89,7 @@ COPY_EXISTING ~CLCK02.ITM~ ~override/BZCLK1.ITM~ //cloak of protection +2 -> Sha
         END
         LPF ~ADD_ITEM_EQEFFECT~
             INT_VAR
-                opcode = 29             // Type: Fire Resistance Bonus
+                opcode = 30             // Type: Fire Resistance Bonus
                 target = 1              // Self
                 timing = 2              // Timing Mode: Instant/While Equipped
                 parameter1 = 25         // value of resistance bonus
