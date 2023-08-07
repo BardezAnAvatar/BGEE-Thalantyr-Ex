@@ -2,8 +2,7 @@
 BACKUP ~%MOD_FOLDER%/backup~
 
 /* Author */
-AUTHOR ~Bardez~
-//SUPPORT ~https://github.com/BardezAnAvatar/BGEE-Thalantyr-Ex/issues~
+AUTHOR ~Bardez; support at: https://github.com/BardezAnAvatar/BGEE-Thalantyr-Ex/issues~
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
 VERSION ~v0.0.1~
