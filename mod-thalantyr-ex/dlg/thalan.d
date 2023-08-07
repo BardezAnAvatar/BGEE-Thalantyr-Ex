@@ -29,7 +29,7 @@ TakePartyItemNum("SCRL05",2)
 DestroyItem("SCRL05")
 TakePartyItemNum("SCRL06",2)
 DestroyItem("SCRL06")
-GiveItemCreate("BZCLCK1",Player1,1,1,1)
+GiveItemCreate("BZCLK1",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
         EXIT
 END
