@@ -55,8 +55,12 @@ Similar to the merging of two rings of protection, this will take two amulets of
 **Cost**
 The amulet will require two amulets of protection +1 (or an amulet and a ring of protection); two moonbar gems; a diamond; plus 5,000 gold.
 
+
 ### Golden Axe +2
-**TODO**
+If you decide to kill Fenten for whatever reason, you get a nice +1 axe. It'd be nicer as a +2.
+
+**Cost**
+The amulet will require the golden axe +1; a diamond; plus 6,000 gold.
 
 
 ### SoD Parallel Mod Plans
