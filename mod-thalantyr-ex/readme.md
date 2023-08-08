@@ -38,7 +38,6 @@ Fairly simple: turn the ring Koveras gives you into a cursed ring. It makes sens
 #### Component: No Cursed Ring
 Also fairly simple: the ring that Koveras gives you is not cursed, and can be upgraded straight to a +2 version, with its own flavor text. This component will update the flavor text to deviate from ring of the prices to reflect its history in-game.
 
-
 #### Versions
 | Name                                 | Effects                                                                          |
 | ------------------------------------ | -------------------------------------------------------------------------------- |
@@ -50,3 +49,21 @@ Also fairly simple: the ring that Koveras gives you is not cursed, and can be up
 | Ring of Protection +5: Koveras' Gift | Saves +5<br>AC +5<br>HP +20<br>Immunity to instant death<br>Immunity to backstab<br>Immunity to level drain<br>Immunity to poison |
 
 
+### Amulet of Protection +2
+**TODO**
+
+### Golden Axe +2
+**TODO**
+
+
+### SoD Parallel Mod Plans
+AX1H03 from +2 -> +3 (soD)
+AX1h06 +2 -> +3 (SoD)
+BDBLUN05 +2 -> +3 (SoD)
+BDBLUN08 (glimmer of hope) 2 -> 3 (SoD)
+BDDAGG01 (elements' fury) (Sod) 2 -> 3
+BDHALB01 (storm pike +2)  [SoD] 2-> 3
+BDHALB03 (cold fury +2) [SoD] 2-> 3
+BDSW1H22 (Severance +2) [SoD] 2->3
+BLUN11 (Skullcrusher +2) [Sod] 2->3
+BLUN39 (Thresher +2) [Sod] 2->3
