@@ -50,7 +50,10 @@ Also fairly simple: the ring that Koveras gives you is not cursed, and can be up
 
 
 ### Amulet of Protection +2
-**TODO**
+Similar to the merging of two rings of protection, this will take two amulets of protection and merge them into a +2 amulet.
+
+**Cost**
+The amulet will require two amulets of protection +1 (or an amulet and a ring of protection); two moonbar gems; a diamond; plus 5,000 gold.
 
 ### Golden Axe +2
 **TODO**
