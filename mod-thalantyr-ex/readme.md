@@ -24,3 +24,29 @@ Varscona is a _very_ decent sword in BG, probably _the_ capstone longsword for b
 **Cost:** Upgrades the +2 longsword to +3; requires 1 emerald, 1 cone of cold scroll, 1 lightning bolt scroll, and 5,000 gp.
 
 Varscona +3 deals 1d8+3 slashing, 2d3 cold; with a +3 enchantment and thac0 bonus. It grants % fire resistance and offers a % chance to drain 1 HP on hit.
+
+
+### Koveras' Ring of Protection
+Ever since I "authored" the BGT mod, I felt this pull towards Koveras' ring of protection. It felt like an item that should have a story to itself, not just a basic clone of a +1 Ring of Protection. It felt like an item that you should be able to keep as a trophy, a momento or other and I always felt it was bogus that this never had anything done with it, but the _golden pantaloons_ were. After checking Github for this item in the BGT repo (not there), and my HDDs from 20-ish years ago, I wanted to put it back in.
+
+This component has two sub-components; both will replace the Ring of Princes flavor text with a description matching in-game events. One will 
+have Koveras offer you a cursed ring, the other will leave the interaction as-is. Both paths will have an upgrade to the +2 ring of protection.
+
+#### Component: Koveras' Cursed Ring
+Fairly simple: turn the ring Koveras gives you into a cursed ring. It makes sense from a story and RP perspective. If you then un-curse it, it becomes the regular ring of protection.
+
+#### Component: No Cursed Ring
+Also fairly simple: the ring that Koveras gives you is not cursed, and can be upgraded straight to a +2 version, with its own flavor text. This component will update the flavor text to deviate from ring of the prices to reflect its history in-game.
+
+
+#### Versions
+| Name                                 | Effects                                                                          |
+| ------------------------------------ | -------------------------------------------------------------------------------- |
+| Gorion's Gift                        | Saves -3<br>AC -3<br>Thac0 -3                                                    |
+| Ring of Protection +1: Koveras' Gift | Saves +1<br>AC +1<br>HP +5                                                       |
+| Ring of Protection +2: Koveras' Gift | Saves +2<br>AC +2<br>HP +5<br>Immunity to instant death                          |
+| Ring of Protection +3: Koveras' Gift | Saves +3<br>AC +3<br>HP +10<br>Immunity to instant death<br>Immunity to backstab |
+| Ring of Protection +4: Koveras' Gift | Saves +4<br>AC +4<br>HP +10<br>Immunity to instant death<br>Immunity to backstab<br>Immunity to level drain |
+| Ring of Protection +5: Koveras' Gift | Saves +5<br>AC +5<br>HP +20<br>Immunity to instant death<br>Immunity to backstab<br>Immunity to level drain<br>Immunity to poison |
+
+
