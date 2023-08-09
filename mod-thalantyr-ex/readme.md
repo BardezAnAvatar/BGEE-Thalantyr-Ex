@@ -75,6 +75,13 @@ Similar to the merging of two rings of protection, this will take two amulets of
 The amulet will require two amulets of protection +1 (or an amulet and a ring of protection); two moonbar gems; a diamond; plus 5,000 gold.
 
 
+### Cloak of Protection +2
+Similar to the merging of two rings of protection, this will take two cloaks of protection and merge them into a +2 cloak.
+
+**Cost**
+The amulet will require two cloaks of protection +1 (or a cloak and a ring of protection); 4 iol gems; a black opal; plus 5,000 gold.
+
+
 ### Golden Axe +2
 If you decide to kill Fenten for whatever reason, you get a nice +1 axe. It'd be nicer as a +2.
 
