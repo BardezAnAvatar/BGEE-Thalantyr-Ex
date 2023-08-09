@@ -13,17 +13,23 @@ I am using the `BZ` prefix for my items, as I have not seen it used or reference
 ### Shandalar's Cloak
 I wanted to use the lore from Shandalar and source books, and I thought that inthe off chance that a PC manages to defeat Shandalar, it would be a fun reward to give the player a cloak that they can use that looks and behaves kind of like Shandalar. For References to Shandalar, see: [Shandalar on the Forgottem Realms wiki](https://forgottenrealms.fandom.com/wiki/Shandalar). Note: Shandalar has two publications according to the wiki: Baldur's Gate and [Volo's Guide to the Sword Coast](https://forgottenrealms.fandom.com/wiki/Volo%27s_Guide_to_the_Sword_Coast).
 
-**Cost:** consumes shandalar's cloak and wardstone; requires 3 protection scrolls from electricity, 2 protection scrolls from fire, and 10,000 gp.
+##### Statistics
+Cloak is a +2 protection cloak (+2 AC, +2 saving throws) which also grants 50% electrical resistance and 25% fire resistance.
+
+##### Creation
+Consumes shandalar's cloak and wardstone; requires 3 protection scrolls from electricity, 2 protection scrolls from fire, and 10,000 gp.
 
 
-Cloak will be a + 2 protection cloak (+2 AC, +2 saving throws) which also grants 50% electrical resistance and 25% fire resistance.
 
 ### Varscona +3
 Varscona is a _very_ decent sword in BG, probably _the_ capstone longsword for base BG1. That said, swords especially into SoD need to go into the +3 realm, and I want to allow the PC to take this beauty all the way to ToB. I'll have more mods for item import later.
 
-**Cost:** Upgrades the +2 longsword to +3; requires 1 emerald, 1 cone of cold scroll, 1 lightning bolt scroll, and 5,000 gp.
+##### Statistics
+Varscona +3 deals 1d8+3 slashing, 2d3 cold; with a +3 enchantment and thac0 bonus. It grants 10% fire resistance and offers a 5% chance to drain 1 HP on hit.
 
-Varscona +3 deals 1d8+3 slashing, 2d3 cold; with a +3 enchantment and thac0 bonus. It grants % fire resistance and offers a % chance to drain 1 HP on hit.
+##### Creation
+Upgrades the +2 longsword to +3; requires 1 emerald, 1 cone of cold scroll, 1 lightning bolt scroll, and 5,000 gp.
+
 
 
 ### Koveras' Ring of Protection
@@ -32,8 +38,21 @@ Ever since I "authored" the BGT mod, I felt this pull towards Koveras' ring of p
 This component has two sub-components; both will replace the Ring of Princes flavor text with a description matching in-game events. One will 
 have Koveras offer you a cursed ring, the other will leave the interaction as-is. Both paths will have an upgrade to the +2 ring of protection.
 
+##### Statistics
+The +1 ring is updated to also grant +5 hp.
+
+The +2 ring grants +2 AC and +2 to saving throws as well as +5 hp and immunity to instant death effects.
+
+##### Creation
+The +2 ring requires 4x Horn Coral Gem; 3x scroll of raise dead; 5,000 gp. Should be 4x Death ward scroll, but doesn't exist in BG1.
+
+
 #### Component: Koveras' Cursed Ring
 Fairly simple: turn the ring Koveras gives you into a cursed ring. It makes sense from a story and RP perspective. If you then un-curse it, it becomes the regular ring of protection.
+
+##### Restoration
+Requires three scrolls of Remove Curse; 2 garnets; and 3,000 gold
+
 
 #### Component: No Cursed Ring
 Also fairly simple: the ring that Koveras gives you is not cursed, and can be upgraded straight to a +2 version, with its own flavor text. This component will update the flavor text to deviate from ring of the prices to reflect its history in-game.
@@ -62,6 +81,11 @@ If you decide to kill Fenten for whatever reason, you get a nice +1 axe. It'd be
 **Cost**
 The amulet will require the golden axe +1; a diamond; plus 6,000 gold.
 
+
+## Future Plans
+
+### Scroll of Death Ward
+This would make way more sense for the Koveras Ring of Protection, so add it in at a later date. Add to temple stores, etc.
 
 ### SoD Parallel Mod Plans
 AX1H03 from +2 -> +3 (soD)
