@@ -71,22 +71,87 @@ Also fairly simple: the ring that Koveras gives you is not cursed, and can be up
 ### Amulet of Protection +2
 Similar to the merging of two rings of protection, this will take two amulets of protection and merge them into a +2 amulet.
 
-**Cost**
+##### Creation
 The amulet will require two amulets of protection +1 (or an amulet and a ring of protection); two moonbar gems; a diamond; plus 5,000 gold.
 
 
 ### Cloak of Protection +2
 Similar to the merging of two rings of protection, this will take two cloaks of protection and merge them into a +2 cloak.
 
-**Cost**
+##### Creation
 The amulet will require two cloaks of protection +1 (or a cloak and a ring of protection); 4 iol gems; a black opal; plus 5,000 gold.
 
 
 ### Golden Axe +2
 If you decide to kill Fenten for whatever reason, you get a nice +1 axe. It'd be nicer as a +2.
 
-**Cost**
+##### Creation
 The amulet will require the golden axe +1; a diamond; plus 6,000 gold.
+
+
+### Axe +1 Wizard Slayer
+Found in Durlag's Tower, this axe is non-magical and fun. I feel like it should be improvable.
+
+##### Creation
+The upgrade will require the Wizard Slayer axe; a pearl; plus 3,000 gold.
+
+
+### Axe +2 Wizard Slayer
+Found in Durlag's Tower, this axe would be further improvable.
+
+##### Creation
+The upgrade will require the Wizard Slayer +1 axe; a diamond; plus 6,000 gold.
+
+
+### Axe +2 Beruel's Retort
+Improve the axe from the Thunderhammer Smithy
+
+##### Statistics
+Retains properties from +1 version, incremented to a +2 weapon. Gains +2 more vs orcs, goblins, and giants.
+
+##### Creation
+The upgrade will require the Beruel's Retort +1 axe; three Chrysoberyl Gem; plus 6,000 gold.
+
+
+### Mace +2: The Stupifier
+Improve the mace to +2
+
+##### Statistics
+Retains properties from +1 version, incremented to a +2 weapon.
+
+##### Creation
+The upgrade will require the Mace +1: The Stupifier mace; five bloodstone Gem; plus 6,000 gold.
+
+
+### Hammer +2: The Hammer of Dawn
+Improve the hammer to +2
+
+##### Statistics
+Retains properties from +1 version, incremented to a +2 weapon.
+
+##### Creation
+The upgrade will require the Hammer +1: The Hammer of Dawn; six andar Gem; plus 6,000 gold.
+
+
+### Longsword +2: Harrower
+Improve the longsword to +2/+4
+
+##### Statistics
+Retains properties from +1 version, incremented to a +2/+4 weapon.
+
+##### Creation
+The upgrade will require the Longsword +1: Harrower; six lynx eye gem; plus 6,000 gold.
+
+
+### Light Crossbow +2: The Army Scythe
+Improve the Scythe to +2
+
+##### Statistics
+Retains properties from +1 version, incremented to a +2 weapon.
+
+##### Creation
+The upgrade will require the Longsword +1: Harrower; six fire agate gem; plus 6,000 gold.
+
 
 
 ## Future Plans
@@ -94,14 +159,27 @@ The amulet will require the golden axe +1; a diamond; plus 6,000 gold.
 ### Scroll of Death Ward
 This would make way more sense for the Koveras Ring of Protection, so add it in at a later date. Add to temple stores, etc.
 
+
 ### SoD Parallel Mod Plans
-AX1H03 from +2 -> +3 (soD)
-AX1h06 +2 -> +3 (SoD)
-BDBLUN05 +2 -> +3 (SoD)
-BDBLUN08 (glimmer of hope) 2 -> 3 (SoD)
-BDDAGG01 (elements' fury) (Sod) 2 -> 3
+AX1H03 from +2-> +3 [SoD]
+AX1h06 +2-> +3 [SoD]
+BDBLUN05 +2-> +3 [SoD]
+BDBLUN08 (glimmer of hope) 2-> 3 [SoD]
+BDDAGG01 (elements' fury) [SoD] 2-> 3
 BDHALB01 (storm pike +2)  [SoD] 2-> 3
 BDHALB03 (cold fury +2) [SoD] 2-> 3
-BDSW1H22 (Severance +2) [SoD] 2->3
-BLUN11 (Skullcrusher +2) [Sod] 2->3
-BLUN39 (Thresher +2) [Sod] 2->3
+BDSW1H22 (Severance +2) [SoD] 2-> 3
+BLUN11/42 (Skullcrusher +2) [SoD] 2-> 3
+BLUN39 (Thresher +2) [SoD] 2-> 3
+BDAX1h05 (Grubdoubler's Axe +1) 1-> 2 [SoD]
+BDBLUN02 (Cudgel of Montonger +1) 1-> 2 [SoD]
+BDSW1H08 (Dervish Crescent +2) 2-> 3 [SoD]
+BDSW1H20 (Ophyllis' Short Sword +2) 2-> 3 [SoD]
+BDSW1H21 (Vexaction +2) 2-> 3 [SoD]
+BDSW1H25 (Spell Breaker +2) 2-> 3 [SoD]
+BLUN41 (Stupifier +1) 2-> 3 [SoD]
+
+
+### SoA Parallel Mod Plans
+BLUN09 (Kiel's Morning Star +3) [Remove Curse, something] [SoA]
+SHLD19 (Pellan's Shield +2) 2-> 3 [SoA]
