@@ -9,6 +9,24 @@ This mod is a collection of items that I want to expand or enhance using the Tha
 ## Remarks
 I am using the `BZ` prefix for my items, as I have not seen it used or referenced prior.
 
+
+## Status
+| Item Name                          | Implemented? | Version |
+| ---------------------------------- | ------------ | ------- |
+| Shandalar's Cloak                  | ✔️ | 0.0.1 |
+| Varscona +3                        | ❌ | n/a |
+| Koveras' Ring                      | ❌ | n/a |
+| Amulet of Protection +2            | ❌ | n/a |
+| Cloak of Protection +2             | ❌ | n/a |
+| Golden Axe +2                      | ❌ | n/a |
+| Axe +1 Wizard Slayer               | ❌ | n/a |
+| Axe +2 Wizard Slayer               | ❌ | n/a |
+| Axe +2 Beruel's Retort             | ❌ | n/a |
+| Mace +2: The Stupifier             | ❌ | n/a |
+| Hammer +2: The Hammer of Dawn      | ❌ | n/a |
+| Longsword +2: Harrower             | ❌ | n/a |
+| Light Crossbow +2: The Army Scythe | ❌ | n/a |
+
 ## Items
 ### Shandalar's Cloak
 I wanted to use the lore from Shandalar and source books, and I thought that inthe off chance that a PC manages to defeat Shandalar, it would be a fun reward to give the player a cloak that they can use that looks and behaves kind of like Shandalar. For References to Shandalar, see: [Shandalar on the Forgottem Realms wiki](https://forgottenrealms.fandom.com/wiki/Shandalar). Note: Shandalar has two publications according to the wiki: Baldur's Gate and [Volo's Guide to the Sword Coast](https://forgottenrealms.fandom.com/wiki/Volo%27s_Guide_to_the_Sword_Coast).
