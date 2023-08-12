@@ -46,7 +46,7 @@ Varscona is a _very_ decent sword in BG, probably _the_ capstone longsword for b
 Varscona +3 deals 1d8+3 slashing, 2d3 cold; with a +3 enchantment and thac0 bonus. It grants 10% fire resistance and offers a 5% chance to drain 1 HP on hit.
 
 ##### Creation
-Upgrades the +2 longsword to +3; requires 1 emerald, 1 cone of cold scroll, 1 lightning bolt scroll, and 5,000 gp.
+Upgrades the +2 longsword to +3; requires 1 emerald, 1 Cone of Cold scroll, 1 Vampiric Touch scroll, and 6,000 gp.
 
 
 
