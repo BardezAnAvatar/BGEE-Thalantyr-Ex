@@ -13,7 +13,7 @@ COPY_EXISTING ~SW1H06.ITM~ ~override/BZS1H1.ITM~ //Varscona +2 ->Varscona +3
                 thac0_bonus = 3
                 damage_bonus = 3
             STR_VAR
-                icon = ~BZS1H1~         //icon to display
+                icon = ~BZS1H1I~         //icon to display for melee
         END
         LPF ~ALTER_ITEM_EFFECT~
             INT_VAR
