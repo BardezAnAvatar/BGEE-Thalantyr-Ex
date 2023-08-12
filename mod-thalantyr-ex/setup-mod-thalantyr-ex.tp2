@@ -40,8 +40,9 @@ OUTER_SET ThalantyrCraftingState = STATE_WHICH_SAYS @9001 FROM ~THALAN~
 PRINT @3 //found state
 PRINT ~DEBUG: var `MOD_FOLDER`: %MOD_FOLDER%~
 
-//copy over Shandalar's Cloak
-INCLUDE ~%MOD_FOLDER%/shandalar-cloak/shandalar-cloak.tph~
+//copy over items
+INCLUDE ~%MOD_FOLDER%/shandalar-cloak/shandalar-cloak.tph~  // Shandalar's Cloak
+INCLUDE ~%MOD_FOLDER%/varscona3/varscona3.tph~  // Varscona +3
 
 //Update Thalantyr's dialog
 COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dlg/THALAN.d~
