@@ -40,9 +40,9 @@ COPY_EXISTING ~SW1H06.ITM~ ~override/BZS1H1.ITM~ //Varscona +2 ->Varscona +3
                 savebonus = 0
                 special = 0
                 insert_point = "-1"     // add to end
+                type = 1                // Type of header: Melee
             STR_VAR
                 resource = ~BZS1H1~     // Which spell
-        
         END
         LPF ~ADD_ITEM_EQEFFECT~
             INT_VAR
