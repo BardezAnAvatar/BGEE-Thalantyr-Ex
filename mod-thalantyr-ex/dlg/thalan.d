@@ -36,10 +36,10 @@ CreateVisualEffect("spcrtwpn",[330.230])~
       GOTO %ThalantyrCraftingState%
     IF 
 ~PartyHasItem("SW1H06")
-PartyHasItem("MISC43)
-NumItemsPartyGT("SCRL06",1)
-NumItemsPartyGT("SCRL1Q",1)
-NumItemsPartyGT("SCRL2F",1)
+PartyHasItem("MISC43")
+PartyHasItem("SCRL06")
+PartyHasItem("SCRL1Q")
+PartyHasItem("SCRL2F")
 PartyGoldGT(5999)~
       THEN
           REPLY @1102 /* ~Yes, restore it for me.~ */
