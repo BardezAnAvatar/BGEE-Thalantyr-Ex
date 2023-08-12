@@ -19,8 +19,9 @@ COPY_EXISTING ~SW1H06.ITM~ ~override/BZS1H1.ITM~ //Varscona +2 ->Varscona +3
             INT_VAR
                 check_headers = 1
                 match_opcode = 12
-                dicenumber = 2
-                dicesize = 3
+                dicenumber = 1
+                dicesize = 4
+                parameter1 = 1
         END
         LPF ~ADD_ITEM_EFFECT~           // slight clone of Larloch's Minor Drain
             INT_VAR
