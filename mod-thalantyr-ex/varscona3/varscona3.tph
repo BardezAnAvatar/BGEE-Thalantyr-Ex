@@ -18,7 +18,7 @@ COPY_EXISTING ~SW1H06.ITM~ ~override/BZS1H1.ITM~ //Varscona +2 ->Varscona +3
         LPF ~ALTER_ITEM_EFFECT~
             INT_VAR
                 check_headers = 1
-                header = 4
+                match_opcode = 12
                 dicenumber = 2
                 dicesize = 3
         END
