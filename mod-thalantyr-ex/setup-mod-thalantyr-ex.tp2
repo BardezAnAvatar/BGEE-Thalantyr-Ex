@@ -41,8 +41,8 @@ PRINT @3 //found state
 PRINT ~DEBUG: var `MOD_FOLDER`: %MOD_FOLDER%~
 
 //copy over items
-INCLUDE ~%MOD_FOLDER%/shandalar-cloak/shandalar-cloak.tph~  // Shandalar's Cloak
-INCLUDE ~%MOD_FOLDER%/varscona3/varscona3.tph~  // Varscona +3
+INCLUDE ~%MOD_FOLDER%/comp/shandalar-cloak/shandalar-cloak.tph~  // Shandalar's Cloak
+INCLUDE ~%MOD_FOLDER%/comp/varscona3/varscona3.tph~  // Varscona +3
 
 //Update Thalantyr's dialog
 COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dlg/THALAN.d~

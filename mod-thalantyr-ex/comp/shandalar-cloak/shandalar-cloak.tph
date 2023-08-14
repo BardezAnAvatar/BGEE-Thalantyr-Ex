@@ -1,4 +1,4 @@
-COPY ~%MOD_FOLDER%/shandalar-cloak/BZCLK1I.BAM~ ~override/BZCLK1I.BAM~
+COPY ~%MOD_FOLDER%/comp/shandalar-cloak/BZCLK1I.BAM~ ~override/BZCLK1I.BAM~
 COPY_EXISTING ~CLCK02.ITM~ ~override/BZCLK1.ITM~ //cloak of protection +2 -> Shandalar's Cloak
     //Patches
         SAY NAME2 @201

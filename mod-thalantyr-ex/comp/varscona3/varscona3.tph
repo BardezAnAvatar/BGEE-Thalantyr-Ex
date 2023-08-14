@@ -1,5 +1,5 @@
-COPY ~%MOD_FOLDER%/varscona3/BZS1H1I.BAM~ ~override/BZS1H1I.BAM~
-COPY ~%MOD_FOLDER%/varscona3/BZS1H1.SPL~ ~override/BZS1H1.SPL~
+COPY ~%MOD_FOLDER%/comp/varscona3/BZS1H1I.BAM~ ~override/BZS1H1I.BAM~
+COPY ~%MOD_FOLDER%/comp/varscona3/BZS1H1.SPL~ ~override/BZS1H1.SPL~
 COPY_EXISTING ~SW1H06.ITM~ ~override/BZS1H1.ITM~ //Varscona +2 ->Varscona +3
     //Patches
         SAY NAME2 @101
