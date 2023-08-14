@@ -51,10 +51,10 @@ Upgrades the +2 longsword to +3; requires 1 emerald, 1 Cone of Cold scroll, 1 Va
 
 
 ### Koveras' Ring of Protection
-Ever since I "authored" the BGT mod, I felt this pull towards Koveras' ring of protection. It felt like an item that should have a story to itself, not just a basic clone of a +1 Ring of Protection. It felt like an item that you should be able to keep as a trophy, a momento or other and I always felt it was bogus that this never had anything done with it, but the _golden pantaloons_ were. After checking Github for this item in the BGT repo (not there), and my HDDs from 20-ish years ago, I wanted to put it back in.
+Ever since I "authored" the BGT mod, I felt this pull towards Koveras' ring of protection. It felt like an item that should have a story to itself, not just a basic clone of a +1 Ring of Protection. It felt like an item that you should be able to keep as a trophy, a momento or other and I always felt it was bogus that this never had anything done with it, but the _golden pantaloons_ did have a C-plot. After checking Github for this item in the BGT repo (not there), and my HDDs from 20-ish years ago (still there), I wanted to put it back in.
 
-This component has two sub-components; both will replace the Ring of Princes flavor text with a description matching in-game events. One will 
-have Koveras offer you a cursed ring, the other will leave the interaction as-is. Both paths will have an upgrade to the +2 ring of protection.
+This component has two sub-components; both will replace the Ring of Princes flavor text with a description matching in-game events. 
+One will have Koveras offer you a cursed ring, the other will leave the interaction as-is. Both paths will have an upgrade to the +2 ring of protection.
 
 ##### Statistics
 The +1 ring is updated to also grant +5 hp.
