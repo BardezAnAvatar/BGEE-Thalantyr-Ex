@@ -14,7 +14,7 @@ I am using the `BZ` prefix for my items, as I have not seen it used or reference
 | Item Name                          | Implemented? | Version |
 | ---------------------------------- | ------------ | ------- |
 | Shandalar's Cloak                  | ✔️ | 0.0.1 |
-| Varscona +3                        | ❌ | n/a |
+| Varscona +3                        | ✔️ | 0.0.2 |
 | Koveras' Ring                      | ❌ | n/a |
 | Amulet of Protection +2            | ❌ | n/a |
 | Cloak of Protection +2             | ❌ | n/a |
