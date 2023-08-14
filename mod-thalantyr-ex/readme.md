@@ -178,6 +178,10 @@ The upgrade will require the Longsword +1: Harrower; six fire agate gem; plus 6,
 This would make way more sense for the Koveras Ring of Protection, so add it in at a later date. Add to temple stores, etc.
 
 
+### Pickpocket Golden Axe and Hammer of Dawn
+Give a less murder-y way to receive these unique magical items.
+
+
 ### SoD Parallel Mod Plans
 AX1H03 from +2-> +3 [SoD]
 AX1h06 +2-> +3 [SoD]
