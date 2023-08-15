@@ -12,3 +12,12 @@
 @1100 = ~I have a longsword, attuned to cold. Can you do anything with this?~
 @1101 = ~Let me see... ah, the Varscona, I believe? I certainly have a thesis or two for modifying such a weapon. If you bring me the longsword Varscona, an emerald, a scroll of Cone of Cold, a scroll of Vampiric Touch, a Protection scroll blocking fire, and, shall we say 6,000 gold I could enhance its abilities. Should I make this item for you?~
 @1102 = ~Yes, enhance Varscona for me.~
+
+//Koveras' Ring of Protection
+@1200 = ~I have this cursed ring given to me in Candlekeep. Can you remove the curse?~
+@1202 = ~Let me see.~
+@1203 = ~Ah. This is a particularly nasty curse. Potent, too. I suppose if this has some sentimental value, I could invert the curse for you. I would need three scrolls of Remove Curse, two potions of fortitude, 3 garnets and 3,000 gold. Should I proceed?~
+@1204 = ~Yes, please remove the curse for me.~
+@1205 = ~I have this ring given to me by one who seeks my death. Is there anything you can do with this?~
+@1206 = ~Fascinating. This ring bears some murderous taint, as if calling for revenge, vengeance and bloodshed. There is clearly some malevolent intent between the giftor and recipient.~
+@1207 = ~I could pry at the connection between the two of you, perhaps to guard you from that taint? I would need a pearl, one Protection scroll from magic, three scroll of raise dead and 5,000 gold. Should I make this item for you?~
