@@ -3,6 +3,7 @@ COPY_EXISTING ~CLCK02.ITM~ ~override/BZCLK1.ITM~ //cloak of protection +2 -> Sha
     //Patches
         SAY NAME2 @201
         SAY IDENTIFIED_DESC @202
+        WRITE_LONG 0x34 12000                   // Price
         WRITE_ASCII_TERMINATE 0x3A "BZCLK1I"    // Inventory icon
         LPF ~ADD_ITEM_EQEFFECT~
             INT_VAR
