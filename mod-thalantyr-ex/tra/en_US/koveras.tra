@@ -1,0 +1,77 @@
+//Cursed ring
+@300 = "Gorion's Legacy"
+@301 = ~Cursed Ring: Koveras' Gift"
+@302 = ~Ring of Protection +1: Gorion's Legacy
+
+This ring was given to you by Koveras, an associate of Gorion that <CHARNAME> met when returning to Candlekeep. He claimed to carry this ring on Gorion's behalf for <CHARNAME>, were anything to happen during <PROHISHER> flight from Candlekeep.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +1
+– Saving Throws: +1
+
+Weight: 0~
+
+//Cursed ring
+@303 = ~Cursed Ring: Koveras' Gift
+
+This ring was given to <CHARNAME> by Koveras (an anadrome for Sarevok). It was used as an attempt to identify <CHARNAME> as a murderer of the Iron Throne leadership at Candlekeep.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: -3
+– Saving Throws: -3
+- THAC0: -3
+– May only be removed with a Remove Curse spell
+
+Weight: 0~
+
+//Base ring +1, no curse
+@304 = ~Ring of Protection +1: Koveras' Gift
+
+This ring was given to <CHARNAME> by Koveras (an anadrome for Sarevok). It was used as an attempt to identify <CHARNAME> as a murderer of the Iron Throne leadership at Candlekeep.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +1
+– Saving Throws: +1
+– Hit Points: +5
+
+Weight: 0~
+
+//Base ring +1, curse lifted
+@305 = ~Ring of Protection +1: Koveras' Gift
+
+This ring was given to <CHARNAME> by Koveras, an anadrome for Sarevok. It was used as an attempt to identify <CHARNAME> as a murderer of the Iron Throne leadership at Candlekeep.
+
+The ring has had its curse removed and has been purified for <CHARNAME> by Thalantyr.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +1
+– Saving Throws: +1
+– Hit Points: +5
+
+Weight: 0~
+
+//ring +2, upgraded
+@306 = ~Ring of Protection +2: Koveras' Gift
+
+This ring was given to <CHARNAME> by Sarevok (under the anadrome Koveras). It was used as an attempt to identify <PROCHARNAMEHIMHER> as a murderer of the Iron Throne leadership.
+
+A taint connecting Sarevok and <CHARNAME> lingers on this ring. This connection has been utilized by Thalantyr to enhance its enchantment.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +2
+– Saving Throws: +2
+– Hit Points: +5
+- Magic Resistance: +5%
+- Protects the wearer from all forms of death magic. This includes, but is not limited to: Disintegrate; Power Word, Kill; Death Spell; and Finger of Death.
+
+Weight: 0~
