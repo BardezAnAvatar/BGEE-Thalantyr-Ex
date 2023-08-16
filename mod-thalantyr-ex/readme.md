@@ -62,14 +62,14 @@ The +1 ring is updated to also grant +5 hp.
 The +2 ring grants +2 AC and +2 to saving throws as well as +5 hp and immunity to instant death effects.
 
 ##### Creation
-The +2 ring requires 4x Horn Coral Gem; 3x scroll of raise dead; 5,000 gp. Should be 4x Death ward scroll, but doesn't exist in BG1.
+The +2 ring requires 1x pearl; 1 scroll of Protection from magic, 3x scroll of raise dead; 5,000 gp. Should be 4x Death ward scroll, but doesn't exist in BG1.
 
 
 #### Component: Koveras' Cursed Ring
 Fairly simple: turn the ring Koveras gives you into a cursed ring. It makes sense from a story and RP perspective. If you then un-curse it, it becomes the regular ring of protection.
 
 ##### Restoration
-Requires three scrolls of Remove Curse; 2 garnets; and 3,000 gold
+Requires three scrolls of Remove Curse; 2 potions of fortitute; 2 garnets; and 3,000 gold
 
 
 #### Component: No Cursed Ring
