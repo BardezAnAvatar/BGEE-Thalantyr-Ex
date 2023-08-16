@@ -86,3 +86,72 @@ COPY_EXISTING ~RING25.ITM~ ~override/BZRNG1.ITM~ //Koveras Gift, cursed
             STR_VAR
                 resource = ~~           // unused for opcode
         END
+
+//make +1
+COPY_EXISTING ~RING25.ITM~ ~override/RING25.ITM~ //Koveras Gift, +1
+    //Patches
+        SAY NAME2 @301
+        WRITE_LONG 0x34 4500            // Price
+        LPF ~ADD_ITEM_EQEFFECT~
+            INT_VAR
+                opcode = 18             // Type: maximum HP bonus
+                target = 1              // Self
+                timing = 2              // Timing Mode: Instant/While Equipped
+                parameter1 = 5          // value to modify
+                parameter2 = 3          // increment; do not heal to match
+                power = 0
+                resist_dispel = 0       // Natural/Nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused for opcode
+        END
+        LPF ~ADD_ITEM_EQEFFECT~
+            INT_VAR
+                opcode = 166            // Type: magic resistance bonus
+                target = 1              // Self
+                timing = 2              // Timing Mode: Instant/While Equipped
+                parameter1 = 5          // value to modify
+                parameter2 = 0          // increment
+                power = 0
+                resist_dispel = 0       // Natural/Nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused for opcode
+        END
+        LPF ~ADD_ITEM_EQEFFECT~
+            INT_VAR
+                opcode = 142            // Type: Display Portrait Icon
+                target = 1              // Self
+                timing = 2              // Timing Mode: Instant/While Equipped
+                parameter1 = 0          // unused 
+                parameter2 = 63         // Icon: Magic Resistance
+                power = 0
+                resist_dispel = 0       // Natural/Nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused for opcode
+        END
