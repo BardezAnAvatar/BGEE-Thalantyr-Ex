@@ -1,0 +1,8 @@
+
+//Update Koveras' dialog
+COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/comp/koveras/cursed/KOVERAS.d~
+
+//Update +1 Ring
+COPY_EXISTING ~RING25.ITM~ ~override/RING25.ITM~ //Koveras Gift +1, from cursed
+    //Patches
+        SAY IDENTIFIED_DESC @306
