@@ -81,9 +81,9 @@ Also fairly simple: the ring that Koveras gives you is not cursed, and can be up
 | Gorion's Gift                        | Saves -3<br>AC -3<br>Thac0 -3                                                    |
 | Ring of Protection +1: Koveras' Gift | Saves +1<br>AC +1<br>HP +5<br>+5% Magic Resistance                               |
 | Ring of Protection +2: Koveras' Gift | Saves +2<br>AC +2<br>HP +5<br>+10% Magic Resistance<br>Immunity to instant death |
-| Ring of Protection +3: Koveras' Gift | Saves +3<br>AC +3<br>HP +10<br>Immunity to instant death<br>Immunity to backstab |
-| Ring of Protection +4: Koveras' Gift | Saves +4<br>AC +4<br>HP +10<br>Immunity to instant death<br>Immunity to backstab<br>Immunity to level drain |
-| Ring of Protection +5: Koveras' Gift | Saves +5<br>AC +5<br>HP +20<br>Immunity to instant death<br>Immunity to backstab<br>Immunity to level drain<br>Immunity to poison |
+| Ring of Protection +3: Koveras' Gift | Saves +3<br>AC +3<br>HP +10<br>+15% Magic Resistance<br>Immunity to instant death<br>Immunity to backstab |
+| Ring of Protection +4: Koveras' Gift | Saves +4<br>AC +4<br>HP +15<br>+20% Magic Resistance<br>Immunity to instant death<br>Immunity to backstab<br>Immunity to level drain |
+| Ring of Protection +5: Koveras' Gift | Saves +5<br>AC +5<br>HP +30<br>+33% Magic Resistance<br>Immunity to instant death<br>Immunity to backstab<br>Immunity to level drain<br>Immunity to poison |
 
 
 ### Amulet of Protection +2
