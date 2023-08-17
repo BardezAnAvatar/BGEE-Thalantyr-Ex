@@ -155,3 +155,223 @@ COPY_EXISTING ~RING25.ITM~ ~override/RING25.ITM~ //Koveras Gift, +1
             STR_VAR
                 resource = ~~           // unused for opcode
         END
+
+
+//make +2 version
+COPY_EXISTING ~RING07.ITM~ ~override/BZRNG2.ITM~ //Koveras' Gift, +2
+    //Patches
+        SAY NAME2 @307
+        SAY IDENTIFIED_DESC @308
+        WRITE_LONG 0x34 9000            // Price
+        LPF ~ADD_ITEM_EQEFFECT~
+            INT_VAR
+                opcode = 18             // Type: maximum HP bonus
+                target = 1              // Self
+                timing = 2              // Timing Mode: Instant/While Equipped
+                parameter1 = 5          // value to modify
+                parameter2 = 3          // increment; do not heal to match
+                power = 0
+                resist_dispel = 0       // Natural/Nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused for opcode
+        END
+        LPF ~ADD_ITEM_EQEFFECT~
+            INT_VAR
+                opcode = 166            // Type: magic resistance bonus
+                target = 1              // Self
+                timing = 2              // Timing Mode: Instant/While Equipped
+                parameter1 = 10         // value to modify
+                parameter2 = 0          // increment
+                power = 0
+                resist_dispel = 0       // Natural/Nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused for opcode
+        END
+        LPF ~ADD_ITEM_EQEFFECT~
+            INT_VAR
+                opcode = 142            // Type: Display Portrait Icon
+                target = 1              // Self
+                timing = 2              // Timing Mode: Instant/While Equipped
+                parameter1 = 0          // unused 
+                parameter2 = 63         // Icon: Magic Resistance
+                power = 0
+                resist_dispel = 0       // Natural/Nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused for opcode
+        END
+        //BEGIN additions from Death Ward
+        LPF ~ADD_ITEM_EQEFFECT~
+            INT_VAR
+                opcode = 169            // Type: Prevent Portrait Icon
+                target = 1              // Self
+                timing = 2              // Timing Mode: Instant/While Equipped
+                parameter1 = 0          // unused 
+                parameter2 = 51         // Icon: Dying
+                power = 4
+                resist_dispel = 3       // Disple/Bypass resistance
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused for opcode
+        END
+        LPF ~ADD_ITEM_EQEFFECT~
+            INT_VAR
+                opcode = 101            // Type: Immunity to Effect
+                target = 1              // Self
+                timing = 2              // Timing Mode: Instant/While Equipped
+                parameter1 = 0          // unused 
+                parameter2 = 55         // Effect: Slay
+                power = 4
+                resist_dispel = 3       // Disple/Bypass resistance
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused for opcode
+        END
+        LPF ~ADD_ITEM_EQEFFECT~
+            INT_VAR
+                opcode = 142            // Type: Display Portrait Icon
+                target = 1              // Self
+                timing = 2              // Timing Mode: Instant/While Equipped
+                parameter1 = 0          // unused 
+                parameter2 = 99         // Icon: Death Ward
+                power = 4
+                resist_dispel = 0       // Natural/Nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused for opcode
+        END
+        LPF ~ADD_ITEM_EQEFFECT~
+            INT_VAR
+                opcode = 101            // Type: Immunity to Effect
+                target = 1              // Self
+                timing = 2              // Timing Mode: Instant/While Equipped
+                parameter1 = 0          // unused 
+                parameter2 = 209        // Effect: Power Word: Kill
+                power = 4
+                resist_dispel = 0       // Natural/Nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused for opcode
+        END
+        LPF ~ADD_ITEM_EQEFFECT~
+            INT_VAR
+                opcode = 101            // Type: Immunity to Effect
+                target = 1              // Self
+                timing = 2              // Timing Mode: Instant/While Equipped
+                parameter1 = 0          // unused 
+                parameter2 = 238        // Effect: Disintegrate
+                power = 4
+                resist_dispel = 0       // Natural/Nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused for opcode
+        END
+        //Script support
+        LPF ~ADD_ITEM_EQEFFECT~
+            INT_VAR
+                opcode = 328            // Type: Set Spell State
+                target = 1              // Self
+                timing = 2              // Timing Mode: Instant/While Equipped
+                parameter1 = 0          // unused 
+                parameter2 = 8          // State: Death Ward
+                power = 4
+                resist_dispel = 0       // Natural/Nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused for opcode
+        END
+        LPF ~ADD_ITEM_EQEFFECT~
+            INT_VAR
+                opcode = 282            // Type: Set Script State
+                target = 1              // Self
+                timing = 2              // Timing Mode: Instant/While Equipped
+                parameter1 = 0          // unused 
+                parameter2 = 1          // State: Death Ward
+                power = 4
+                resist_dispel = 0       // Natural/Nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused for opcode
+        END
