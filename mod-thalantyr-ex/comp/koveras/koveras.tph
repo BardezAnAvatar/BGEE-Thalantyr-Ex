@@ -2,7 +2,7 @@
 //make cursed ring
 COPY_EXISTING ~RING25.ITM~ ~override/BZRNG1.ITM~ //Koveras Gift, cursed
     //Patches
-        SAY NAME @300
+        SAY NAME1 @300
         SAY NAME2 @301
         SAY DESC @302
         SAY IDENTIFIED_DESC @303
