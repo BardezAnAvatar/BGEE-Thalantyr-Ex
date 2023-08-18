@@ -51,7 +51,7 @@ COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dlg/THALAN.d~
 
 BEGIN @14
     SUBCOMPONENT @13
-    INCLUDE ~%MOD_FOLDER%/comp/koveras/curse/koveras_ring_cursed.tph~  // cursed ring desc.
+    INCLUDE ~%MOD_FOLDER%/comp/koveras/cursed/koveras_ring_cursed.tph~  // cursed ring desc.
 
 BEGIN @15
     SUBCOMPONENT @13
