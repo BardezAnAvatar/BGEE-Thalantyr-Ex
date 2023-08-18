@@ -1,6 +1,6 @@
 //Cursed ring
 @300 = "Gorion's Legacy"
-@301 = ~Cursed Ring: Koveras' Gift"
+@301 = ~Cursed Ring: Koveras' Gift~
 //Cursed ring, not identified
 @302 = ~Ring of Protection +1: Gorion's Legacy
 
