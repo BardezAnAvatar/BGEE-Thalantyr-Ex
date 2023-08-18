@@ -43,6 +43,15 @@ PRINT ~DEBUG: var `MOD_FOLDER`: %MOD_FOLDER%~
 //copy over items
 INCLUDE ~%MOD_FOLDER%/comp/shandalar-cloak/shandalar-cloak.tph~  // Shandalar's Cloak
 INCLUDE ~%MOD_FOLDER%/comp/varscona3/varscona3.tph~  // Varscona +3
+INCLUDE ~%MOD_FOLDER%/comp/koveras/koveras.tph~  // Koveras' Ring of Protection versions
 
 //Update Thalantyr's dialog
 COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dlg/THALAN.d~
+
+BEGIN @14
+    SUBCOMPONENT @13
+    INCLUDE ~%MOD_FOLDER%/comp/koveras/curse/koveras_ring_cursed.tph~  // cursed ring desc.
+
+BEGIN @15
+    SUBCOMPONENT @13
+    INCLUDE ~%MOD_FOLDER%/comp/koveras/no_curse/koveras_ring_no_curse.tph~  // non-cursed ring desc.
