@@ -1,0 +1,5 @@
+
+//Update +1 Ring
+COPY_EXISTING ~RING25.ITM~ ~override/RING25.ITM~ //Koveras Gift +1, from cursed
+    //Patches
+        SAY IDENTIFIED_DESC @305
