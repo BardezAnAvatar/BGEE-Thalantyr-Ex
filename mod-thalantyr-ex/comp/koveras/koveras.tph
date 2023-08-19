@@ -90,7 +90,7 @@ COPY_EXISTING ~RING25.ITM~ ~override/BZRNG1.ITM~ //Koveras Gift, cursed
 //make +1
 COPY_EXISTING ~RING25.ITM~ ~override/RING25.ITM~ //Koveras Gift, +1
     //Patches
-        SAY NAME2 @301
+        SAY NAME2 @304
         WRITE_LONG 0x34 4500            // Price
         LPF ~ADD_ITEM_EQEFFECT~
             INT_VAR
