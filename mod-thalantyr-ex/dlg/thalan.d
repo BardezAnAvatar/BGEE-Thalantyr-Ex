@@ -133,4 +133,8 @@ EXTEND_TOP ~THALAN~
       THEN 
           REPLY @1200 /* ~I have this cursed ring given to me in Candlekeep. Can you remove the curse?~ */ 
           GOTO bardez_thalantyr_koveras_uncurse
+    IF ~PartyHasItem("RING25")~ 
+      THEN 
+          REPLY @1204 /* ~I have this ring given to me by one who seeks my death. Is there anything you can do with this?~ */ 
+          GOTO bardez_thalantyr_koveras_ring_2
 END
