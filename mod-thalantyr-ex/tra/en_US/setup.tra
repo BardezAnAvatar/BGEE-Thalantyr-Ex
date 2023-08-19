@@ -12,3 +12,7 @@
 @13 = ~Koveras' Ring of Protection +2~
 @14 = ~Koveras' Ring: Cursed Gift~
 @15 = ~Koveras' Ring: No Cursed gift~
+
+//BG1NPC Project detection
+@16 = ~Initializing BG1NPC Project Detection~
+@17 = "BG1NPC Project Detection install result: %Bg1NpcProjectInstalled%"
