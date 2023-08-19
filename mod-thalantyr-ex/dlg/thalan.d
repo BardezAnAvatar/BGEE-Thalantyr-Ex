@@ -60,6 +60,32 @@ GiveItemCreate("BZS1H1",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
   END
+  IF ~~ THEN BEGIN bardez_thalantyr_koveras_uncurse // from: ThalantyrCraftingState
+    SAY @1201 /* ~Let me see~ */
+    = @1202 /* Ah. This is a particularly nasty curse. Potent, too. [...] */
+    IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
+      GOTO %ThalantyrCraftingState%
+    IF 
+~PartyHasItem("BZRNG1")
+NumItemsPartyGT("SCRL5G",2)
+NumItemsPartyGT("POTN28",1)
+NumItemsPartyGT("MISC34",2)
+PartyGoldGT(2999)~
+      THEN
+          REPLY @1203 /* ~Yes, please remove the curse for me.~ */
+          DO
+~TakePartyGold(3000)
+DestroyGold(3000)
+TakePartyItemNum("MISC34",3)
+DestroyItem("MISC34")
+TakePartyItemNum("POTN28",2)
+DestroyItem("POTN28")
+TakePartyItemNum("SCRL5G",3)
+DestroyItem("SCRL5G")
+GiveItemCreate("RING25",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+  END
 END
 
 EXTEND_TOP ~THALAN~ 
@@ -73,4 +99,8 @@ EXTEND_TOP ~THALAN~
       THEN 
           REPLY @1100 /* ~I have a longsword, attuned to cold. Can you do anything with this?~ */ 
           GOTO bardez_thalantyr_varscona3
+    IF ~PartyHasItem("BZRNG1")~ 
+      THEN 
+          REPLY @1200 /* ~I have this cursed ring given to me in Candlekeep. Can you remove the curse?~ */ 
+          GOTO bardez_thalantyr_koveras_uncurse
 END
