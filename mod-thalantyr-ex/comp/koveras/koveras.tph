@@ -4,7 +4,7 @@ COPY_EXISTING ~RING25.ITM~ ~override/BZRNG1.ITM~ //Koveras Gift, cursed
     //Patches
         SAY NAME1 @300
         SAY NAME2 @301
-        SAY DESC @302
+        SAY UNIDENTIFIED_DESC @302
         SAY IDENTIFIED_DESC @303
         WRITE_LONG 0x34 300                     // Price
         WRITE_LONG 0x18 0b111100                // flags: 2-6, 4 being cursed
