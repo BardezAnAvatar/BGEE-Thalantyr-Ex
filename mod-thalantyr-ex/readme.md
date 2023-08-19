@@ -15,7 +15,7 @@ I am using the `BZ` prefix for my items, as I have not seen it used or reference
 | ---------------------------------- | ------------ | ------- |
 | Shandalar's Cloak                  | ✔️ | 0.0.1 |
 | Varscona +3                        | ✔️ | 0.0.2 |
-| Koveras' Ring                      | ❌ | n/a |
+| Koveras' Ring                      | ✔️ | 0.0.3 |
 | Amulet of Protection +2            | ❌ | n/a |
 | Cloak of Protection +2             | ❌ | n/a |
 | Golden Axe +2                      | ❌ | n/a |
