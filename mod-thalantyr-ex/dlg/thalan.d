@@ -86,6 +86,34 @@ GiveItemCreate("RING25",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
   END
+  IF ~~ THEN BEGIN bardez_thalantyr_koveras_ring_2 // from: ThalantyrCraftingState
+    SAY @1205 /* ~Fascinating. This ring bears some murderous taint, as if calling for revenge, vengeance and bloodshed. [...]~ */
+    = @1206 /* I could pry at the connection between the two of you, perhaps to guard you from that taint? [...] */
+    IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
+      GOTO %ThalantyrCraftingState%
+    IF 
+~PartyHasItem("RING25")
+PartyHasItem("MISC36")
+PartyHasItem("SCRL07")
+NumItemsPartyGT("SCRL63",2)
+PartyGoldGT(4999)~
+      THEN
+          REPLY @1207 /* ~Yes, please make it for me.~ */
+          DO
+~TakePartyItemNum("RING25",1)
+DestroyItem("RING25")
+TakePartyItemNum("MISC36",1)
+DestroyItem("MISC36")
+TakePartyItemNum("SCRL07",1)
+DestroyItem("SCRL07")
+TakePartyItemNum("SCRL63",3)
+DestroyItem("SCRL63")
+TakePartyGold(5000)
+DestroyGold(5000)
+GiveItemCreate("BZRNG2",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+  END
 END
 
 EXTEND_TOP ~THALAN~ 
