@@ -35,11 +35,13 @@ BEGIN @0
     //Require Thalantyr Item Upgrade Mod
     REQUIRE_COMPONENT ~THALAN/THALAN.TP2~ "0" @1 //must have base mod installed
 
+//Debugging Statements
+PRINT ~DEBUG: var `MOD_FOLDER`: %MOD_FOLDER%~
+
 // Get crafting state for THALAN.DLG
 PRINT @2
 OUTER_SET ThalantyrCraftingState = STATE_WHICH_SAYS @9001 FROM ~THALAN~
 PRINT @3 //found state
-PRINT ~DEBUG: var `MOD_FOLDER`: %MOD_FOLDER%~
 
 //copy over items
 INCLUDE ~%MOD_FOLDER%/comp/shandalar-cloak/shandalar-cloak.tph~  // Shandalar's Cloak

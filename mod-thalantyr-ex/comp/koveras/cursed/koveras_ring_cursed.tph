@@ -2,6 +2,16 @@
 //Update Koveras' dialog
 COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/comp/koveras/cursed/KOVERA.d~
 
+PRINT @16
+OUTER_SET Bg1NpcProjectInstalled = MOD_IS_INSTALLED ~BG1NPC/BG1NPC.TP2~ 10 /* The BG1 NPC Project: Banters, Quests, and Interjections */
+PRINT @17 //found mod?
+
+// Another dialog compile for when BG1NPC is installed
+ACTION_IF %Bg1NpcProjectInstalled% THEN
+BEGIN
+    COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/comp/koveras/cursed/EDWINJ.d~
+END
+
 //Update +1 Ring
 COPY_EXISTING ~RING25.ITM~ ~override/RING25.ITM~ //Koveras Gift +1, from cursed
     //Patches
