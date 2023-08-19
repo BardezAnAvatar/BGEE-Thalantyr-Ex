@@ -82,6 +82,8 @@ TakePartyItemNum("POTN28",2)
 DestroyItem("POTN28")
 TakePartyItemNum("SCRL5G",3)
 DestroyItem("SCRL5G")
+TakePartyItemNum("BZRNG1",1)
+DestroyItem("BZRNG1")
 GiveItemCreate("RING25",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
