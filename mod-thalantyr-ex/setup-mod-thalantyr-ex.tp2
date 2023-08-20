@@ -5,7 +5,7 @@ BACKUP ~mod-thalantyr-ex/backup~ // %MOD_FOLDER% will be a literal (because it's
 AUTHOR ~Bardez; support at: https://github.com/BardezAnAvatar/BGEE-Thalantyr-Ex/issues~
 
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
-VERSION ~v0.0.3~
+VERSION ~v0.0.4~
 
 //TP2 flags
 MODDER // Enable all error messages; nothing suppressed. comment this out for release version
