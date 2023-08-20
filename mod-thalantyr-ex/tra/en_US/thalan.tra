@@ -22,3 +22,10 @@
 @1205 = ~Fascinating. This ring bears some murderous taint, as if calling for revenge, vengeance and bloodshed. There is clearly some malevolent intent between the giftor and recipient.~
 @1206 = ~I could pry at the connection between the two of you, perhaps to guard you from that taint? I would need a pearl, one Protection scroll from magic, three scroll of Raise Dead and 5,000 gold. Should I make this item for you?~
 @1207 = ~Yes, please make it for me.~
+
+//Amulet of protection +2
+@1300 = ~Can you do anything with this Amulet of Protection +1?~
+@1301 = ~Yes, I can make you one Amulet of Protection +2 from two Amulets of Protection +1, or one amulet an its equivalent cloak or ring. I will also need four moonbar gems. As payment, I'll take 5000 gold. Should I make this item for you?~
+@1302 = ~[2 amulets] Yes, please make it for me.~
+@1303 = ~[1 amulet, 1 cloak] Yes, please make it for me.~
+@1304 = ~[1 amulet, 1 ring] Yes, please make it for me.~
