@@ -51,6 +51,7 @@ INCLUDE ~%MOD_FOLDER%/comp/koveras/koveras.tph~  // Koveras' Ring of Protection 
 //Update Thalantyr's dialog
 COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dlg/THALAN.d~
 
+//Sub-components for Koveras' Ring of Protection
 BEGIN @14
     SUBCOMPONENT @13
     INCLUDE ~%MOD_FOLDER%/comp/koveras/cursed/koveras_ring_cursed.tph~  // cursed ring desc.
