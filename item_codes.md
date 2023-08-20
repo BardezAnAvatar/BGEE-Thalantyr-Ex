@@ -8,4 +8,5 @@
 | Koveras' Ring of Protection +4  | BZRNG1D |
 | Koveras' Ring of Protection +5  | BZRNG1E |
 | Amulet of Protection +2         | BZAML1B |
-| Golden Axe +3                   | BZAXE1  |
+| Golden Axe +2                   | BZAXE1B |
+| Golden Axe +3                   | BZAXE1C |
