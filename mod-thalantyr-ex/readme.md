@@ -102,7 +102,7 @@ The amulet will require two amulets of protection +1 (or an amulet and a ring of
 Similar to the merging of two rings of protection, this will take two cloaks of protection and merge them into a +2 cloak.
 
 ##### Creation
-The amulet will require two cloaks of protection +1 (or a cloak and a ring of protection; or a cloack and an amulet of protection); 4 iol gems; a black opal; plus 5,000 gold.
+The amulet will require two cloaks of protection +1 (or a cloak and a ring of protection; or a cloak and an amulet of protection); 4 iol gems; a black opal; plus 5,000 gold.
 
 
 ### Golden Axe +2
