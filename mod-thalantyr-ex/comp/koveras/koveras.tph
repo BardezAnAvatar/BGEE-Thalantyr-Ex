@@ -158,7 +158,7 @@ COPY_EXISTING ~RING25.ITM~ ~override/RING25.ITM~ //Koveras Gift, +1
 
 
 //make +2 version
-COPY_EXISTING ~RING07.ITM~ ~override/BZRNG2B.ITM~ //Koveras' Gift, +2
+COPY_EXISTING ~RING07.ITM~ ~override/BZRNG1B.ITM~ //Koveras' Gift, +2
     //Patches
         SAY NAME2 @307
         SAY IDENTIFIED_DESC @308
