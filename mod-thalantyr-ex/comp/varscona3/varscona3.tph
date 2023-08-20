@@ -1,10 +1,10 @@
-COPY ~%MOD_FOLDER%/comp/varscona3/BZS1H1I.BAM~ ~override/BZS1H1I.BAM~
-COPY ~%MOD_FOLDER%/comp/varscona3/BZS1H1.SPL~ ~override/BZS1H1.SPL~
-COPY_EXISTING ~SW1H06.ITM~ ~override/BZS1H1.ITM~ //Varscona +2 ->Varscona +3
+COPY ~%MOD_FOLDER%/comp/varscona3/BZS1H1CI.BAM~ ~override/BZS1H1CI.BAM~
+COPY ~%MOD_FOLDER%/comp/varscona3/BZS1H1C.SPL~ ~override/BZS1H1C.SPL~
+COPY_EXISTING ~SW1H06.ITM~ ~override/BZS1H1C.ITM~ //Varscona +2 ->Varscona +3
     //Patches
         SAY NAME2 @101
         SAY IDENTIFIED_DESC @102
-        WRITE_ASCII_TERMINATE 0x3A "BZS1H1I"    // Icon
+        WRITE_ASCII_TERMINATE 0x3A "BZS1H1CI"   // Icon
         WRITE_LONG 0x34 9515                    // Price
         WRITE_LONG 0x60 3                       // Enchantment
         LPF ~ALTER_ITEM_HEADER~
@@ -13,7 +13,7 @@ COPY_EXISTING ~SW1H06.ITM~ ~override/BZS1H1.ITM~ //Varscona +2 ->Varscona +3
                 thac0_bonus = 3
                 damage_bonus = 3
             STR_VAR
-                icon = ~BZS1H1I~         //icon to display for melee
+                icon = ~BZS1H1CI~        //icon to display for melee
         END
         LPF ~ALTER_ITEM_EFFECT~
             INT_VAR
@@ -43,7 +43,7 @@ COPY_EXISTING ~SW1H06.ITM~ ~override/BZS1H1.ITM~ //Varscona +2 ->Varscona +3
                 insert_point = "-1"     // add to end
                 type = 1                // Type of header: Melee
             STR_VAR
-                resource = ~BZS1H1~     // Which spell
+                resource = ~BZS1H1C~    // Which spell
         END
         LPF ~ADD_ITEM_EQEFFECT~
             INT_VAR

@@ -56,7 +56,7 @@ TakePartyItemNum("SCRL1Q",1)
 DestroyItem("SCRL1Q")
 TakePartyItemNum("SCRL2F",1)
 DestroyItem("SCRL2F")
-GiveItemCreate("BZS1H1",Player1,1,1,1)
+GiveItemCreate("BZS1H1C",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
   END
@@ -112,7 +112,7 @@ TakePartyItemNum("SCRL63",3)
 DestroyItem("SCRL63")
 TakePartyGold(5000)
 DestroyGold(5000)
-GiveItemCreate("BZRNG2",Player1,1,1,1)
+GiveItemCreate("BZRNG1B",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
   END
