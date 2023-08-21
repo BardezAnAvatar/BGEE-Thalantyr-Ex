@@ -180,20 +180,24 @@ END
 EXTEND_TOP ~THALAN~ 
   %ThalantyrCraftingState% //state number(s)
   #15 //transition number; inject between 15 and 16
+    IF ~PartyHasItem("AMUL14")~ 
+      THEN 
+          REPLY @1300 /* Can you do anything with this Amulet of Protection +1? */
+          GOTO bardez_thalantyr_amulet_protection_2
     IF ~PartyHasItem("CLCK22")~ 
       THEN 
-          REPLY @1001 /* ~I have a benign cloak belonging to Shandalar. Certainly you can restore its magic, yes?~ */ 
+          REPLY @1001 /* ~I have a benign cloak belonging to Shandalar. Certainly you can restore its magic, yes?~ */
           GOTO bardez_thalantyr_shandalar_cloak
     IF ~PartyHasItem("SW1H06")~ 
       THEN 
-          REPLY @1100 /* ~I have a longsword, attuned to cold. Can you do anything with this?~ */ 
+          REPLY @1100 /* ~I have a longsword, attuned to cold. Can you do anything with this?~ */
           GOTO bardez_thalantyr_varscona3
     IF ~PartyHasItem("BZRNG1")~ 
       THEN 
-          REPLY @1200 /* ~I have this cursed ring given to me in Candlekeep. Can you remove the curse?~ */ 
+          REPLY @1200 /* ~I have this cursed ring given to me in Candlekeep. Can you remove the curse?~ */
           GOTO bardez_thalantyr_koveras_uncurse
     IF ~PartyHasItem("RING25")~ 
       THEN 
-          REPLY @1204 /* ~I have this ring given to me by one who seeks my death. Is there anything you can do with this?~ */ 
+          REPLY @1204 /* ~I have this ring given to me by one who seeks my death. Is there anything you can do with this?~ */
           GOTO bardez_thalantyr_koveras_ring_2
 END
