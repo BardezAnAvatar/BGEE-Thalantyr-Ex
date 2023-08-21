@@ -116,6 +116,65 @@ GiveItemCreate("BZRNG1B",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
   END
+  IF ~~ THEN BEGIN bardez_thalantyr_amulet_protection_2 // from: ThalantyrCraftingState
+    SAY @1301 /* Yes, I can make you one Amulet of Protection +2 from [...] */
+    IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
+      GOTO %ThalantyrCraftingState%
+    IF 
+~NumItemsPartyGT("AMUL14",1)
+NumItemsPartyGT("MISC27",3)
+PartyGoldGT(4999)~
+      THEN
+          REPLY @1302 /* ~[2 amulets] Yes, please make it for me.~ */
+          DO
+~TakePartyItemNum("AMUL14",2)
+DestroyItem("AMUL14")
+TakePartyItemNum("MISC27",4)
+DestroyItem("MISC27")
+TakePartyGold(5000)
+DestroyGold(5000)
+GiveItemCreate("BZAML1B",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+    IF
+~PartyHasItem("AMUL14")
+PartyHasItem("CLCK01")
+NumItemsPartyGT("MISC27",3)
+PartyGoldGT(4999)~
+      THEN
+          REPLY @1303 /* ~[amulet, cloak] Yes, please make it for me.~ */
+          DO
+~TakePartyItemNum("AMUL14",1)
+DestroyItem("AMUL14")
+TakePartyItemNum("CLCK01",1)
+DestroyItem("CLCK01")
+TakePartyItemNum("MISC27",4)
+DestroyItem("MISC27")
+TakePartyGold(5000)
+DestroyGold(5000)
+GiveItemCreate("BZAML1B",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+    IF
+~PartyHasItem("AMUL14")
+PartyHasItem("RING06")
+NumItemsPartyGT("MISC27",3)
+PartyGoldGT(4999)~
+      THEN
+          REPLY @1304 /* ~[amulet, ring] Yes, please make it for me.~ */
+          DO
+~TakePartyItemNum("AMUL14",1)
+DestroyItem("AMUL14")
+TakePartyItemNum("RING06",1)
+DestroyItem("RING06")
+TakePartyItemNum("MISC27",4)
+DestroyItem("MISC27")
+TakePartyGold(5000)
+DestroyGold(5000)
+GiveItemCreate("BZAML1B",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+  END
 END
 
 EXTEND_TOP ~THALAN~ 
