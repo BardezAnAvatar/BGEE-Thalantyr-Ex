@@ -175,28 +175,100 @@ GiveItemCreate("BZAML1B",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
   END
+  IF ~~ THEN BEGIN bardez_thalantyr_cloak_protection_2 // from: ThalantyrCraftingState
+    SAY @1306 /* Yes, I can make you one Cloak of Protection +2 from [...] */
+    IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
+      GOTO %ThalantyrCraftingState%
+    IF 
+~NumItemsPartyGT("CLCK01",1)
+NumItemsPartyGT("MISC26",3)
+PartyHasItem("MISC38")
+PartyGoldGT(4999)~
+      THEN
+          REPLY @1307 /* ~[2 cloaks] Yes, please make it for me.~ */
+          DO
+~TakePartyItemNum("CLCK01",2)
+DestroyItem("CLCK01")
+TakePartyItemNum("MISC26",4)
+DestroyItem("MISC26")
+TakePartyItemNum("MISC38",1)
+DestroyItem("MISC38")
+TakePartyGold(5000)
+DestroyGold(5000)
+GiveItemCreate("CLCK02",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+    IF
+~PartyHasItem("CLCK01")
+PartyHasItem("AMUL14")
+NumItemsPartyGT("MISC26",3)
+PartyHasItem("MISC38")
+PartyGoldGT(4999)~
+      THEN
+          REPLY @1308 /* ~[1 cloak, 1 amulet] Yes, please make it for me.~ */
+          DO
+~TakePartyItemNum("CLCK01",1)
+DestroyItem("CLCK01")
+TakePartyItemNum("AMUL14",1)
+DestroyItem("AMUL14")
+TakePartyItemNum("MISC26",4)
+DestroyItem("MISC26")
+TakePartyItemNum("MISC38",1)
+DestroyItem("MISC38")
+TakePartyGold(5000)
+DestroyGold(5000)
+GiveItemCreate("CLCK02",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+    IF
+~PartyHasItem("CLCK01")
+PartyHasItem("RING06")
+NumItemsPartyGT("MISC26",3)
+PartyHasItem("MISC38")
+PartyGoldGT(4999)~
+      THEN
+          REPLY @1309 /* ~[1 cloak, 1 ring] Yes, please make it for me.~ */
+          DO
+~TakePartyItemNum("CLCK01",1)
+DestroyItem("CLCK01")
+TakePartyItemNum("RING06",1)
+DestroyItem("RING06")
+TakePartyItemNum("MISC26",4)
+DestroyItem("MISC26")
+TakePartyItemNum("MISC38",1)
+DestroyItem("MISC38")
+TakePartyGold(5000)
+DestroyGold(5000)
+GiveItemCreate("CLCK02",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+    END
 END
 
 EXTEND_TOP ~THALAN~ 
   %ThalantyrCraftingState% //state number(s)
   #15 //transition number; inject between 15 and 16
-    IF ~PartyHasItem("AMUL14")~ 
+    IF ~PartyHasItem("AMUL14")~
       THEN 
           REPLY @1300 /* Can you do anything with this Amulet of Protection +1? */
           GOTO bardez_thalantyr_amulet_protection_2
-    IF ~PartyHasItem("CLCK22")~ 
+    IF ~PartyHasItem("CLCK01")~
+      THEN 
+          REPLY @1305 /* Can you do anything with this Amulet of Protection +1? */
+          GOTO bardez_thalantyr_cloak_protection_2
+    IF ~PartyHasItem("CLCK22")~
       THEN 
           REPLY @1001 /* ~I have a benign cloak belonging to Shandalar. Certainly you can restore its magic, yes?~ */
           GOTO bardez_thalantyr_shandalar_cloak
-    IF ~PartyHasItem("SW1H06")~ 
+    IF ~PartyHasItem("SW1H06")~
       THEN 
           REPLY @1100 /* ~I have a longsword, attuned to cold. Can you do anything with this?~ */
           GOTO bardez_thalantyr_varscona3
-    IF ~PartyHasItem("BZRNG1")~ 
+    IF ~PartyHasItem("BZRNG1")~
       THEN 
           REPLY @1200 /* ~I have this cursed ring given to me in Candlekeep. Can you remove the curse?~ */
           GOTO bardez_thalantyr_koveras_uncurse
-    IF ~PartyHasItem("RING25")~ 
+    IF ~PartyHasItem("RING25")~
       THEN 
           REPLY @1204 /* ~I have this ring given to me by one who seeks my death. Is there anything you can do with this?~ */
           GOTO bardez_thalantyr_koveras_ring_2
