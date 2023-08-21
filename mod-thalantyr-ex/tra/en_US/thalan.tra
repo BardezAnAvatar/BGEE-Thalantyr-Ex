@@ -25,13 +25,13 @@
 
 //Amulet of protection +2
 @1300 = ~Can you do anything with this Amulet of Protection +1?~
-@1301 = ~Yes, I can make you one Amulet of Protection +2 from two Amulets of Protection +1, or one amulet an its equivalent cloak or ring. I will also need four moonbar gems. As payment, I'll take 5000 gold. Should I make this item for you?~
-@1302 = ~[2 amulets] Yes, please make it for me.~
-@1303 = ~[1 amulet, 1 cloak] Yes, please make it for me.~
-@1304 = ~[1 amulet, 1 ring] Yes, please make it for me.~
+@1301 = ~Yes, I can make you one Amulet of Protection +2 from two Amulets of Protection +1, or one amulet and its equivalent cloak or ring. I will also need four moonbar gems. As payment, I'll take 5000 gold. Should I make this item for you?~
+@1302 = ~\[2 amulets\] Yes, please make it for me.~
+@1303 = ~\[1 amulet, 1 cloak\] Yes, please make it for me.~
+@1304 = ~\[1 amulet, 1 ring\] Yes, please make it for me.~
 //Cloak of Protection +2
 @1305 = ~Can you do anything with this Cloak of Protection +1?~
-@1306 = ~Yes, I can make you one Cloak of Protection +2 from two Cloaks of Protection +1, or one cloak an its equivalent amulet or ring. I will also need four iol gems and a black opal. As payment, I'll take 5000 gold. Should I make this item for you?~
-@1307 = ~[2 cloaks] Yes, please make it for me.~
-@1308 = ~[1 cloak, 1 amulet] Yes, please make it for me.~
-@1309 = ~[1 cloak, 1 ring] Yes, please make it for me.~
+@1306 = ~Yes, I can make you one Cloak of Protection +2 from two Cloaks of Protection +1, or one cloak and its equivalent amulet or ring. I will also need four iol gems and a black opal. As payment, I'll take 5000 gold. Should I make this item for you?~
+@1307 = ~\[2 cloaks\] Yes, please make it for me.~
+@1308 = ~\[1 cloak, 1 amulet\] Yes, please make it for me.~
+@1309 = ~\[1 cloak, 1 ring\] Yes, please make it for me.~
