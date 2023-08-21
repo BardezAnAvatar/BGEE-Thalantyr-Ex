@@ -1,5 +1,6 @@
+COPY ~%MOD_FOLDER%/comp/protection/BZAML1BI.BAM~ ~override/BZAML1BI.BAM~
 
-//make cursed ring
+//make amulet +2
 COPY_EXISTING ~AMUL14.ITM~ ~override/BZAML1B.ITM~ //Amulet of Protection +2
     //Patches
         SAY NAME2 @400
