@@ -95,7 +95,7 @@ The +2 ring requires 1x pearl; 1 scroll of Protection from magic, 3x scroll of r
 Similar to the merging of two rings of protection, this will take two amulets of protection and merge them into a +2 amulet.
 
 ##### Creation
-The amulet will require two amulets of protection +1 (or an amulet and a ring of protection; or an amulent and a cloak of protection); four moonbar gems; plus 5,000 gold.
+The amulet will require two amulets of protection +1 (or an amulet and a ring of protection; or an amulet and a cloak of protection); four moonbar gems; plus 5,000 gold.
 
 
 ### Cloak of Protection +2
