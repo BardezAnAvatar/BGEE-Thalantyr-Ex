@@ -5,7 +5,7 @@ COPY_EXISTING ~AMUL14.ITM~ ~override/BZAML1B.ITM~ //Amulet of Protection +2
     //Patches
         SAY NAME2 @400
         SAY IDENTIFIED_DESC @401
-        WRITE_LONG 0x34 6000                    // Price
+        WRITE_LONG 0x34 9000                    // Price
         WRITE_ASCII_TERMINATE 0x3A "BZAML1BI"   // Icon
         LPF ~ALTER_ITEM_EFFECT~
             INT_VAR
