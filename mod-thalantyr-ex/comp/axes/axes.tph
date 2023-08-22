@@ -1,0 +1,72 @@
+COPY ~%MOD_FOLDER%/comp/axes/BZAX19BI.BAM~ ~override/BZAX19BI.BAM~  //+2 Golden Axe Inventory BAM
+
+COPY_EXISTING ~AX1H19.ITM~ ~override/BZAX19B.ITM~ //Golden Axe +1 -> +2
+    //Patches
+        SAY NAME2 @500
+        SAY IDENTIFIED_DESC @501
+        WRITE_ASCII_TERMINATE 0x3A "BZAX19BI"   // Icon
+        WRITE_LONG 0x34 4000                    // Price
+        WRITE_LONG 0x60 2                       // Enchantment
+        LPF ~ALTER_ITEM_HEADER~
+            INT_VAR
+                header = 1
+                thac0_bonus = 2
+                damage_bonus = 2
+            STR_VAR
+                icon = ~BZAX19BI~       //icon to display for melee
+        END
+        //remove weird 10% effect nonsense
+        LPF ~DELETE_ITEM_EFFECT~
+            INT_VAR
+                opcode_to_delete = 240  //remove portrait icon
+        END
+        LPF ~DELETE_ITEM_EFFECT~
+            INT_VAR
+                opcode_to_delete = 81   //cure deafness
+        END
+        LPF ~DELETE_ITEM_EFFECT~
+            INT_VAR
+                opcode_to_delete = 139  //display string
+        END
+        LPF ~DELETE_ITEM_EFFECT~
+            INT_VAR
+                opcode_to_delete = 112  //remove item
+        END
+        LPF ~DELETE_ITEM_EFFECT~
+            INT_VAR
+                opcode_to_delete = 58   //dispel effects
+        END
+        LPF ~DELETE_ITEM_EFFECT~
+            INT_VAR
+                opcode_to_delete = 215  //visual effect
+        END
+        LPF ~DELETE_ITEM_EFFECT~
+            INT_VAR
+                opcode_to_delete = 77   //cure feeblemindness
+        END
+        LPF ~DELETE_ITEM_EFFECT~
+            INT_VAR
+                opcode_to_delete = 177  //use EFF file
+        END
+        LPF ~ADD_ITEM_EFFECT~           // 15% CAST of Dispel Magic
+            INT_VAR
+                opcode = 146            // Type: Cast Spell
+                target = 2              // Preset Target
+                power = 1
+                parameter1 = 30         // Caster Level
+                parameter2 = 1          // Casting Mode: Instantly
+                timing = 1              // Timing Mode: Instant/Permanent until Death
+                resist_dispel = 2       // No dispel/bypass resistance
+                duration = 0
+                probability1 = 15
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0
+                insert_point = "-1"     // add to end
+                type = 1                // Type of header: Melee
+            STR_VAR
+                resource = ~SPWI326~    // Which spell
+        END
