@@ -242,8 +242,7 @@ DestroyGold(5000)
 GiveItemCreate("CLCK02",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
-    END
-END
+  END
   IF ~~ THEN BEGIN bardez_thalantyr_golden_axe_2 // from: ThalantyrCraftingState
     SAY @1401 /* ~Hrm. Dawrven axe, dispelling enchantment [...]~ */
       = @1402 // ~I can improve its dispelling chances, and make it deadlier for its expected enemies. [...] ~
@@ -268,7 +267,8 @@ DestroyItem("SCRL1E")
 GiveItemCreate("BZAX19B",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
-  END
+    END
+END
 
 EXTEND_TOP ~THALAN~ 
   %ThalantyrCraftingState% //state number(s)
