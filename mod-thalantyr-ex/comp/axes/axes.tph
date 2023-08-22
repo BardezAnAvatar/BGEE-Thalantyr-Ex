@@ -1,8 +1,7 @@
 COPY ~%MOD_FOLDER%/comp/axes/BZAX19BI.BAM~ ~override/BZAX19BI.BAM~  //+2 Golden Axe Inventory BAM
 COPY ~%MOD_FOLDER%/comp/axes/BZH2ELF.EFF~ ~override/BZH2ELF.EFF~    //+2 to hit elves
 COPY ~%MOD_FOLDER%/comp/axes/BZH2HELF.EFF~ ~override/BZH2HELF.EFF~  //+2 to hit half-elves
-COPY ~%MOD_FOLDER%/comp/axes/BZD2ELF.EFF~ ~override/BZD2ELF.EFF~    //+2 damage to elves
-COPY ~%MOD_FOLDER%/comp/axes/BZD2HELF.EFF~ ~override/BZD2HELF.EFF~  //+2 damage to elves
+COPY ~%MOD_FOLDER%/comp/axes/BZ2DAM.EFF~ ~override/BZ2DAM.EFF~      //+2 damage
 
 COPY_EXISTING ~AX1H19.ITM~ ~override/BZAX19B.ITM~ //Golden Axe +1 -> +2
     //Patches
@@ -178,7 +177,7 @@ COPY_EXISTING ~AX1H19.ITM~ ~override/BZAX19B.ITM~ //Golden Axe +1 -> +2
                 insert_point = "-1"     // add to end
                 type = 1                // Type of header: Melee
             STR_VAR
-                resource = ~BZD2ELF~    // Which EFF
+                resource = ~BZ2DAM~     // Which EFF
         END
         LPF ~ADD_ITEM_EFFECT~           // Damage vs half-elves
             INT_VAR
@@ -200,5 +199,5 @@ COPY_EXISTING ~AX1H19.ITM~ ~override/BZAX19B.ITM~ //Golden Axe +1 -> +2
                 insert_point = "-1"     // add to end
                 type = 1                // Type of header: Melee
             STR_VAR
-                resource = ~BZD2HELF~   // Which EFF
+                resource = ~BZ2DAM~     // Which EFF
         END
