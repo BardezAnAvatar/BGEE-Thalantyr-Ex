@@ -126,14 +126,15 @@ Found in Durlag's Tower, this axe would be further improvable.
 The upgrade will require the Wizard Slayer +1 axe; a diamond; plus 6,000 gold.
 
 
-### Axe +2 Beruel's Retort
-Improve the axe from the Thunderhammer Smithy
+### ~~Axe +2 Beruel's Retort~~
+~~Improve the axe from the Thunderhammer Smithy~~
 
-##### Statistics
-Retains properties from +1 version, incremented to a +2 weapon. Gains +2 more vs orcs, goblins, and giants.
+##### ~~Statistics~~
+~~Retains properties from +1 version, incremented to a +2 weapon. Gains +2 more vs orcs, goblins, and giants.~~
 
-##### Creation
-The upgrade will require the Beruel's Retort +1 axe; three Chrysoberyl Gem; plus 6,000 gold.
+##### ~~Creation~~
+~~The upgrade will require the Beruel's Retort +1 axe; three Chrysoberyl Gem; plus 6,000 gold.~~
+NOTE: I was running a mod that made this returning, so I made bad plans.
 
 
 ### Mace +2: The Stupifier
