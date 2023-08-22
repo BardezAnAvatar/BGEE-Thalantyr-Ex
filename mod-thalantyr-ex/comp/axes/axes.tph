@@ -174,7 +174,7 @@ COPY_EXISTING ~AX1H19.ITM~ ~override/BZAX19B.ITM~ //Golden Axe +1 -> +2
                 dicesize = 0
                 savingthrow = 0
                 savebonus = 0
-                special = 0
+                special = 4             //enchantment
                 insert_point = "-1"     // add to end
                 type = 1                // Type of header: Melee
             STR_VAR
@@ -196,7 +196,7 @@ COPY_EXISTING ~AX1H19.ITM~ ~override/BZAX19B.ITM~ //Golden Axe +1 -> +2
                 dicesize = 0
                 savingthrow = 0
                 savebonus = 0
-                special = 0
+                special = 4             // enchantment
                 insert_point = "-1"     // add to end
                 type = 1                // Type of header: Melee
             STR_VAR
