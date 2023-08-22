@@ -135,11 +135,11 @@ COPY_EXISTING ~AX1H19.ITM~ ~override/BZAX19B.ITM~ //Golden Axe +1 -> +2
                 special = 0
                 insert_point = "-1"     // add to end
             STR_VAR
-                resource = ~BZH2ELF~    // Which EFF
+                resource = ~~           // unused
         END
         LPF ~ADD_ITEM_EQEFFECT~         // enchantment vs half-elves
             INT_VAR
-                opcode = 177            // Type: Enchantment vs. creature type
+                opcode = 344            // Type: Enchantment vs. creature type
                 target = 1              // self
                 power = 0
                 parameter1 = 3          // IDS Value: HALF-ELF
@@ -156,7 +156,7 @@ COPY_EXISTING ~AX1H19.ITM~ ~override/BZAX19B.ITM~ //Golden Axe +1 -> +2
                 special = 0
                 insert_point = "-1"     // add to end
             STR_VAR
-                resource = ~BZH2HELF~   // Which EFF
+                resource = ~~           // unused
         END
         LPF ~ADD_ITEM_EFFECT~           // Damage vs elves
             INT_VAR
