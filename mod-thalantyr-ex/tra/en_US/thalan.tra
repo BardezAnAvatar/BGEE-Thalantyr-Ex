@@ -38,6 +38,6 @@
 
 //axes
 @1400 = ~I have this dwarven axe, golden. Can you enhance it?~
-@1401 = ~Hrm. Dawrven axe, dispelling enchantment, looks like intended for defense in the underdark.~
+@1401 = ~Hrm. Dawrven axe, dispelling enchantment, looks like intended for defense in the Underdark.~
 @1402 = ~I can improve its dispelling chances, and make it deadlier for its expected enemies. I would need a diamond, and a scroll of Dispel Magic. As payment, I'll take 3000 gold. Should I make this item for you?~
 @1403 = ~Yes, please make it for me.~
