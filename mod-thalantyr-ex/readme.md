@@ -110,7 +110,7 @@ If you decide to kill Fenten for whatever reason, you get a nice +1 axe. It'd be
 +5% more chance of casting Dispel Magic, and +2 more vs elves, half-elves, and drow.
 
 ##### Creation
-The amulet will require the golden axe +1; a diamond; plus 6,000 gold.
+The amulet will require the golden axe +1; a diamond; a scroll of Dispel Magic; plus 3,000 gold.
 
 
 ### Axe +1 Wizard Slayer
