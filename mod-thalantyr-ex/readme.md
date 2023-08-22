@@ -107,7 +107,7 @@ The amulet will require two cloaks of protection +1 (or a cloak and a ring of pr
 
 ### Golden Axe +2
 If you decide to kill Fenten for whatever reason, you get a nice +1 axe. It'd be nicer as a +2.
-+5% more chance of casting Dispel Magic, and +1 more vs elves, half-elves, and drow.
++5% more chance of casting Dispel Magic, and +2 more vs elves, half-elves, and drow.
 
 ##### Creation
 The amulet will require the golden axe +1; a diamond; plus 6,000 gold.
