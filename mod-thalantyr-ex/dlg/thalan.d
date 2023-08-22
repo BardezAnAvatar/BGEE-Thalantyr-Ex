@@ -244,6 +244,31 @@ CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
     END
 END
+  IF ~~ THEN BEGIN bardez_thalantyr_golden_axe_2 // from: ThalantyrCraftingState
+    SAY @1401 /* ~Hrm. Dawrven axe, dispelling enchantment [...]~ */
+      = @1402 // ~I can improve its dispelling chances, and make it deadlier for its expected enemies. [...] ~
+    IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
+      GOTO %ThalantyrCraftingState%
+    IF 
+~PartyHasItem("AX1H19")
+PartyHasItem("SCRL1E")
+PartyHasItem("MISC42")
+PartyGoldGT(2999)~
+      THEN
+          REPLY @1403  /* ~Yes, please make it for me.~ */
+          DO
+~TakePartyGold(3000)
+DestroyGold(3000)
+TakePartyItemNum("AX1H19",1)
+DestroyItem("AX1H19")
+TakePartyItemNum("MISC42",1)
+DestroyItem("MISC42")
+TakePartyItemNum("SCRL1E",1)
+DestroyItem("SCRL1E")
+GiveItemCreate("BZAX19B",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+  END
 
 EXTEND_TOP ~THALAN~ 
   %ThalantyrCraftingState% //state number(s)
@@ -264,6 +289,10 @@ EXTEND_TOP ~THALAN~
       THEN 
           REPLY @1100 /* ~I have a longsword, attuned to cold. Can you do anything with this?~ */
           GOTO bardez_thalantyr_varscona3
+    IF ~PartyHasItem("AX1H19")~
+      THEN 
+          REPLY @1400 /* ~I have this dwarven axe, golden. Can you enhance it?~ */
+          GOTO bardez_thalantyr_golden_axe_2
     IF ~PartyHasItem("BZRNG1")~
       THEN 
           REPLY @1200 /* ~I have this cursed ring given to me in Candlekeep. Can you remove the curse?~ */
