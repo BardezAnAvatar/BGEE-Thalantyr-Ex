@@ -1,4 +1,8 @@
 COPY ~%MOD_FOLDER%/comp/axes/BZAX19BI.BAM~ ~override/BZAX19BI.BAM~  //+2 Golden Axe Inventory BAM
+COPY ~%MOD_FOLDER%/comp/axes/BZH2ELF.EFF~ ~override/BZH2ELF.EFF~    //+2 to hit elves
+COPY ~%MOD_FOLDER%/comp/axes/BZH2HELF.EFF~ ~override/BZH2HELF.EFF~  //+2 to hit half-elves
+COPY ~%MOD_FOLDER%/comp/axes/BZD2ELF.EFF~ ~override/BZD2ELF.EFF~    //+2 damage to elves
+COPY ~%MOD_FOLDER%/comp/axes/BZD2HELF.EFF~ ~override/BZD2HELF.EFF~  //+2 damage to elves
 
 COPY_EXISTING ~AX1H19.ITM~ ~override/BZAX19B.ITM~ //Golden Axe +1 -> +2
     //Patches
