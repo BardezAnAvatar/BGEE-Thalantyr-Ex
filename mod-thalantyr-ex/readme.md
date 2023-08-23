@@ -18,10 +18,9 @@ I am using the `BZ` prefix for my items, as I have not seen it used or reference
 | Koveras' Ring                      | ✔️ | 0.0.3 |
 | Amulet of Protection +2            | ✔️ | 0.0.5 |
 | Cloak of Protection +2             | ✔️ | 0.0.5 |
-| Golden Axe +2                      | ❌ | n/a |
-| Axe +1 Wizard Slayer               | ❌ | n/a |
-| Axe +2 Wizard Slayer               | ❌ | n/a |
-| Axe +2 Beruel's Retort             | ❌ | n/a |
+| Golden Axe +2                      | ✔️ | 0.0.6 |
+| Axe +1 Wizard Slayer               | ✔️ | 0.0.6 |
+| Axe +2 Wizard Slayer               | ✔️ | 0.0.6 |
 | Mace +2: The Stupifier             | ❌ | n/a |
 | Hammer +2: The Hammer of Dawn      | ❌ | n/a |
 | Longsword +2: Harrower             | ❌ | n/a |
