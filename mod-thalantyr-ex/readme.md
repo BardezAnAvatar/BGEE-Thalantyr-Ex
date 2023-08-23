@@ -122,6 +122,7 @@ The upgrade will require the Wizard Slayer axe; a pearl; plus 3,000 gold.
 
 ### Axe +2 Wizard Slayer
 Found in Durlag's Tower, this axe would be further improvable.
++2 basic stats, +3 vs mages (mages, sorcerers, bards, volo, and elminster).
 
 ##### Creation
 The upgrade will require the Wizard Slayer +1 axe; a water opal; plus 6,000 gold.
