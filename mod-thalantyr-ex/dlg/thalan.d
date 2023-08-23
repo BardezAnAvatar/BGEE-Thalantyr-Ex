@@ -338,11 +338,11 @@ EXTEND_TOP ~THALAN~
           GOTO bardez_thalantyr_golden_axe_2
     IF ~PartyHasItem("AX1H07")~
       THEN 
-          REPLY @1404 /* ~I have this dwarven axe, golden. Can you enhance it?~ */
+          REPLY @1404 /* ~I have this axe, mundane in combat except against spellcasters~ */
           GOTO bardez_thalantyr_axe_wizardlayer_1
     IF ~PartyHasItem("BZAX07A")~
       THEN 
-          REPLY @1407 /* ~I have this dwarven axe, golden. Can you enhance it?~ */
+          REPLY @1407 /* ~I still have the Wizard Slayer axe~ */
           GOTO bardez_thalantyr_axe_wizardlayer_2
     IF ~PartyHasItem("BZRNG1")~
       THEN 
