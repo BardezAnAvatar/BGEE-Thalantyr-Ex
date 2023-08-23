@@ -13,3 +13,4 @@
 | Golden Axe +3                   | BZAX19C |
 | Wizard Slayer +1                | BZAX07A |
 | Wizard Slayer +2                | BZAX07B |
+| Mace +2: Stupefier              | BZMA41B |
