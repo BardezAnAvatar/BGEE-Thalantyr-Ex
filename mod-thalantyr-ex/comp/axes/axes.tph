@@ -201,3 +201,20 @@ COPY_EXISTING ~AX1H19.ITM~ ~override/BZAX19B.ITM~ //Golden Axe +1 -> +2
             STR_VAR
                 resource = ~BZ2DAM~     // Which EFF
         END
+        
+COPY ~%MOD_FOLDER%/comp/axes/BZAX07AI.BAM~ ~override/BZAX07AI.BAM~  //Wizard Slayer +1 Inventory BAM
+COPY_EXISTING ~AX1H07.ITM~ ~override/BZAX07A.ITM~ //Wizard Slayer -> +1
+    //Patches
+        SAY NAME2 @502
+        SAY IDENTIFIED_DESC @503
+        WRITE_ASCII_TERMINATE 0x3A "BZAX07AI"   // Icon
+        WRITE_LONG 0x34 2300                    // Price
+        WRITE_LONG 0x60 1                       // Enchantment
+        LPF ~ALTER_ITEM_HEADER~
+            INT_VAR
+                header = 1
+                thac0_bonus = 1
+                damage_bonus = 1
+            STR_VAR
+                icon = ~BZAX07AI~       //icon to display for melee
+        END
