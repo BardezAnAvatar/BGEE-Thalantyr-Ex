@@ -130,6 +130,7 @@ The upgrade will require the Wizard Slayer +1 axe; a water opal; plus 6,000 gold
 ##### Notes/Plans
 Future versions get more: +3 vs bards, +4 vs paladins/rangers, +5 vs all spellcasters
 
+
 ### ~~Axe +2 Beruel's Retort~~
 ~~Improve the axe from the Thunderhammer Smithy~~
 
