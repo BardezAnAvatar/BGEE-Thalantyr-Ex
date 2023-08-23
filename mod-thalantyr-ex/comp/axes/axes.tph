@@ -220,6 +220,10 @@ COPY_EXISTING ~AX1H07.ITM~ ~override/BZAX07A.ITM~ //Wizard Slayer -> +1
         END
         
 COPY ~%MOD_FOLDER%/comp/axes/BZAX07BI.BAM~ ~override/BZAX07BI.BAM~  //Wizard Slayer +2 Inventory BAM
+COPY ~%MOD_FOLDER%/comp/axes/BZH1MAGE.EFF~ ~override/BZH1MAGE.EFF~  //+1 to hit mages
+COPY ~%MOD_FOLDER%/comp/axes/BZH1OGMA.EFF~ ~override/BZH1OGMA.EFF~  //+1 to hit ogre mages
+COPY ~%MOD_FOLDER%/comp/axes/BZH1EMST.EFF~ ~override/BZH1EMST.EFF~  //+1 to hit Elminster class
+COPY ~%MOD_FOLDER%/comp/axes/BZ1DAMS.EFF~ ~override/BZ1DAMS.EFF~    //+1 slashing damage
 COPY_EXISTING ~BZAX07A.ITM~ ~override/BZAX07B.ITM~ //Wizard Slayer +1 -> +2
     //Patches
         SAY NAME2 @504
