@@ -275,7 +275,7 @@ CreateVisualEffect("spcrtwpn",[330.230])~
       GOTO %ThalantyrCraftingState%
     IF 
 ~PartyHasItem("AX1H07")
-PartyHasItem("MISC39")
+PartyHasItem("MISC36")
 PartyGoldGT(2999)~
       THEN
           REPLY @1403  /* ~Yes, please make it for me.~ */
@@ -284,8 +284,8 @@ PartyGoldGT(2999)~
 DestroyGold(3000)
 TakePartyItemNum("AX1H07",1)
 DestroyItem("AX1H07")
-TakePartyItemNum("MISC39",1)
-DestroyItem("MISC39")
+TakePartyItemNum("MISC36",1)
+DestroyItem("MISC36")
 GiveItemCreate("BZAX07A",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
