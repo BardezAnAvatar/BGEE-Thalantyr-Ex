@@ -340,6 +340,10 @@ EXTEND_TOP ~THALAN~
       THEN 
           REPLY @1404 /* ~I have this dwarven axe, golden. Can you enhance it?~ */
           GOTO bardez_thalantyr_axe_wizardlayer_1
+    IF ~PartyHasItem("BZAX07A")~
+      THEN 
+          REPLY @1407 /* ~I have this dwarven axe, golden. Can you enhance it?~ */
+          GOTO bardez_thalantyr_axe_wizardlayer_2
     IF ~PartyHasItem("BZRNG1")~
       THEN 
           REPLY @1200 /* ~I have this cursed ring given to me in Candlekeep. Can you remove the curse?~ */
