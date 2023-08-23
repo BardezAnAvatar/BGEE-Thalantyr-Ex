@@ -290,6 +290,27 @@ GiveItemCreate("BZAX07A",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
     END
+  IF ~~ THEN BEGIN bardez_thalantyr_axe_wizardlayer_2 // from: ThalantyrCraftingState
+    SAY @1408 /* ~I suppose I could attune it against mages [...] ~ */
+    IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
+      GOTO %ThalantyrCraftingState%
+    IF 
+~PartyHasItem("BZAX07A")
+PartyHasItem("MISC39")
+PartyGoldGT(5999)~
+      THEN
+          REPLY @1403  /* ~Yes, please make it for me.~ */
+          DO
+~TakePartyGold(6000)
+DestroyGold(6000)
+TakePartyItemNum("BZAX07A",1)
+DestroyItem("BZAX07A")
+TakePartyItemNum("MISC39",1)
+DestroyItem("MISC39")
+GiveItemCreate("BZAX07B",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+    END
 END
 
 EXTEND_TOP ~THALAN~ 
