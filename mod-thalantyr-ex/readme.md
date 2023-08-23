@@ -124,7 +124,7 @@ The upgrade will require the Wizard Slayer axe; a pearl; plus 3,000 gold.
 Found in Durlag's Tower, this axe would be further improvable.
 
 ##### Creation
-The upgrade will require the Wizard Slayer +1 axe; an emerald; plus 6,000 gold.
+The upgrade will require the Wizard Slayer +1 axe; a water opal; plus 6,000 gold.
 
 
 ### ~~Axe +2 Beruel's Retort~~
