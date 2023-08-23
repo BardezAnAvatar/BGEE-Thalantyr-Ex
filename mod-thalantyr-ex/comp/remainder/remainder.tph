@@ -1,0 +1,42 @@
+COPY ~%MOD_FOLDER%/comp/varscona3/BZMA41BI.BAM~ ~override/BZMA41BI.BAM~
+
+COPY_EXISTING ~BLUN41.ITM~ ~override/BZMA41B.ITM~ //Mace +1 Stupefier -> +2
+    //Patches
+        SAY NAME2 @600
+        SAY IDENTIFIED_DESC @601
+        WRITE_ASCII_TERMINATE 0x3A "BZMA41BI"   // Icon
+        WRITE_LONG 0x34 4500                    // Price
+        WRITE_LONG 0x60 2                       // Enchantment
+        LPF ~ALTER_ITEM_HEADER~
+            INT_VAR
+                header = 1
+                thac0_bonus = 2
+                damage_bonus = 3
+            STR_VAR
+                icon = ~BZMA41BI~       // icon to display for melee
+        END
+        LPF ~ALTER_ITEM_EFFECT~
+            INT_VAR
+                check_headers = 1
+                match_opcode = 45       // Stun
+                probability1 = 15
+                savebonus = -1
+        END
+        LPF ~ALTER_ITEM_EFFECT~
+            INT_VAR
+                check_headers = 1
+                match_opcode = 41       // Sparkle
+                probability1 = 15
+        END
+        LPF ~ALTER_ITEM_EFFECT~
+            INT_VAR
+                check_headers = 1
+                match_opcode = 139      // Display string
+                probability1 = 15
+        END
+        LPF ~ALTER_ITEM_EFFECT~
+            INT_VAR
+                check_headers = 1
+                match_opcode = 215      // Play visual effect
+                probability1 = 15
+        END
