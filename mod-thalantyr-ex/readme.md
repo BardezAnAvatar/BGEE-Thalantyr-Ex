@@ -25,6 +25,8 @@ I am using the `BZ` prefix for my items, as I have not seen it used or reference
 | Hammer +2: The Hammer of Dawn      | ❌ | n/a |
 | Longsword +2: Harrower             | ❌ | n/a |
 | Light Crossbow +2: The Army Scythe | ❌ | n/a |
+| Refactor items into submodule      | ❌ | n/a |
+
 
 ## Items
 ### Shandalar's Cloak
