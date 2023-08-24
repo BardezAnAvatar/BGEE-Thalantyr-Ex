@@ -62,3 +62,7 @@
 @1701 = ~Enterprise~
 @1702 = ~Ah, these runes identify this sword "Harrower". I am familiar with it.~
 @1703 = ~I can enchant this sword further to make it of more utility in regular combat. I would need the sword, six lynx eye gems, and 6,000 gold. Should I make this item for you?~
+
+//Crossbow(s)
+@1800 = ~I have this light crossbow, faster at slinging bolts than most. Can you do anything with it?~
+@1801 = ~Perhaps. Ah, yes, I believe I can. It will be costly, but with the crossbow, six fire agate gems, and 8,000 gold I can enchant it further for you. Should I make this item for you?~
