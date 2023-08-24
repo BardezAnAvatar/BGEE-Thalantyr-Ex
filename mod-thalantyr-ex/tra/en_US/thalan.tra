@@ -66,3 +66,8 @@
 //Crossbow(s)
 @1800 = ~I have this light crossbow, faster at slinging bolts than most. Can you do anything with it?~
 @1801 = ~Perhaps. Ah, yes, I believe I can. It will be costly, but with the crossbow, six fire agate gems, and 8,000 gold I can enchant it further for you. Should I make this item for you?~
+
+//Armor(s)
+@2000 = ~I have this lightweight armor made of ankheg chitin. Can you enchant it?~
+@2001 = ~Space Odyssey~
+@2002 = ~Ankheg, eh? I can still smell its stench. Taerom's work, I take it? I can enchant it given the armor; two diamonds; and a charge of 8,000 gold. Should I make this item for you?~
