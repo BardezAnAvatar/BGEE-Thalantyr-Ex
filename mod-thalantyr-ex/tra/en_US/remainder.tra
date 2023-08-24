@@ -42,3 +42,22 @@ Requires:
  9 Strength
 
 Weight: 6~
+
+//Harrower +2
+@604 = ~Longsword +2: Harrower~
+@605 = ~Longsword +2: Harrower
+
+This double-edged long sword gleams white even in the reddest of torchlight. The Dethek runes along its sides name the blade "Harrower", a weapon once wielded by Ariabel, a Waterdhavian Paladin of Lathander who once carried the weapon into combat against the vampire Zerafex and her host of unholy spawn. Ariabel did not survive the contest, but decades later a gang of Tethyrian tomb robbers recovered her sword from the crypt where she fell.
+
+STATISTICS:
+
+THAC0: +2, +4 vs. undead
+Damage: 1d8+2, +4 vs. undead
+Damage type: Slashing
+Speed Factor: 4
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
