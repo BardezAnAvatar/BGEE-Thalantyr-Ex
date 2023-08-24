@@ -312,7 +312,7 @@ CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
     END
   IF ~~ THEN BEGIN bardez_thalantyr_axe_stupefier_2 // from: ThalantyrCraftingState
-    SAY @1408 /* ~Indeed. I can increase its martial effectiveness with relative ease. [...] ~ */
+    SAY @1501 /* ~Indeed. I can increase its martial effectiveness with relative ease. [...] ~ */
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
     IF 
