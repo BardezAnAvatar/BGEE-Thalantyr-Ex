@@ -1,3 +1,4 @@
+//Mzce +2: Stupefier
 COPY ~%MOD_FOLDER%/comp/remainder/BZMA41BI.BAM~ ~override/BZMA41BI.BAM~
 
 COPY_EXISTING ~BLUN41.ITM~ ~override/BZMA41B.ITM~ //Mace +1 Stupefier -> +2
@@ -38,5 +39,29 @@ COPY_EXISTING ~BLUN41.ITM~ ~override/BZMA41B.ITM~ //Mace +1 Stupefier -> +2
             INT_VAR
                 check_headers = 1
                 match_opcode = 215      // Play visual effect
+                probability1 = 15
+        END
+
+//Hammer of Dawn
+COPY ~%MOD_FOLDER%/comp/remainder/BZHM13BI.BAM~ ~override/BZHM13BI.BAM~
+COPY_EXISTING ~HAMM13.ITM~ ~override/BZMA41B.ITM~ //Mace +1 Stupefier -> +2
+    //Patches
+        SAY NAME2 @602
+        SAY IDENTIFIED_DESC @603
+        WRITE_ASCII_TERMINATE 0x3A "BZHM13BI"   // Icon
+        WRITE_LONG 0x34 4500                    // Price
+        WRITE_LONG 0x60 2                       // Enchantment
+        LPF ~ALTER_ITEM_HEADER~
+            INT_VAR
+                header = 1
+                thac0_bonus = 2
+                damage_bonus = 3
+            STR_VAR
+                icon = ~BZHM13BI~       // icon to display for melee
+        END
+        LPF ~ALTER_ITEM_EFFECT~
+            INT_VAR
+                check_headers = 1
+                match_opcode = 235      // Wing Buffet
                 probability1 = 15
         END
