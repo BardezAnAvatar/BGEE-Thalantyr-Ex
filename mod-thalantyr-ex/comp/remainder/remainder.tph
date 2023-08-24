@@ -45,7 +45,7 @@ COPY_EXISTING ~BLUN41.ITM~ ~override/BZMA41B.ITM~ //Mace +1 Stupefier -> +2
 
 //Hammer of Dawn
 COPY ~%MOD_FOLDER%/comp/remainder/BZHM13BI.BAM~ ~override/BZHM13BI.BAM~
-COPY_EXISTING ~HAMM13.ITM~ ~override/BZMA41B.ITM~ //Hammer of Dawn +1 -> +2
+COPY_EXISTING ~HAMM13.ITM~ ~override/BZHM13B.ITM~ //Hammer of Dawn +1 -> +2
     //Patches
         SAY NAME2 @602
         SAY IDENTIFIED_DESC @603
