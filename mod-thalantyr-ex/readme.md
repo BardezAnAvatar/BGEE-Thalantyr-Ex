@@ -160,7 +160,7 @@ Improve the hammer to +2
 Retains properties from +1 version, incremented to a +2 weapon.
 
 ##### Creation
-The upgrade will require the Hammer +1: The Hammer of Dawn; six andar Gem; plus 6,000 gold.
+The upgrade will require the Hammer +1: The Hammer of Dawn; six andar Gem; plus 4,000 gold.
 
 
 ### Longsword +2: Harrower
