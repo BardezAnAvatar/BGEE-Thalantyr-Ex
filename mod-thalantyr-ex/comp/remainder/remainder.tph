@@ -92,3 +92,23 @@ COPY_EXISTING ~SW1H79.ITM~ ~override/BZSW79B.ITM~   //Harrower +1 -> +2
                 match_opcode = 344      // Enchantment vs. Creature Type
                 special = 4             // enchantment
         END
+
+
+//Crossbow of speed +1
+COPY ~%MOD_FOLDER%/comp/remainder/BZXB06BI.BAM~ ~override/BZXB06BI.BAM~
+COPY_EXISTING ~XBOW06.ITM~ ~override/BZXB06B.ITM~   //Crossbow of speed +1 -> +2
+    //Patches
+        SAY NAME2 @606
+        SAY IDENTIFIED_DESC @607
+        WRITE_LONG 0x34 16000                   // Price
+        WRITE_ASCII_TERMINATE 0x3A "BZXB06BI"   // Icon
+        WRITE_LONG 0x42 80                      // Lore to Identify
+        WRITE_LONG 0x60 2                       // Enchantment
+        LPF ~ALTER_ITEM_HEADER~
+            INT_VAR
+                header = 1
+                thac0_bonus = 2
+                damage_bonus = 2
+            STR_VAR
+                icon = ~BZXB06BI~       // icon to display for ranged
+        END
