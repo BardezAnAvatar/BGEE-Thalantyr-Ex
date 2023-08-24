@@ -144,13 +144,13 @@ NOTE: I was running a mod that made this returning, so I made bad plans.
 
 
 ### Mace +2: The Stupifier
-Improve the mace to +2
+Improve the mace to +2, increase the % chance to 15%
 
 ##### Statistics
 Retains properties from +1 version, incremented to a +2 weapon.
 
 ##### Creation
-The upgrade will require the Mace +1: The Stupifier mace; five bloodstone Gem; plus 6,000 gold.
+The upgrade will require the Mace +1: The Stupifier mace; two aquamarine; plus 4,000 gold.
 
 
 ### Hammer +2: The Hammer of Dawn
