@@ -376,7 +376,7 @@ CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
   END
   IF ~~ THEN BEGIN bardez_thalantyr_crossbow_speed_2 // from: ThalantyrCraftingState
-    SAY @1702 /* Perhaps. Ah, yes, I believe I can. It will be costly [...] */
+    SAY @1801 /* Perhaps. Ah, yes, I believe I can. It will be costly [...] */
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
     IF 
