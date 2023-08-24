@@ -17,3 +17,4 @@
 | Varscona +3                        | BZSW06C |
 | Longsword +2: Harrower             | BZSW79B |
 | Light Crossbow +2: The Army Scythe | BZXB06B |
+| Ankheg Plate Mail +1               | BZPM06A |
