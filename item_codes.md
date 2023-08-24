@@ -14,3 +14,5 @@
 | Wizard Slayer +1                | BZAX07A |
 | Wizard Slayer +2                | BZAX07B |
 | Mace +2: Stupefier              | BZMA41B |
+| War Hammer +2: Hammer of Dawn   | BZHM13B |
+| Longsword +2: Harrower          | BZSW79B |
