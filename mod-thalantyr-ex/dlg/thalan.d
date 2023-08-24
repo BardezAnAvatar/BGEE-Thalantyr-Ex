@@ -375,6 +375,27 @@ GiveItemCreate("BZSW79B",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
   END
+  IF ~~ THEN BEGIN bardez_thalantyr_crossbow_speed_2 // from: ThalantyrCraftingState
+    SAY @1702 /* Perhaps. Ah, yes, I believe I can. It will be costly [...] */
+    IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
+      GOTO %ThalantyrCraftingState%
+    IF 
+~PartyHasItem("XBOW06")
+NumItemsPartyGT("MISC16",5)
+PartyGoldGT(7999)~
+      THEN
+          REPLY @1403  /* ~Yes, please make it for me.~ */
+          DO
+~TakePartyGold(8000)
+DestroyGold(8000)
+TakePartyItemNum("MISC16",6)
+DestroyItem("MISC16")
+TakePartyItemNum("XBOW06",1)
+DestroyItem("XBOW06")
+GiveItemCreate("BZXB06B",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+  END
 END
 
 EXTEND_TOP ~THALAN~ 
@@ -420,6 +441,10 @@ EXTEND_TOP ~THALAN~
       THEN 
           REPLY @1700 /* ~I have this longsword effective against undead [...]~ */
           GOTO bardez_thalantyr_harrower_2
+    IF ~PartyHasItem("XBOW06")~
+      THEN 
+          REPLY @1800 /* ~I have this light crossbow, faster at slinging bolts than most [...]~ */
+          GOTO bardez_thalantyr_crossbow_speed_2
     IF ~PartyHasItem("BZRNG1")~
       THEN 
           REPLY @1200 /* ~I have this cursed ring given to me in Candlekeep. Can you remove the curse?~ */
