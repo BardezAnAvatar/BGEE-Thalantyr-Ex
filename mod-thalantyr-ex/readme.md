@@ -21,10 +21,10 @@ I am using the `BZ` prefix for my items, as I have not seen it used or reference
 | Golden Axe +2                      | ✔️ | 0.0.6 |
 | Axe +1 Wizard Slayer               | ✔️ | 0.0.6 |
 | Axe +2 Wizard Slayer               | ✔️ | 0.0.6 |
-| Mace +2: The Stupifier             | ❌ | n/a |
-| Hammer +2: The Hammer of Dawn      | ❌ | n/a |
-| Longsword +2: Harrower             | ❌ | n/a |
-| Light Crossbow +2: The Army Scythe | ❌ | n/a |
+| Mace +2: The Stupifier             | ✔️ | 0.0.7 |
+| Hammer +2: The Hammer of Dawn      | ✔️ | 0.0.7 |
+| Long Sword +2: Harrower            | ✔️ | 0.0.7 |
+| Light Crossbow +2: The Army Scythe | ✔️ | 0.0.7 |
 | Refactor items into submodule      | ❌ | n/a |
 
 
