@@ -52,3 +52,7 @@
 //mace(s)
 @1500 = ~I have this +1 Mace, The Stupefier. Is there anything you can do with it?~
 @1501 = ~Indeed. I can increase its martial effectiveness with relative ease. I would require The Stupefier; two aquamarine gems; and 4,000 gold. Should I make this item for you?~
+
+//hammer(s)
+@1600 = ~I have the Hammer of Dawn +1. Is there anything you can do with it?~
+@1601 = ~I could increase its combat enchantment easily enough, and slightly increase its buffetting probability. I would require the Hammer of Dawn; six andar gems; and 4,000 gold. Should I make this item for you?~
