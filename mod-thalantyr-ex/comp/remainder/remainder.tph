@@ -1,4 +1,4 @@
-COPY ~%MOD_FOLDER%/comp/varscona3/BZMA41BI.BAM~ ~override/BZMA41BI.BAM~
+COPY ~%MOD_FOLDER%/comp/remainder/BZMA41BI.BAM~ ~override/BZMA41BI.BAM~
 
 COPY_EXISTING ~BLUN41.ITM~ ~override/BZMA41B.ITM~ //Mace +1 Stupefier -> +2
     //Patches
