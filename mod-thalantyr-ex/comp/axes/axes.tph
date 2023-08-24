@@ -9,6 +9,7 @@ COPY_EXISTING ~AX1H19.ITM~ ~override/BZAX19B.ITM~ //Golden Axe +1 -> +2
         SAY IDENTIFIED_DESC @501
         WRITE_ASCII_TERMINATE 0x3A "BZAX19BI"   // Icon
         WRITE_LONG 0x34 4000                    // Price
+        WRITE_LONG 0x42 60                      // Lore to Identify
         WRITE_LONG 0x60 2                       // Enchantment
         LPF ~ALTER_ITEM_HEADER~
             INT_VAR
@@ -209,6 +210,7 @@ COPY_EXISTING ~AX1H07.ITM~ ~override/BZAX07A.ITM~ //Wizard Slayer -> +1
         SAY IDENTIFIED_DESC @503
         WRITE_ASCII_TERMINATE 0x3A "BZAX07AI"   // Icon
         WRITE_LONG 0x34 2300                    // Price
+        WRITE_LONG 0x42 80                      // Lore to Identify
         WRITE_LONG 0x60 1                       // Enchantment
         LPF ~ALTER_ITEM_HEADER~
             INT_VAR
@@ -230,6 +232,7 @@ COPY_EXISTING ~BZAX07A.ITM~ ~override/BZAX07B.ITM~ //Wizard Slayer +1 -> +2
         SAY IDENTIFIED_DESC @505
         WRITE_ASCII_TERMINATE 0x3A "BZAX07BI"   // Icon
         WRITE_LONG 0x34 6400                    // Price
+        WRITE_LONG 0x42 120                     // Lore to Identify
         WRITE_LONG 0x60 2                       // Enchantment
         LPF ~ALTER_ITEM_HEADER~
             INT_VAR

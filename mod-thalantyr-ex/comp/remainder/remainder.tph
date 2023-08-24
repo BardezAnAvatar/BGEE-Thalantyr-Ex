@@ -7,6 +7,7 @@ COPY_EXISTING ~BLUN41.ITM~ ~override/BZMA41B.ITM~ //Mace +1 Stupefier -> +2
         SAY IDENTIFIED_DESC @601
         WRITE_ASCII_TERMINATE 0x3A "BZMA41BI"   // Icon
         WRITE_LONG 0x34 4500                    // Price
+        WRITE_LONG 0x42 60                      // Lore to Identify
         WRITE_LONG 0x60 2                       // Enchantment
         LPF ~ALTER_ITEM_HEADER~
             INT_VAR
@@ -50,6 +51,7 @@ COPY_EXISTING ~HAMM13.ITM~ ~override/BZMA41B.ITM~ //Mace +1 Stupefier -> +2
         SAY IDENTIFIED_DESC @603
         WRITE_ASCII_TERMINATE 0x3A "BZHM13BI"   // Icon
         WRITE_LONG 0x34 4500                    // Price
+        WRITE_LONG 0x42 60                      // Lore to Identify
         WRITE_LONG 0x60 2                       // Enchantment
         LPF ~ALTER_ITEM_HEADER~
             INT_VAR

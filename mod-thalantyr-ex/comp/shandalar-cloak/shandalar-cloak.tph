@@ -5,6 +5,7 @@ COPY_EXISTING ~CLCK02.ITM~ ~override/BZCLK1.ITM~ //cloak of protection +2 -> Sha
         SAY IDENTIFIED_DESC @202
         WRITE_LONG 0x34 12000                   // Price
         WRITE_ASCII_TERMINATE 0x3A "BZCLK1I"    // Inventory icon
+        WRITE_LONG 0x42 85                      // Lore to Identify
         LPF ~ADD_ITEM_EQEFFECT~
             INT_VAR
                 opcode = 29             // Type: Electrical Resistance Bonus

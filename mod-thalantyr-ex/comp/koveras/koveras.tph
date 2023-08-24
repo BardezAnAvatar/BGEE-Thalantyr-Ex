@@ -7,6 +7,7 @@ COPY_EXISTING ~RING25.ITM~ ~override/BZRNG1.ITM~ //Koveras Gift, cursed
         SAY UNIDENTIFIED_DESC @302
         SAY IDENTIFIED_DESC @303
         WRITE_LONG 0x34 300                     // Price
+        WRITE_LONG 0x42 80                      // Lore to Identify
         WRITE_LONG 0x18 0b111100                // flags: 2-6, 4 being cursed
         LPF ~ALTER_ITEM_EFFECT~
             INT_VAR
@@ -163,6 +164,7 @@ COPY_EXISTING ~RING07.ITM~ ~override/BZRNG1B.ITM~ //Koveras' Gift, +2
         SAY NAME2 @307
         SAY IDENTIFIED_DESC @308
         WRITE_LONG 0x34 9000            // Price
+        WRITE_LONG 0x42 80              // Lore to Identify
         LPF ~ADD_ITEM_EQEFFECT~
             INT_VAR
                 opcode = 18             // Type: maximum HP bonus

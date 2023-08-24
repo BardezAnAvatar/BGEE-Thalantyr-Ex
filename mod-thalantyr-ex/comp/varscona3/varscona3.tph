@@ -4,8 +4,9 @@ COPY_EXISTING ~SW1H06.ITM~ ~override/BZS1H1C.ITM~ //Varscona +2 ->Varscona +3
     //Patches
         SAY NAME2 @101
         SAY IDENTIFIED_DESC @102
-        WRITE_ASCII_TERMINATE 0x3A "BZS1H1CI"   // Icon
         WRITE_LONG 0x34 9515                    // Price
+        WRITE_ASCII_TERMINATE 0x3A "BZS1H1CI"   // Icon
+        WRITE_LONG 0x42 90                      // Lore to Identify
         WRITE_LONG 0x60 3                       // Enchantment
         LPF ~ALTER_ITEM_HEADER~
             INT_VAR
