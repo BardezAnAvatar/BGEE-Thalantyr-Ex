@@ -56,3 +56,9 @@
 //hammer(s)
 @1600 = ~I have the Hammer of Dawn +1. Is there anything you can do with it?~
 @1601 = ~I could increase its combat enchantment easily enough, and slightly increase its buffetting probability. I would require the Hammer of Dawn; six andar gems; and 4,000 gold. Should I make this item for you?~
+
+//sword(s)
+@1700 = ~I have this longsword effective against undead. Can you further enchant it?~
+@1701 = ~Enterprise~
+@1702 = ~Ah, these runes identify this sword "Harrower". I am familiar with it.~
+@1703 = ~I can enchant this sword further to make it of more utility in regular combat. I would need the sword, six lynx eye gems, and 6,000 gold. Should I make this item for you?~
