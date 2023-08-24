@@ -180,7 +180,7 @@ Improve the Scythe to +2
 Retains properties from +1 version, incremented to a +2 weapon.
 
 ##### Creation
-The upgrade will require the Longsword +1: Harrower; six fire agate gem; plus 6,000 gold.
+The upgrade will require the Light Crossbow +1: The Army Scythe; six fire agate gem; plus 8,000 gold.
 
 
 
