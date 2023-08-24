@@ -67,3 +67,28 @@ COPY_EXISTING ~HAMM13.ITM~ ~override/BZMA41B.ITM~ //Hammer of Dawn +1 -> +2
                 match_opcode = 235      // Wing Buffet
                 probability1 = 15
         END
+
+//Longsword Harrower
+COPY ~%MOD_FOLDER%/comp/remainder/BZSW79BI.BAM~ ~override/BZSW79BI.BAM~
+COPY_EXISTING ~SW1H79.ITM~ ~override/BZSW79B.ITM~   //Harrower +1 -> +2
+    //Patches
+        SAY NAME2 @604
+        SAY IDENTIFIED_DESC @605
+        WRITE_ASCII_TERMINATE 0x3A "BZSW79BI"   // Icon
+        WRITE_LONG 0x34 5000                    // Price
+        WRITE_LONG 0x42 60                      // Lore to Identify
+        WRITE_LONG 0x60 2                       // Enchantment
+        LPF ~ALTER_ITEM_HEADER~
+            INT_VAR
+                header = 1
+                thac0_bonus = 2
+                damage_bonus = 2
+            STR_VAR
+                icon = ~BZSW79BI~       // icon to display for melee
+        END
+        LPF ~ALTER_ITEM_EFFECT~
+            INT_VAR
+                check_headers = 1
+                match_opcode = 344      // Enchantment vs. Creature Type
+                special = 4             // enchantment
+        END
