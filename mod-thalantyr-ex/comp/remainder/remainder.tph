@@ -20,7 +20,7 @@ COPY_EXISTING ~BLUN41.ITM~ ~override/BZMA41B.ITM~ //Mace +1 Stupefier -> +2
                 check_headers = 1
                 match_opcode = 45       // Stun
                 probability1 = 15
-                savebonus = -1
+                savebonus = "-1"
         END
         LPF ~ALTER_ITEM_EFFECT~
             INT_VAR
