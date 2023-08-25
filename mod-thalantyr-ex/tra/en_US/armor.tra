@@ -30,3 +30,21 @@ Requires:
  4 Strength
 
 Weight: 2~
+
+//Buckley's Buckler
+@704 = ~Buckley's Buckler +1~
+@705 = ~Buckley's Buckler +1
+
+A rectangle of mammoth hide forms this small shield. No amount of cleansing can dispel the pong of decay from this poorly tanned device, yet somehow the malodorous shield fortifies its wielder.
+
+STATISTICS:
+
+Equipped abilities:
+– Constitution: +1
+– Armor Class: +2
+– No protection against missile and piercing attacks
+
+Requires:
+ 4 Strength
+
+Weight: 2~
