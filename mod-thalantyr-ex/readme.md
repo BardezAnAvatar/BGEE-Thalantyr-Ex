@@ -25,7 +25,7 @@ I am using the `BZ` prefix for my items, as I have not seen it used or reference
 | Hammer +2: The Hammer of Dawn      | ✔️ | 0.0.7 |
 | Long Sword +2: Harrower            | ✔️ | 0.0.7 |
 | Light Crossbow +2: The Army Scythe | ✔️ | 0.0.7 |
-| Ankheg Plate + 1                   | ❌ | n/a |
+| Ankheg Plate + 1                   | ✔️ | n/a |
 | Buckley's Buckler +2               | ❌ | n/a |
 | Keil's Helmet +1                   | ❌ | n/a |
 | Keil's Buckler +1                  | ❌ | n/a |
@@ -187,6 +187,26 @@ Retains properties from +1 version, incremented to a +2 weapon.
 
 ##### Creation
 The upgrade will require the Light Crossbow +1: The Army Scythe; six fire agate gem; plus 8,000 gold.
+
+
+### Ankheg Plate +1
+Improve the armor to a +1 enchantment
+
+##### Statistics
+Pretty much the same as base, just one extra AC bonus
+
+##### Creation
+The upgrate will require one Angkheg plate, 2 diamonds, and 8,000 gold.
+
+
+### Kiel's Buckler +1
+Improve the buckler to a +1 enchantment
+
+##### Statistics
+Pretty much the same as base, just one extra AC bonus
+
+##### Creation
+The upgrate will require Kiel's Buckler, 4 moonbar gems, and 3,000 gold.
 
 
 
