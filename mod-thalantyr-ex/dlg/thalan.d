@@ -417,6 +417,27 @@ GiveItemCreate("BZXB06B",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
   END
+  IF ~~ THEN BEGIN bardez_thalantyr_kiel_buckler_1 // from: ThalantyrCraftingState
+    SAY @2004 /* Kiel's Buckler surprisingly lacks basic enchantments, which I can add [...] */
+    IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
+      GOTO %ThalantyrCraftingState%
+    IF 
+~PartyHasItem("SHLD20")
+NumItemsPartyGT("MISC40",3)
+PartyGoldGT(2999)~
+      THEN
+          REPLY @1403  /* ~Yes, please make it for me.~ */
+          DO
+~TakePartyGold(3000)
+DestroyGold(3000)
+TakePartyItemNum("MISC40",4)
+DestroyItem("MISC40")
+TakePartyItemNum("SHLD20",1)
+DestroyItem("SHLD20")
+GiveItemCreate("BZSH20A",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+  END
 END
 
 EXTEND_TOP ~THALAN~ 
@@ -470,6 +491,10 @@ EXTEND_TOP ~THALAN~
       THEN 
           REPLY @2000 /* ~I have this lightweight armor made of ankheg chitin [...]~ */
           GOTO bardez_thalantyr_ankheg_1
+    IF ~PartyHasItem("SHLD20")~
+      THEN 
+          REPLY @2003 /* ~I have Kiel's Buckler. Could you improve it?~ */
+          GOTO bardez_thalantyr_kiel_buckler_1
     IF ~PartyHasItem("BZRNG1")~
       THEN 
           REPLY @1200 /* ~I have this cursed ring given to me in Candlekeep. Can you remove the curse?~ */
