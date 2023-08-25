@@ -9,7 +9,7 @@ COPY_EXISTING ~PLAT06.ITM~ ~override/BZPM06A.ITM~ //Ankheg Plate Mail -> +1
         WRITE_ASCII_TERMINATE 0x3A "BZPM06AI"   // Icon
         WRITE_LONG 0x34 16500                   // Price
         WRITE_LONG 0x42 70                      // Lore to Identify
-        LPF ~ALTER_ITEM_EQEFFECT~
+        LPF ~ALTER_ITEM_EFFECT~
             INT_VAR
                 header = 1
                 check_globals = 1
@@ -27,21 +27,21 @@ COPY_EXISTING ~SHLD20.ITM~ ~override/BZSH20A.ITM~ //Kiel's Buckler -> +1
         WRITE_ASCII_TERMINATE 0x3A "BZSH20AI"   // Icon
         WRITE_LONG 0x34 4500                    // Price
         WRITE_LONG 0x42 90                      // Lore to Identify
-        LPF ~ALTER_ITEM_EQEFFECT~
+        LPF ~ALTER_ITEM_EFFECT~
             INT_VAR
                 header = 1
                 check_globals = 1
                 match_opcode = 0                // AC bonus
                 parameter1 = 2                  // AC bonus of 2
         END
-        LPF ~ALTER_ITEM_EQEFFECT~
+        LPF ~ALTER_ITEM_EFFECT~
             INT_VAR
                 header = 2
                 check_globals = 1
                 match_opcode = 0                // AC bonus
                 parameter1 = "-2"               // AC bonus of -2
         END
-        LPF ~ALTER_ITEM_EQEFFECT~
+        LPF ~ALTER_ITEM_EFFECT~
             INT_VAR
                 header = 3
                 check_globals = 1
@@ -58,21 +58,21 @@ COPY_EXISTING ~SHLD33.ITM~ ~override/BZSH33A.ITM~ //Buckley's Buckler -> +1
         WRITE_ASCII_TERMINATE 0x3A "BZSH20AI"   // Icon
         WRITE_LONG 0x34 2800                    // Price
         WRITE_LONG 0x42 70                      // Lore to Identify
-        LPF ~ALTER_ITEM_EQEFFECT~
+        LPF ~ALTER_ITEM_EFFECT~
             INT_VAR
                 header = 1
                 check_globals = 1
                 match_opcode = 0                // AC bonus
                 parameter1 = 2                  // AC bonus of 2
         END
-        LPF ~ALTER_ITEM_EQEFFECT~
+        LPF ~ALTER_ITEM_EFFECT~
             INT_VAR
                 header = 2
                 check_globals = 1
                 match_opcode = 0                // AC bonus
                 parameter1 = "-2"               // AC bonus of -2
         END
-        LPF ~ALTER_ITEM_EQEFFECT~
+        LPF ~ALTER_ITEM_EFFECT~
             INT_VAR
                 header = 3
                 check_globals = 1
