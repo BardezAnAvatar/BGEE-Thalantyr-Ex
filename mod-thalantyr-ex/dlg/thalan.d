@@ -546,7 +546,7 @@ EXTEND_TOP ~THALAN~
           GOTO bardez_thalantyr_buckley_buckler_1
     IF ~PartyHasItem("HELM14")~
       THEN 
-          REPLY @2003 /* ~I have this helmet worn by Kiel [...]~ */
+          REPLY @2007 /* ~I have this helmet worn by Kiel [...]~ */
           GOTO bardez_thalantyr_kiel_helm_1
     IF ~PartyHasItem("BZRNG1")~
       THEN 
