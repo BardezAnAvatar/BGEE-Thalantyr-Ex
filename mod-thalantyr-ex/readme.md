@@ -219,6 +219,16 @@ Pretty much the same as base, just one extra AC bonus
 The upgrate will require Kiel's Helmet, Kiel's Helmet; two scrolls of Armor; two skydrop gems; and 4,000 gold
 
 
+### Buckley's Buckler +1
+Improve the buckler to a +1 enchantment
+
+##### Statistics
+Pretty much the same as base, just one extra AC bonus
+
+##### Creation
+The upgrate will require Buckley's Buckler; 6 jasper gems; and 2,000 gold.
+
+
 
 ## Future Plans
 
