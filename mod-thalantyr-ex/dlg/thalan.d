@@ -413,7 +413,7 @@ TakePartyItemNum("MISC42",2)
 DestroyItem("MISC42")
 TakePartyItemNum("PLAT06",1)
 DestroyItem("PLAT06")
-GiveItemCreate("BZXB06B",Player1,1,1,1)
+GiveItemCreate("BZPM06A",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
   END
