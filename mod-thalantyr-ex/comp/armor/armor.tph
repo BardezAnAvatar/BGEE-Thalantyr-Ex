@@ -16,3 +16,36 @@ COPY_EXISTING ~PLAT06.ITM~ ~override/BZPM06A.ITM~ //Ankheg Plate Mail -> +1
                 match_opcode = 0                // AC bonus
                 parameter1 = 0                  // AC Set to 0
         END
+
+//Kiel's Buckler +1
+COPY ~%MOD_FOLDER%/comp/armor/BZSH20AI.BAM~ ~override/BZSH20AI.BAM~  // Kiel's Buckler +1 Inventory BAM
+
+COPY_EXISTING ~SHLD20.ITM~ ~override/BZSH20A.ITM~ //Kiel's Buckler -> +1
+    //Patches
+        SAY NAME2 @702
+        SAY IDENTIFIED_DESC @703
+        WRITE_LONG 0x18 0b01101100              // flags: 2-3, 5-6 (6 is newly set)
+        WRITE_ASCII_TERMINATE 0x3A "BZSH20AI"   // Icon
+        WRITE_LONG 0x34 4500                    // Price
+        WRITE_LONG 0x42 90                      // Lore to Identify
+        LPF ~ALTER_ITEM_EQEFFECT~
+            INT_VAR
+                header = 1
+                check_globals = 1
+                match_opcode = 0                // AC bonus
+                parameter1 = 2                  // AC bonus of 2
+        END
+        LPF ~ALTER_ITEM_EQEFFECT~
+            INT_VAR
+                header = 2
+                check_globals = 1
+                match_opcode = 0                // AC bonus
+                parameter1 = "-2"               // AC bonus of -2
+        END
+        LPF ~ALTER_ITEM_EQEFFECT~
+            INT_VAR
+                header = 3
+                check_globals = 1
+                match_opcode = 0                // AC bonus
+                parameter1 = "-2"               // AC bonus of -2
+        END
