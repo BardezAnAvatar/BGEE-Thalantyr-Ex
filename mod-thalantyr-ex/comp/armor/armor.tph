@@ -55,7 +55,7 @@ COPY_EXISTING ~SHLD33.ITM~ ~override/BZSH33A.ITM~ //Buckley's Buckler -> +1
     //Patches
         SAY NAME2 @704
         SAY IDENTIFIED_DESC @705
-        WRITE_ASCII_TERMINATE 0x3A "BZSH20AI"   // Icon
+        WRITE_ASCII_TERMINATE 0x3A "BZSH33AI"   // Icon
         WRITE_LONG 0x34 2800                    // Price
         WRITE_LONG 0x42 70                      // Lore to Identify
         LPF ~ALTER_ITEM_EFFECT~
