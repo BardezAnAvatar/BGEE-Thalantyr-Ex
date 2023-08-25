@@ -19,3 +19,4 @@
 | Light Crossbow +2: The Army Scythe | BZXB06B |
 | Ankheg Plate Mail +1               | BZPM06A |
 | Kiel's Buckler +1                  | BZSH20A |
+| Buckley's Buckler +1               | BZSH33A |
