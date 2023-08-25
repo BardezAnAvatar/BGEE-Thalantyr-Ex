@@ -28,6 +28,7 @@ LANGUAGE
         ~./mod-thalantyr-ex/tra/en_US/protection.tra~
         ~./mod-thalantyr-ex/tra/en_US/axes.tra~
         ~./mod-thalantyr-ex/tra/en_US/remainder.tra~
+        ~./mod-thalantyr-ex/tra/en_US/armor.tra~
         ~./mod-thalantyr-ex/tra/en_US/thalan.tra~
 
 
@@ -52,7 +53,8 @@ INCLUDE ~%MOD_FOLDER%/comp/varscona3/varscona3.tph~  // Varscona +3
 INCLUDE ~%MOD_FOLDER%/comp/koveras/koveras.tph~  // Koveras' Ring of Protection versions
 INCLUDE ~%MOD_FOLDER%/comp/protection/protection.tph~  // Protection amulet, etc.
 INCLUDE ~%MOD_FOLDER%/comp/axes/axes.tph~  // axes
-INCLUDE ~%MOD_FOLDER%/comp/remainder/remainder.tph~  // axes
+INCLUDE ~%MOD_FOLDER%/comp/remainder/remainder.tph~  // remainder
+INCLUDE ~%MOD_FOLDER%/comp/armor/armor.tph~  // armor
 
 //Update Thalantyr's dialog
 COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dlg/THALAN.d~
