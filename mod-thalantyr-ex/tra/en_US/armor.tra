@@ -12,3 +12,21 @@ Requires:
  8 Strength
 
 Weight: 25~
+
+//Kiel's Buckler
+@702 = ~Kiel's Buckler +1~
+@703 = ~Kiel's Buckler +1
+
+This is the buckler of Kiel the Legion Killer, firstborn son of Durlag Trollkiller and Clan-prince of his father's ill-fated tower. Its light weight and excellent craftsmanship increase the Dexterity of all who bear it by a single point.
+
+STATISTICS:
+
+Equipped abilities:
+– Dexterity: +1
+– Armor Class: +2
+– No protection against missile and piercing attacks
+
+Requires:
+ 4 Strength
+
+Weight: 2~
