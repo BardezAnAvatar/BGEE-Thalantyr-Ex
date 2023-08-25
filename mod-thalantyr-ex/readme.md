@@ -25,10 +25,10 @@ I am using the `BZ` prefix for my items, as I have not seen it used or reference
 | Hammer +2: The Hammer of Dawn      | ✔️ | 0.0.7 |
 | Long Sword +2: Harrower            | ✔️ | 0.0.7 |
 | Light Crossbow +2: The Army Scythe | ✔️ | 0.0.7 |
-| Ankheg Plate + 1                   | ✔️ | n/a |
-| Buckley's Buckler +2               | ✔️ | n/a |
-| Kiel's Helmet +1                   | ✔️ | n/a |
-| Kiel's Buckler +1                  | ✔️ | n/a |
+| Ankheg Plate + 1                   | ✔️ | 0.0.8 |
+| Buckley's Buckler +2               | ✔️ | 0.0.8 |
+| Kiel's Helmet +1                   | ✔️ | 0.0.8 |
+| Kiel's Buckler +1                  | ✔️ | 0.0.8 |
 | Werebane +2                        | ❌ | n/a |
 | Algernon's Cloak +2                | ❌ | n/a |
 | Refactor items into submodule      | ❌ | n/a |
