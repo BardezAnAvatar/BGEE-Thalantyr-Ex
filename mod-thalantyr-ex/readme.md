@@ -209,6 +209,16 @@ Pretty much the same as base, just one extra AC bonus
 The upgrate will require Kiel's Buckler, 4 moonbar gems, and 3,000 gold.
 
 
+### Kiel's Helmet +1
+Improve the helmet to a +1 enchantment for AC
+
+##### Statistics
+Pretty much the same as base, just one extra AC bonus
+
+##### Creation
+The upgrate will require Kiel's Helmet, Kiel's Helmet; two scrolls of Armor; two skydrop gems; and 4,000 gold
+
+
 
 ## Future Plans
 
