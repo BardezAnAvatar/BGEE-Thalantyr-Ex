@@ -438,6 +438,27 @@ GiveItemCreate("BZSH20A",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
   END
+  IF ~~ THEN BEGIN bardez_thalantyr_buckley_buckler_1 // from: ThalantyrCraftingState
+    SAY @2006 /* While crude, this buckler can be enchanted with basic protection runes [...] */
+    IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
+      GOTO %ThalantyrCraftingState%
+    IF 
+~PartyHasItem("SHLD33")
+NumItemsPartyGT("MISC23",5)
+PartyGoldGT(1999)~
+      THEN
+          REPLY @1403  /* ~Yes, please make it for me.~ */
+          DO
+~TakePartyGold(2000)
+DestroyGold(2000)
+TakePartyItemNum("MISC23",6)
+DestroyItem("MISC23")
+TakePartyItemNum("SHLD33",1)
+DestroyItem("SHLD33")
+GiveItemCreate("BZSH33A",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+  END
 END
 
 EXTEND_TOP ~THALAN~ 
@@ -495,6 +516,10 @@ EXTEND_TOP ~THALAN~
       THEN 
           REPLY @2003 /* ~I have Kiel's Buckler. Could you improve it?~ */
           GOTO bardez_thalantyr_kiel_buckler_1
+    IF ~PartyHasItem("SHLD33")~
+      THEN 
+          REPLY @2005 /* ~I have this hide buckler, which has an existing enchantment of vigor. [...]~ */
+          GOTO bardez_thalantyr_buckley_buckler_1
     IF ~PartyHasItem("BZRNG1")~
       THEN 
           REPLY @1200 /* ~I have this cursed ring given to me in Candlekeep. Can you remove the curse?~ */
