@@ -20,3 +20,4 @@
 | Ankheg Plate Mail +1               | BZPM06A |
 | Kiel's Buckler +1                  | BZSH20A |
 | Buckley's Buckler +1               | BZSH33A |
+| Kiel's Helmet +1                   | BZHL14A |
