@@ -27,7 +27,7 @@ I am using the `BZ` prefix for my items, as I have not seen it used or reference
 | Light Crossbow +2: The Army Scythe | ✔️ | 0.0.7 |
 | Ankheg Plate + 1                   | ✔️ | n/a |
 | Buckley's Buckler +2               | ✔️ | n/a |
-| Kiel's Helmet +1                   | ❌ | n/a |
+| Kiel's Helmet +1                   | ✔️ | n/a |
 | Kiel's Buckler +1                  | ✔️ | n/a |
 | Werebane +2                        | ❌ | n/a |
 | Algernon's Cloak +2                | ❌ | n/a |
