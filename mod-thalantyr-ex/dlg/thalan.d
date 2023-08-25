@@ -459,6 +459,30 @@ GiveItemCreate("BZSH33A",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
   END
+  IF ~~ THEN BEGIN bardez_thalantyr_kiel_helm_1 // from: ThalantyrCraftingState
+    SAY @2008 /* I could enchant Kiel's Helmet with armoring improvements [...] */
+    IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
+      GOTO %ThalantyrCraftingState%
+    IF 
+~PartyHasItem("HELM14")
+NumItemsPartyGT("MISC21",1)
+NumItemsPartyGT("SCRL67",1)
+PartyGoldGT(3999)~
+      THEN
+          REPLY @1403  /* ~Yes, please make it for me.~ */
+          DO
+~TakePartyGold(4000)
+DestroyGold(4000)
+TakePartyItemNum("MISC21",2)
+DestroyItem("MISC21")
+TakePartyItemNum("SCRL67",2)
+DestroyItem("SCRL67")
+TakePartyItemNum("HELM14",1)
+DestroyItem("HELM14")
+GiveItemCreate("BZHL14A",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+  END
 END
 
 EXTEND_TOP ~THALAN~ 
@@ -520,6 +544,10 @@ EXTEND_TOP ~THALAN~
       THEN 
           REPLY @2005 /* ~I have this hide buckler, which has an existing enchantment of vigor. [...]~ */
           GOTO bardez_thalantyr_buckley_buckler_1
+    IF ~PartyHasItem("HELM14")~
+      THEN 
+          REPLY @2003 /* ~I have this helmet worn by Kiel [...]~ */
+          GOTO bardez_thalantyr_kiel_helm_1
     IF ~PartyHasItem("BZRNG1")~
       THEN 
           REPLY @1200 /* ~I have this cursed ring given to me in Candlekeep. Can you remove the curse?~ */
