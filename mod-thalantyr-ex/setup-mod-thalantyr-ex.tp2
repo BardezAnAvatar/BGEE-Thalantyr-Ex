@@ -30,12 +30,6 @@ LANGUAGE
         ~./mod-thalantyr-ex/tra/en_US/remainder.tra~
         ~./mod-thalantyr-ex/tra/en_US/armor.tra~
         ~./mod-thalantyr-ex/tra/en_US/thalan.tra~
-    
-/*************
-*   Macros   *
-*************/
-INCLUDE ~%MOD_FOLDER%/lib/macros.tph~
-
 
 
 /**********************************
@@ -54,6 +48,7 @@ OUTER_SET ThalantyrCraftingState = STATE_WHICH_SAYS @9001 FROM ~THALAN~
 PRINT @3 //found state
 
 //copy over items
+INCLUDE ~%MOD_FOLDER%/lib/macros.tph~
 INCLUDE ~%MOD_FOLDER%/comp/shandalar-cloak/shandalar-cloak.tph~  // Shandalar's Cloak
 INCLUDE ~%MOD_FOLDER%/comp/varscona3/varscona3.tph~  // Varscona +3
 INCLUDE ~%MOD_FOLDER%/comp/koveras/koveras.tph~  // Koveras' Ring of Protection versions
