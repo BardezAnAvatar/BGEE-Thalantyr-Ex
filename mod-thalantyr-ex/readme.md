@@ -229,6 +229,16 @@ Pretty much the same as base, just one extra AC bonus
 The upgrate will require Buckley's Buckler; 6 jasper gems; and 2,000 gold.
 
 
+### Werebane +2
+Improve the dagger to something useful longer-term
+
+##### Statistics
+Improve the dagger to a +2 enchantment; make throwing/returning
+
+##### Creation
+The upgrate will require Werebane; 2 gold necklaces; ; and 2,000 gold.
+
+
 
 ## Future Plans
 
