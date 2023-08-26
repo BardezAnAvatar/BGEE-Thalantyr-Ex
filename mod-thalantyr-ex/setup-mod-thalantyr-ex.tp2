@@ -30,6 +30,12 @@ LANGUAGE
         ~./mod-thalantyr-ex/tra/en_US/remainder.tra~
         ~./mod-thalantyr-ex/tra/en_US/armor.tra~
         ~./mod-thalantyr-ex/tra/en_US/thalan.tra~
+    
+/*************
+*   Macros   *
+*************/
+INCLUDE ~%MOD_FOLDER%/lib/macros.tph~
+
 
 
 /**********************************
