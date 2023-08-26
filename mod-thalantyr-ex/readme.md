@@ -236,7 +236,7 @@ Improve the dagger to something useful longer-term
 Improve the dagger to a +2 enchantment; make throwing/returning
 
 ##### Creation
-The upgrate will require Werebane; 2 gold necklaces; 2 oils of speed; and 4,000 gold.
+The upgrate will require Werebane; 2 gold necklaces; 2 oils of speed; and 5,000 gold.
 
 
 
