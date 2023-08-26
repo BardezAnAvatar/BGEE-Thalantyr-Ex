@@ -99,9 +99,9 @@ COPY_EXISTING ~XBOW06.ITM~ ~override/BZXB06B.ITM~   //Crossbow of speed +1 -> +2
 COPY ~%MOD_FOLDER%/comp/remainder/BZDG09BI.BAM~ ~override/BZDG09BI.BAM~
 COPY_EXISTING ~DAGG05.ITM~ ~override/BZDG09B.ITM~   //Werebane +1 -> +2
     //Patches
-        SAY NAME @608
+        SAY NAME1 @608
         SAY NAME2 @609
-        SAY DESC @610
+        SAY UNIDENTIFIED_DESC @610
         SAY IDENTIFIED_DESC @611
         WRITE_LONG 0x18 0b01101100              // flags: 2-3, 5-6 (6 is newly set)
         WRITE_LONG 0x34 6000                    // Price
