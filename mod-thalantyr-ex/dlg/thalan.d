@@ -504,7 +504,7 @@ TakePartyItemNum("POTN14",2)
 DestroyItem("POTN14")
 TakePartyItemNum("DAGG09",1)
 DestroyItem("DAGG09")
-GiveItemCreate("BZHL14A",Player1,1,1,1)
+GiveItemCreate("BZDG09B",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
   END
