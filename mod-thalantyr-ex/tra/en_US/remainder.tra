@@ -84,8 +84,9 @@ Requires:
 Weight: 5~
 
 //Dagger(s)
-@608 = ~Dagger +2: Werebane~
-@609 = ~This plain silver and gold dagger has a pointed, double-edged blade.
+@608 = ~Ornate Silver/Gold Dagger~
+@609 = ~Dagger +2: Werebane~
+@610 = ~This plain silver and gold dagger has a pointed, double-edged blade.
 
 STATISTICS:
 
@@ -97,7 +98,7 @@ Requires:
  3 Strength
 
 Weight: 1~
-@610 = ~Dagger +2: Werebane
+@611 = ~Dagger +2: Werebane
 
 Dynala Goldenhand, an elven Ranger who wished to rid her homeland of its werejackal problem, forged the dagger. She was killed by a tribe of orcs in the Graypeak Mountains as she tracked the werejackal leader.
 
