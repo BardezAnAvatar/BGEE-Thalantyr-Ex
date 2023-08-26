@@ -152,6 +152,7 @@ COPY_EXISTING ~DAGG05.ITM~ ~override/BZDG09B.ITM~   //Werebane +1 -> +2
                 insert_point = ~-1~
             STR_VAR
                 icon = ~BZDG09BI~
+        END
         LPF ~ADD_ITEM_EQEFFECT~         // thac0 vs Lycanthropes
             INT_VAR
                 opcode = 177            // Type: Use EFF File
