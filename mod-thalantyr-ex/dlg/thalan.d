@@ -483,6 +483,31 @@ GiveItemCreate("BZHL14A",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
   END
+  IF ~~ THEN BEGIN bardez_thalantyr_werebane_2 // from: ThalantyrCraftingState
+    SAY @2101 /* This dagger's enchantment... it almost seems like one from Dradeel [...] */
+    = @2102 /* Academia aside, I can improve this lycanthrope-hunting dagger for you [...] */
+    IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
+      GOTO %ThalantyrCraftingState%
+    IF 
+~PartyHasItem("DAGG09")
+NumItemsPartyGT("AMUL10",1)
+NumItemsPartyGT("POTN14",1)
+PartyGoldGT(4999)~
+      THEN
+          REPLY @1403  /* ~Yes, please make it for me.~ */
+          DO
+~TakePartyGold(4000)
+DestroyGold(4000)
+TakePartyItemNum("AMUL10",2)
+DestroyItem("AMUL10")
+TakePartyItemNum("POTN14",2)
+DestroyItem("POTN14")
+TakePartyItemNum("DAGG09",1)
+DestroyItem("DAGG09")
+GiveItemCreate("BZHL14A",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+  END
 END
 
 EXTEND_TOP ~THALAN~ 
@@ -528,6 +553,10 @@ EXTEND_TOP ~THALAN~
       THEN 
           REPLY @1700 /* ~I have this longsword effective against undead [...]~ */
           GOTO bardez_thalantyr_harrower_2
+    IF ~PartyHasItem("DAGG09")~
+      THEN 
+          REPLY @2100 /* ~I have this dagger for fighting lycanthropes; can you enhance it?~ */
+          GOTO bardez_thalantyr_werebane_2
     IF ~PartyHasItem("XBOW06")~
       THEN 
           REPLY @1800 /* ~I have this light crossbow, faster at slinging bolts than most [...]~ */
