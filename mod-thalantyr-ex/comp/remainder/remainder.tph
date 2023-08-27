@@ -105,6 +105,7 @@ COPY_EXISTING ~DAGG05.ITM~ ~override/BZDG09B.ITM~   //Werebane +1 -> +2
         SAY IDENTIFIED_DESC @611
         WRITE_LONG 0x18 0b01101100              // flags: 2-3, 5-6 (6 is newly set)
         WRITE_LONG 0x34 6000                    // Price
+        WRITE_LONG 0x38 1                       // Stack Size
         WRITE_ASCII_TERMINATE 0x3A "BZDG09BI"   // Icon: Inventory
         WRITE_LONG 0x42 80                      // Lore to Identify
         WRITE_ASCII_TERMINATE 0x58 "CDAGG04"    // Icon: Description
