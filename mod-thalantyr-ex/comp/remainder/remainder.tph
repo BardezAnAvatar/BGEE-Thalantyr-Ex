@@ -195,19 +195,40 @@ COPY_EXISTING ~DAGG05.ITM~ ~override/BZDG09B.ITM~   //Werebane +1 -> +2
             STR_VAR
                 resource = ~~           // unused
         END
-        LPF ~ALTER_ITEM_EFFECT~
+        //I cannot update based on parameters, so delete these
+        LPF ~DELETE_EFFECT~
             INT_VAR
-                match_opcode  = 7       // Match Set color
-                check_globals = 1
-                parameter1 = 248        // Color: Ogre Major - Battleship Gray
-                header = 2              // third header
+                check_globals  = 1
+                match_opcode = 7        // Match Set color
+                match_parameter1 = 27
+        END
+        LPF ~DELETE_EFFECT~
+            INT_VAR
+                check_globals  = 1
+                match_opcode = 7        // Match Set color
+                match_parameter1 = 239
         END
         LPF ~ALTER_ITEM_EFFECT~
             INT_VAR
-                match_opcode  = 7       // Match Set color
+                match_opcode = 7        // Match Set color
                 check_globals = 1
+                parameter1 = 248        // Color: Ogre Major - Battleship Gray
+                parameter2 = 20         // Part: Grip/staff minor
+        END
+        LPF ~CLONE_EFFECT~
+            INT_VAR
+                check_globals = 1
+                match_opcode = 7        // Match Set color
                 parameter1 = 81         // Color: Faded gold
-                header = 3              // third header
+                parameter2 = 16         // Part: Head/blade/staff major
+        END
+        LPF ~CLONE_EFFECT~
+            INT_VAR
+                check_globals = 1
+                match_opcode = 7        // Match Set color
+                match_parameter1 = 248  // barely needed; limit to one clone
+                parameter1 = 27         // Color: Gray
+                parameter2 = 21         // Part: Head/blade minor
         END
         LPF ~ADD_ITEM_EFFECT~           // Damage vs Lycanthropes
             INT_VAR
