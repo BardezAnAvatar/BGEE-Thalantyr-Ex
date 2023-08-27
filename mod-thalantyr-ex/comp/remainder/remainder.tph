@@ -114,6 +114,7 @@ COPY_EXISTING ~DAGG05.ITM~ ~override/BZDG09B.ITM~   //Werebane +1 -> +2
                 header = 1
                 thac0_bonus = 2
                 damage_bonus = 2
+                charges  = 0            // make returning
             STR_VAR
                 icon = ~BZDG09BI~       // icon to display for ranged
         END
