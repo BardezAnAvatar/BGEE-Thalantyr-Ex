@@ -195,6 +195,14 @@ COPY_EXISTING ~DAGG05.ITM~ ~override/BZDG09B.ITM~   //Werebane +1 -> +2
             STR_VAR
                 resource = ~~           // unused
         END
+        //attack per round
+        LPF ~ALTER_ITEM_EFFECT~
+            INT_VAR
+                match_opcode = 1        // Modify attacks per round
+                check_globals = 1
+                parameter1 = 1          // number of attacks
+                parameter2 = 0          // Increment attacks per round
+        END
         //I cannot update based on parameters, so delete these
         LPF ~DELETE_EFFECT~
             INT_VAR
