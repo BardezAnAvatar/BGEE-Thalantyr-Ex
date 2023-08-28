@@ -9,3 +9,29 @@ Equipped abilities:
 – Saving Throws: +2
 
 Weight: 1~
+
+//Algernon's Cloak +2
+@402 = ~Algernon's Cloak +2~
+@403 = ~This cloak is imbued with magical properties such that the wearer will seem to shine with an inner glow.
+
+This cloak has been enhanced to further protect the wearer and embolden their charm.
+
+STATISTICS:
+
+Equipped abilities:
+– Charisma: +2
+– Armor Class: +2
+– Saving Throws: +2
+
+Charge abilities:
+– Charm Creature 2x/day
+  Range: 40 ft.
+  Duration: 12 hours
+  Area of Effect: 1 creature
+  Saving Throw: Save vs. Breath at -2 negates
+– Friends 2x/day
+  Caster level: 1st
+  Duration: 1d4 rounds + 1 round/level
+  Area of Effect: self
+
+Weight: 3~
