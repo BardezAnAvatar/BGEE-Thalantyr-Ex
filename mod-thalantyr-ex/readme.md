@@ -30,7 +30,7 @@ I am using the `BZ` prefix for my items, as I have not seen it used or reference
 | Kiel's Helmet +1                   | ✔️ | 0.0.8 |
 | Kiel's Buckler +1                  | ✔️ | 0.0.8 |
 | Werebane +2                        | ✔️ | 0.0.9 |
-| Algernon's Cloak +2                | ❌ | n/a |
+| Algernon's Cloak +2                | ✔️ | 0.0.10 |
 | Re-organize items' TPH files       | ❌ | n/a |
 | Verify BG2 readiness for TPH       | ❌ | n/a |
 | Refactor items into submodule      | ❌ | n/a |
