@@ -47,6 +47,8 @@ COPY_EXISTING ~AMUL14.ITM~ ~override/BZAML1B.ITM~ //Amulet of Protection +2
 
 //Algernon's Cloak +2
 COPY ~%MOD_FOLDER%/comp/protection/BZCLK8BI.BAM~ ~override/BZCLK8BI.BAM~
+COPY ~%MOD_FOLDER%/comp/protection/BZCL8B_C.BAM~ ~override/BZCL8B_C.BAM~
+COPY ~%MOD_FOLDER%/comp/protection/BZCL8B_F.BAM~ ~override/BZCL8B_F.BAM~
 COPY_EXISTING ~CLCK08.ITM~ ~override/BZCLK8B.ITM~
     //Patches
         SAY NAME2 @402
@@ -59,7 +61,7 @@ COPY_EXISTING ~CLCK08.ITM~ ~override/BZCLK8B.ITM~
                 header = 1
                 charges = 2
             STR_VAR
-                icon = ~BZCLK8BI~       // icon to display for ranged
+                icon = ~BZCL8B_C~       // icon to display for ranged
         END
         LPF ~ALTER_ITEM_EFFECT~
             INT_VAR
@@ -101,7 +103,7 @@ COPY_EXISTING ~CLCK08.ITM~ ~override/BZCLK8B.ITM~
                 copy_header = 0
                 insert_point = ~-1~
             STR_VAR
-                icon = ~BZCLK8BI~
+                icon = ~BZCL8B_F~
         END
         LPF ~ADD_ITEM_EFFECT~           // Visuals
             INT_VAR
