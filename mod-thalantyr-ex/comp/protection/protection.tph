@@ -44,3 +44,253 @@ COPY_EXISTING ~AMUL14.ITM~ ~override/BZAML1B.ITM~ //Amulet of Protection +2
                 match_opcode = 37               // Save: Spell
                 parameter1 = 2
         END
+
+//Algernon's Cloak +2
+COPY ~%MOD_FOLDER%/comp/protection/BZCLK8BI.BAM~ ~override/BZCLK8BI.BAM~
+COPY_EXISTING ~CLCK08.ITM~ ~override/BZCLK8B.ITM~
+    //Patches
+        SAY NAME2 @402
+        SAY IDENTIFIED_DESC @403
+        WRITE_LONG 0x34 14000                   // Price
+        WRITE_ASCII_TERMINATE 0x3A "BZCLK8BI"   // Icon
+        WRITE_LONG 0x42 90                      // Lore to Identify
+        LPF ~ALTER_ITEM_HEADER~
+            INT_VAR
+                header = 1
+                charges = 2
+            STR_VAR
+                icon = ~BZCLK8BI~       // icon to display for ranged
+        END
+        LPF ~ALTER_ITEM_EFFECT~
+            INT_VAR
+                check_headers = 1
+                match_opcode = 5        // Charm
+                savebonus = "-2"
+        END
+        LPF ~ADD_ITEM_HEADER~       // Add item header
+            INT_VAR
+                type = 3                // Magical
+                required_id = 1         // Require ID to use?
+                location = 3            // Item/equpiment
+                alt_dicesize = 0
+                target = 5              // Caster
+                target_count = 0
+                range = 1               // range 1 ft.
+                projectile_type = 0
+                alt_dicenumber = 0
+                speed = 0
+                alt_damage = 0
+                thaco = 0
+                dicesize = 0
+                school = 0
+                dicenumber = 0
+                sectype = 0
+                damage = 20
+                damage_type = 1         // Piercing damage
+                charges = 2
+                depletion = 3           // recharges
+                flags = 0x00080000      // recharges after resting
+                projectile = 1          // None
+                //Animation %s
+                overhand = 0
+                backhand = 20
+                thrust = 80
+                is_bow = 0
+                is_xbow = 0
+                is_sling = 0
+                copy_header = 0
+                insert_point = ~-1~
+            STR_VAR
+                icon = ~BZCLK8BI~
+        END
+        LPF ~ADD_ITEM_EFFECT~           // Visuals
+            INT_VAR
+                header = 2
+                opcode = 141            // Type: Lighting Effects
+                target = 1              // self
+                power = 0
+                parameter1 = 0          // spell target
+                parameter2 = 0          // effect: 
+                timing = 1              // Timing Mode: Instant/Permanent until death
+                resist_dispel = 1       // Dispel/Bypass
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0             // enchantment
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused
+        END
+        LPF ~ADD_ITEM_EFFECT~           // Friends
+            INT_VAR
+                header = 2
+                opcode = 146            // Type: Cast Spell
+                target = 1              // self
+                power = 0
+                parameter1 = 1          // caster level
+                parameter2 = 1          // cast insantly
+                timing = 1              // Timing Mode: Instant/Permanent until death
+                resist_dispel = 0       // Natural/nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0             // enchantment
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~SPWI107~    // spell file resource
+        END
+        LPF ~ADD_ITEM_EQEFFECT~         // AC Bonus
+            INT_VAR
+                opcode = 0              // Type: AC Bonus
+                target = 1              // self
+                power = 0
+                parameter1 = 2          // bonus amount
+                parameter2 = 0          // flat bonus, all types
+                timing = 2              // Timing Mode: Instant/While equipped
+                resist_dispel = 0       // Natural/nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0             // enchantment
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused
+        END
+        LPF ~ADD_ITEM_EQEFFECT~         // AC Bonus
+            INT_VAR
+                opcode = 0              // Type: AC Bonus
+                target = 1              // self
+                power = 0
+                parameter1 = 1          // bonus amount
+                parameter2 = 0          // flat bonus, all types
+                timing = 2              // Timing Mode: Instant/While equipped
+                resist_dispel = 0       // Natural/nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0             // enchantment
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused
+        END
+        LPF ~ADD_ITEM_EQEFFECT~         // AC Bonus
+            INT_VAR
+                opcode = 33             // Type: Save vs. Death Bonus
+                target = 1              // self
+                power = 0
+                parameter1 = 1          // bonus amount
+                parameter2 = 0          // flat bonus, all types
+                timing = 2              // Timing Mode: Instant/While equipped
+                resist_dispel = 0       // Natural/nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0             // enchantment
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused
+        END
+        LPF ~ADD_ITEM_EQEFFECT~         // AC Bonus
+            INT_VAR
+                opcode = 34             // Type: Save vs. Wand Bonus
+                target = 1              // self
+                power = 0
+                parameter1 = 1          // bonus amount
+                parameter2 = 0          // flat bonus, all types
+                timing = 2              // Timing Mode: Instant/While equipped
+                resist_dispel = 0       // Natural/nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0             // enchantment
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused
+        END
+        LPF ~ADD_ITEM_EQEFFECT~         // AC Bonus
+            INT_VAR
+                opcode = 35             // Type: Save vs. Polymorph Bonus
+                target = 1              // self
+                power = 0
+                parameter1 = 1          // bonus amount
+                parameter2 = 0          // flat bonus, all types
+                timing = 2              // Timing Mode: Instant/While equipped
+                resist_dispel = 0       // Natural/nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0             // enchantment
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused
+        END
+        LPF ~ADD_ITEM_EQEFFECT~         // AC Bonus
+            INT_VAR
+                opcode = 36             // Type: Save vs. Breath Bonus
+                target = 1              // self
+                power = 0
+                parameter1 = 1          // bonus amount
+                parameter2 = 0          // flat bonus, all types
+                timing = 2              // Timing Mode: Instant/While equipped
+                resist_dispel = 0       // Natural/nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0             // enchantment
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused
+        END
+        LPF ~ADD_ITEM_EQEFFECT~         // AC Bonus
+            INT_VAR
+                opcode = 37             // Type: Save vs. Spell Bonus
+                target = 1              // self
+                power = 0
+                parameter1 = 1          // bonus amount
+                parameter2 = 0          // flat bonus, all types
+                timing = 2              // Timing Mode: Instant/While equipped
+                resist_dispel = 0       // Natural/nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0             // enchantment
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused
+        END
