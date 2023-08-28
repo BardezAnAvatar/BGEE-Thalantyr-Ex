@@ -36,6 +36,14 @@
 @1308 = ~\[1 cloak, 1 amulet\] Yes, please make it for me.~
 @1309 = ~\[1 cloak, 1 ring\] Yes, please make it for me.~
 
+//Algernon's Cloak +1
+@1310 = ~I have Algernon's Cloak. Can you make it any more useful?~
+@1311 = ~A nymph's charming cloak, "more useful"?~
+@1312 = ~Impertinence ignored, I could enhance it. I would need Algernon's Cloak; two scrolls of Friends; a cloak, ring, or amulet of protection +2; and 10,000 gold. Should I make this item for you?~
+@1313 = ~\[amulet of protection +2\] Yes, please make it for me.~
+@1313 = ~\[cloak of protection +2\] Yes, please make it for me.~
+@1315 = ~\[ring of protection +2\] Yes, please make it for me.~
+
 //axes
 @1400 = ~I have this dwarven axe, golden. Can you enhance it?~
 @1401 = ~Hrm. Dawrven axe, dispelling enchantment, looks like intended for defense in the Underdark.~
