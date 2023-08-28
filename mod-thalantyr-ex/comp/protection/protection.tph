@@ -91,12 +91,12 @@ COPY_EXISTING ~CLCK08.ITM~ ~override/BZCLK8B.ITM~
                 damage_type = 1         // Piercing damage
                 charges = 2
                 depletion = 3           // recharges
-                flags = 0x00080000      // recharges after resting
+                flags = BIT11           // recharges after resting
                 projectile = 1          // None
                 //Animation %s
-                overhand = 0
-                backhand = 20
-                thrust = 80
+                overhand = 34
+                backhand = 33
+                thrust = 33
                 is_bow = 0
                 is_xbow = 0
                 is_sling = 0
