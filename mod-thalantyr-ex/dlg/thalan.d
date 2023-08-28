@@ -7,20 +7,20 @@ APPEND ~THALAN~
       @1003 /* [...] I'll offer you this: [...]*/
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
-    IF @30000 //requirement recipe
+    IF ~%Shandalar_Cloak_Requirement%~ //requirement recipe
       THEN
           REPLY @1004 /* ~Yes, restore it for me.~ */
-          DO @30001 //action
+          DO ~%Shandalar_Cloak_Craft%~ //action
           EXIT
   END
   IF ~~ THEN BEGIN bardez_thalantyr_varscona3 // from: ThalantyrCraftingState
     SAY @1101 /* ~Ah, Varscona [...]~ */
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
-    IF @30010 //requirement
+    IF ~%Varscona_3_Recipe%~ //requirement
       THEN
           REPLY @1102 /* ~Yes, restore it for me.~ */
-          DO @30011 //action
+          DO ~%Varscona_3_Craft%~ //action
           EXIT
   END
   IF ~~ THEN BEGIN bardez_thalantyr_koveras_uncurse // from: ThalantyrCraftingState
@@ -28,10 +28,10 @@ APPEND ~THALAN~
     = @1202 /* Ah. This is a particularly nasty curse. Potent, too. [...] */
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
-    IF @30020 //requirements
+    IF ~%Koveras_Uncurse_Ring_Recipe%~ //requirements
       THEN
           REPLY @1203 /* ~Yes, please remove the curse for me.~ */
-          DO @30021 //action
+          DO ~%Koveras_Uncurse_Ring_Craft%~ //action
           EXIT
   END
   IF ~~ THEN BEGIN bardez_thalantyr_koveras_ring_2 // from: ThalantyrCraftingState
