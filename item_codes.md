@@ -7,7 +7,7 @@
 | Golden Axe +2                      | BZAX19B |
 | Golden Axe +3                      | BZAX19C |
 | Shandalar's Cloak +2               | BZCLK1B |
-| Algernon's Cloak +2                | BZCLK9B |
+| Algernon's Cloak +2                | BZCLK8B |
 | War Hammer +2: Hammer of Dawn      | BZHM13B |
 | Mace +2: Stupefier                 | BZMA41B |
 | Koveras' Cursed Ring               | BZRNG1! |
