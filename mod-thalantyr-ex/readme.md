@@ -1,5 +1,5 @@
 # Thalantyr Item Upgrade Mod Extensions
-Version: 0.0.10
+Version: 0.1.0
 Author: [Bardez](https://github.com/BardezAnAvatar)
 Bugs reports to [repository's GitHub Issues](https://github.com/BardezAnAvatar/BGEE-Thalantyr-Ex/issues)
 
@@ -39,7 +39,7 @@ I am using the `BZ` prefix for my items, as I have not seen it used or reference
 
 ## Items
 ### Shandalar's Cloak
-I wanted to use the lore from Shandalar and source books, and I thought that inthe off chance that a PC manages to defeat Shandalar, it would be a fun reward to give the player a cloak that they can use that looks and behaves kind of like Shandalar. For References to Shandalar, see: [Shandalar on the Forgottem Realms wiki](https://forgottenrealms.fandom.com/wiki/Shandalar). Note: Shandalar has two publications according to the wiki: Baldur's Gate and [Volo's Guide to the Sword Coast](https://forgottenrealms.fandom.com/wiki/Volo%27s_Guide_to_the_Sword_Coast).
+I wanted to use the lore from Shandalar and source books, and I thought that in the off chance that a PC manages to defeat Shandalar, it would be a fun reward to give the player a cloak that they can use that looks and behaves kind of like Shandalar. For References to Shandalar, see: [Shandalar on the Forgottem Realms wiki](https://forgottenrealms.fandom.com/wiki/Shandalar). Note: Shandalar has two publications according to the wiki: Baldur's Gate and [Volo's Guide to the Sword Coast](https://forgottenrealms.fandom.com/wiki/Volo%27s_Guide_to_the_Sword_Coast).
 
 ##### Statistics
 Cloak is a +2 protection cloak (+2 AC, +2 saving throws) which also grants 50% electrical resistance and 25% fire resistance.
