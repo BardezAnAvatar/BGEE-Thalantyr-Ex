@@ -19,6 +19,24 @@
 | Chain   | BZCHM___ |
 | Dagger  | BZDAG___ |
 | Shield  | BZSHL___ |
+| Arrow   | BZARO___ |
+| Bullet  | BZBUL___ |
+| Bolt    | BZBOL___ | **
+| Bag     | BZBAG___ |
+| Bracers | BZBRA___ |
+| Belt    | BZBEL___ | **
+| BOW     | BZBOW___ |
+| Dart    | BZDRT___ |
+| Halberd | BAHAL___ |
+| Misc    | BZMSC___ |
+| Potion  | BZPTN___ |
+| Staff   | BZSTF___ |
+| Quiver  | BZQIV___ |
+| Note    | BZNOT___ |
+| Scroll  | BZSCL___ |
+| Sling   | BZSNG___ |
+| Spear   | BZSPR___ | ** Priest spell
+| Wand    | BZWND___ |
 
 
 | Bonus  | Postfix |
