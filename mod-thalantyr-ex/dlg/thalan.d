@@ -508,6 +508,132 @@ GiveItemCreate("BZDG09B",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
           EXIT
   END
+  IF ~~ THEN BEGIN bardez_thalantyr_algernon_cloak_2 // from: ThalantyrCraftingState
+    SAY @1312 /* A nymph's charming cloak, "more useful"? [...] */
+    = @1313 /* Impertinence ignored, I could enhance it. I would need the cloak [...] */
+    IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
+      GOTO %ThalantyrCraftingState%
+    IF //amulet
+~PartyHasItem("CLCK08")
+PartyHasItem("BZAML1B")
+NumItemsPartyGT("SCRL72",1)
+PartyGoldGT(9999)~
+      THEN
+          REPLY @1314 /* ~[amulet] Yes, please make it for me.~ */
+          DO
+~TakePartyGold(10000)
+DestroyGold(10000)
+TakePartyItemNum("BZAML1B",1)
+DestroyItem("BZAML1B")
+TakePartyItemNum("SCRL72",2)
+DestroyItem("SCRL72")
+TakePartyItemNum("CLCK08",1)
+DestroyItem("CLCK08")
+GiveItemCreate("BZCLK8B",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+    IF //cloak
+~PartyHasItem("CLCK08")
+PartyHasItem("CLCK02")
+NumItemsPartyGT("SCRL72",1)
+PartyGoldGT(9999)~
+      THEN
+          REPLY @1315 /* ~[cloak] Yes, please make it for me.~ */
+          DO
+~TakePartyGold(10000)
+DestroyGold(10000)
+TakePartyItemNum("CLCK02",1)
+DestroyItem("CLCK02")
+TakePartyItemNum("SCRL72",2)
+DestroyItem("SCRL72")
+TakePartyItemNum("CLCK08",1)
+DestroyItem("CLCK08")
+GiveItemCreate("BZCLK8B",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+    IF //ring
+~PartyHasItem("CLCK08")
+PartyHasItem("RING07")
+NumItemsPartyGT("SCRL72",1)
+PartyGoldGT(9999)~
+      THEN
+          REPLY @1316 /* ~[ring] Yes, please make it for me.~ */
+          DO
+~TakePartyGold(10000)
+DestroyGold(10000)
+TakePartyItemNum("RING07",1)
+DestroyItem("RING07")
+TakePartyItemNum("SCRL72",2)
+DestroyItem("SCRL72")
+TakePartyItemNum("CLCK08",1)
+DestroyItem("CLCK08")
+GiveItemCreate("BZCLK8B",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+  END
+  IF ~~ THEN BEGIN bardez_thalantyr_nymph_cloak_2 // from: ThalantyrCraftingState
+    SAY @1312 /* A nymph's charming cloak, "more useful"? [...] */
+    = @1313 /* Impertinence ignored, I could enhance it. I would need the cloak [...] */
+    IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
+      GOTO %ThalantyrCraftingState%
+    IF //amulet
+~PartyHasItem("CLCK07")
+PartyHasItem("BZAML1B")
+NumItemsPartyGT("SCRL72",1)
+PartyGoldGT(9999)~
+      THEN
+          REPLY @1314 /* ~[amulet] Yes, please make it for me.~ */
+          DO
+~TakePartyGold(10000)
+DestroyGold(10000)
+TakePartyItemNum("BZAML1B",1)
+DestroyItem("BZAML1B")
+TakePartyItemNum("SCRL72",2)
+DestroyItem("SCRL72")
+TakePartyItemNum("CLCK07",1)
+DestroyItem("CLCK07")
+GiveItemCreate("BZCLK8B",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+    IF //cloak
+~PartyHasItem("CLCK07")
+PartyHasItem("CLCK02")
+NumItemsPartyGT("SCRL72",1)
+PartyGoldGT(9999)~
+      THEN
+          REPLY @1315 /* ~[cloak] Yes, please make it for me.~ */
+          DO
+~TakePartyGold(10000)
+DestroyGold(10000)
+TakePartyItemNum("CLCK02",1)
+DestroyItem("CLCK02")
+TakePartyItemNum("SCRL72",2)
+DestroyItem("SCRL72")
+TakePartyItemNum("CLCK07",1)
+DestroyItem("CLCK07")
+GiveItemCreate("BZCLK8B",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+    IF //ring
+~PartyHasItem("CLCK07")
+PartyHasItem("RING07")
+NumItemsPartyGT("SCRL72",1)
+PartyGoldGT(9999)~
+      THEN
+          REPLY @1316 /* ~[ring] Yes, please make it for me.~ */
+          DO
+~TakePartyGold(10000)
+DestroyGold(10000)
+TakePartyItemNum("RING07",1)
+DestroyItem("RING07")
+TakePartyItemNum("SCRL72",2)
+DestroyItem("SCRL72")
+TakePartyItemNum("CLCK07",1)
+DestroyItem("CLCK07")
+GiveItemCreate("BZCLK8B",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
+          EXIT
+  END
 END
 
 EXTEND_TOP ~THALAN~ 
@@ -577,6 +703,14 @@ EXTEND_TOP ~THALAN~
       THEN 
           REPLY @2007 /* ~I have this helmet worn by Kiel [...]~ */
           GOTO bardez_thalantyr_kiel_helm_1
+    IF ~PartyHasItem("CLCK08")~
+      THEN 
+          REPLY @1310 /* ~I have Algernon's Cloak. Can you make it any more useful?~ */
+          GOTO bardez_thalantyr_algernon_cloak_2
+    IF ~PartyHasItem("CLCK07")~
+      THEN 
+          REPLY @1311 /* ~I have a nymph's cloak. Can you make it any more useful?~ */
+          GOTO bardez_thalantyr_nymph_cloak_2
     IF ~PartyHasItem("BZRNG1")~
       THEN 
           REPLY @1200 /* ~I have this cursed ring given to me in Candlekeep. Can you remove the curse?~ */
