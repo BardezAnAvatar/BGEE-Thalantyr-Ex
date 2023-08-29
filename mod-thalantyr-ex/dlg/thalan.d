@@ -117,7 +117,7 @@ APPEND ~THALAN~
           DO ~%Wizard_Slayer_2_Craft%~
           EXIT
   END
-  IF ~~ THEN BEGIN bardez_thalantyr_axe_stupefier_2 // from: ThalantyrCraftingState
+  IF ~~ THEN BEGIN bardez_thalantyr_mace_stupefier_2 // from: ThalantyrCraftingState
     SAY @1501 /* ~Indeed. I can increase its martial effectiveness with relative ease. [...] ~ */
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
@@ -476,7 +476,7 @@ EXTEND_TOP ~THALAN~
     IF ~PartyHasItem("BLUN41")~
       THEN 
           REPLY @1500 /* ~I have this +1 Mace, The Stupefier. [...]~ */
-          GOTO bardez_thalantyr_axe_stupefier_2
+          GOTO bardez_thalantyr_mace_stupefier_2
     IF ~PartyHasItem("HAMM13")~
       THEN 
           REPLY @1600 /* ~I have the Hammer of Dawn +1. [...]~ */
