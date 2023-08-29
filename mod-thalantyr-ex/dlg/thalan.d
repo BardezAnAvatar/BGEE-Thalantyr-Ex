@@ -121,21 +121,10 @@ APPEND ~THALAN~
     SAY @1501 /* ~Indeed. I can increase its martial effectiveness with relative ease. [...] ~ */
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
-    IF 
-~PartyHasItem("BLUN41")
-NumItemsPartyGT("MISC33",1)
-PartyGoldGT(3999)~
+    IF ~%Mace_Stupefier_2_Recipe%~
       THEN
           REPLY @1403  /* ~Yes, please make it for me.~ */
-          DO
-~TakePartyGold(4000)
-DestroyGold(4000)
-TakePartyItemNum("MISC33",2)
-DestroyItem("MISC33")
-TakePartyItemNum("BLUN41",1)
-DestroyItem("BLUN41")
-GiveItemCreate("BZMA41B",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Mace_Stupefier_2_Craft%~
           EXIT
   END
   IF ~~ THEN BEGIN bardez_thalantyr_hammer_dawn_2 // from: ThalantyrCraftingState

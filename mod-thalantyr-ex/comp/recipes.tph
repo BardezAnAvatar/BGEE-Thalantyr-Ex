@@ -304,3 +304,24 @@ OUTER_TEXT_SPRINT Wizard_Slayer_2_Craft
     DestroyItem("MISC39")
     GiveItemCreate("BZAX07B",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
+
+
+/*************************
+*   Mace +2: Stupefier   *
+*************************/
+//requirement
+OUTER_TEXT_SPRINT Mace_Stupefier_2_Recipe
+    ~PartyHasItem("BLUN41")
+    NumItemsPartyGT("MISC33",1)
+    PartyGoldGT(3999)~
+
+//action
+OUTER_TEXT_SPRINT Mace_Stupefier_2_Craft
+    ~TakePartyGold(4000)
+    DestroyGold(4000)
+    TakePartyItemNum("MISC33",2)
+    DestroyItem("MISC33")
+    TakePartyItemNum("BLUN41",1)
+    DestroyItem("BLUN41")
+    GiveItemCreate("BZMA41B",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[330.230])~
