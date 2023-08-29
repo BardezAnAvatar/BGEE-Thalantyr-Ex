@@ -388,3 +388,24 @@ OUTER_TEXT_SPRINT Crossbow_Speed_2_Craft
     DestroyItem("XBOW06")
     GiveItemCreate("BZXB06B",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
+
+
+/**********************
+*   Ankheg Plate +1   *
+**********************/
+//requirement
+OUTER_TEXT_SPRINT Ankheg_Plate_1_Recipe
+    ~PartyHasItem("PLAT06")
+    NumItemsPartyGT("MISC42",1)
+    PartyGoldGT(7999)~
+
+//action
+OUTER_TEXT_SPRINT Ankheg_Plate_1_Craft
+    ~TakePartyGold(8000)
+    DestroyGold(8000)
+    TakePartyItemNum("MISC42",2)
+    DestroyItem("MISC42")
+    TakePartyItemNum("PLAT06",1)
+    DestroyItem("PLAT06")
+    GiveItemCreate("BZPM06A",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[330.230])~

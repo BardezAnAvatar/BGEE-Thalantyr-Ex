@@ -162,21 +162,10 @@ APPEND ~THALAN~
     SAY @2002 /* Ankheg, eh? I can still smell its stench [...] */
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
-    IF 
-~PartyHasItem("PLAT06")
-NumItemsPartyGT("MISC42",1)
-PartyGoldGT(7999)~
+    IF ~%Ankheg_Plate_1_Recipe%~
       THEN
           REPLY @1403  /* ~Yes, please make it for me.~ */
-          DO
-~TakePartyGold(8000)
-DestroyGold(8000)
-TakePartyItemNum("MISC42",2)
-DestroyItem("MISC42")
-TakePartyItemNum("PLAT06",1)
-DestroyItem("PLAT06")
-GiveItemCreate("BZPM06A",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Ankheg_Plate_1_Craft%~
           EXIT
   END
   IF ~~ THEN BEGIN bardez_thalantyr_kiel_buckler_1 // from: ThalantyrCraftingState
