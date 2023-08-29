@@ -49,127 +49,40 @@ APPEND ~THALAN~
     SAY @1301 /* Yes, I can make you one Amulet of Protection +2 from [...] */
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
-    IF 
-~NumItemsPartyGT("AMUL14",1)
-NumItemsPartyGT("MISC27",3)
-PartyGoldGT(4999)~
+    IF ~%Amulet_Protection_2_Recipe_Amulets%~
       THEN
           REPLY @1302 /* ~[2 amulets] Yes, please make it for me.~ */
-          DO
-~TakePartyItemNum("AMUL14",2)
-DestroyItem("AMUL14")
-TakePartyItemNum("MISC27",4)
-DestroyItem("MISC27")
-TakePartyGold(5000)
-DestroyGold(5000)
-GiveItemCreate("BZAML1B",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Amulet_Protection_2_Craft_Amulets%~
           EXIT
-    IF
-~PartyHasItem("AMUL14")
-PartyHasItem("CLCK01")
-NumItemsPartyGT("MISC27",3)
-PartyGoldGT(4999)~
+    IF ~%Amulet_Protection_2_Recipe_Cloak%~
       THEN
           REPLY @1303 /* ~[amulet, cloak] Yes, please make it for me.~ */
-          DO
-~TakePartyItemNum("AMUL14",1)
-DestroyItem("AMUL14")
-TakePartyItemNum("CLCK01",1)
-DestroyItem("CLCK01")
-TakePartyItemNum("MISC27",4)
-DestroyItem("MISC27")
-TakePartyGold(5000)
-DestroyGold(5000)
-GiveItemCreate("BZAML1B",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Amulet_Protection_2_Craft_Cloak%~
           EXIT
-    IF
-~PartyHasItem("AMUL14")
-PartyHasItem("RING06")
-NumItemsPartyGT("MISC27",3)
-PartyGoldGT(4999)~
+    IF ~%Amulet_Protection_2_Recipe_Ring%~
       THEN
           REPLY @1304 /* ~[amulet, ring] Yes, please make it for me.~ */
-          DO
-~TakePartyItemNum("AMUL14",1)
-DestroyItem("AMUL14")
-TakePartyItemNum("RING06",1)
-DestroyItem("RING06")
-TakePartyItemNum("MISC27",4)
-DestroyItem("MISC27")
-TakePartyGold(5000)
-DestroyGold(5000)
-GiveItemCreate("BZAML1B",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Amulet_Protection_2_Craft_Ring%~
           EXIT
   END
   IF ~~ THEN BEGIN bardez_thalantyr_cloak_protection_2 // from: ThalantyrCraftingState
     SAY @1306 /* Yes, I can make you one Cloak of Protection +2 from [...] */
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
-    IF 
-~NumItemsPartyGT("CLCK01",1)
-NumItemsPartyGT("MISC26",3)
-PartyHasItem("MISC38")
-PartyGoldGT(4999)~
+    IF ~%Cloak_Protection_2_Recipe_Cloaks%~
       THEN
           REPLY @1307 /* ~[2 cloaks] Yes, please make it for me.~ */
-          DO
-~TakePartyItemNum("CLCK01",2)
-DestroyItem("CLCK01")
-TakePartyItemNum("MISC26",4)
-DestroyItem("MISC26")
-TakePartyItemNum("MISC38",1)
-DestroyItem("MISC38")
-TakePartyGold(5000)
-DestroyGold(5000)
-GiveItemCreate("CLCK02",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Cloak_Protection_2_Craft_Cloaks%~
           EXIT
-    IF
-~PartyHasItem("CLCK01")
-PartyHasItem("AMUL14")
-NumItemsPartyGT("MISC26",3)
-PartyHasItem("MISC38")
-PartyGoldGT(4999)~
+    IF ~%Cloak_Protection_2_Recipe_Amulet%~
       THEN
           REPLY @1308 /* ~[1 cloak, 1 amulet] Yes, please make it for me.~ */
-          DO
-~TakePartyItemNum("CLCK01",1)
-DestroyItem("CLCK01")
-TakePartyItemNum("AMUL14",1)
-DestroyItem("AMUL14")
-TakePartyItemNum("MISC26",4)
-DestroyItem("MISC26")
-TakePartyItemNum("MISC38",1)
-DestroyItem("MISC38")
-TakePartyGold(5000)
-DestroyGold(5000)
-GiveItemCreate("CLCK02",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Cloak_Protection_2_Craft_Amulet%~
           EXIT
-    IF
-~PartyHasItem("CLCK01")
-PartyHasItem("RING06")
-NumItemsPartyGT("MISC26",3)
-PartyHasItem("MISC38")
-PartyGoldGT(4999)~
+    IF ~%Cloak_Protection_2_Recipe_Ring%~
       THEN
           REPLY @1309 /* ~[1 cloak, 1 ring] Yes, please make it for me.~ */
-          DO
-~TakePartyItemNum("CLCK01",1)
-DestroyItem("CLCK01")
-TakePartyItemNum("RING06",1)
-DestroyItem("RING06")
-TakePartyItemNum("MISC26",4)
-DestroyItem("MISC26")
-TakePartyItemNum("MISC38",1)
-DestroyItem("MISC38")
-TakePartyGold(5000)
-DestroyGold(5000)
-GiveItemCreate("CLCK02",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Cloak_Protection_2_Craft_Ring%~
           EXIT
   END
   IF ~~ THEN BEGIN bardez_thalantyr_golden_axe_2 // from: ThalantyrCraftingState
