@@ -2,14 +2,14 @@
 *   Shandalar's Cloak   *
 ************************/
 //requirement
-SET Shandalar_Cloak_Requirement = ~PartyHasItem("CLCK22")
+OUTER_TEXT_SPRINT Shandalar_Cloak_Requirement ~PartyHasItem("CLCK22")
 PartyHasItem("MISC2H")
 NumItemsPartyGT("SCRL05",1)
 NumItemsPartyGT("SCRL06",1)
 PartyGoldGT(9999)~
 
 //action
-SET Shandalar_Cloak_Craft = ~TakePartyGold(10000)
+OUTER_TEXT_SPRINT Shandalar_Cloak_Craft ~TakePartyGold(10000)
 DestroyGold(10000)
 TakePartyItemNum("CLCK22",1)
 DestroyItem("CLCK22")
@@ -27,7 +27,7 @@ CreateVisualEffect("spcrtwpn",[330.230])~
 *   Varscona +3   *
 ******************/
 //requirement
-SET Varscona_3_Recipe = ~PartyHasItem("SW1H06")
+OUTER_TEXT_SPRINT Varscona_3_Recipe ~PartyHasItem("SW1H06")
 PartyHasItem("MISC43")
 PartyHasItem("SCRL06")
 PartyHasItem("SCRL1Q")
@@ -35,7 +35,7 @@ PartyHasItem("SCRL2F")
 PartyGoldGT(5999)~
 
 //action
-SET Varscona_3_Craft = ~TakePartyGold(6000)
+OUTER_TEXT_SPRINT Varscona_3_Craft ~TakePartyGold(6000)
 DestroyGold(6000)
 TakePartyItemNum("SW1H06",1)
 DestroyItem("SW1H06")
@@ -55,14 +55,14 @@ CreateVisualEffect("spcrtwpn",[330.230])~
 *   Koveras' Ring of Protection +1, Uncurse   *
 **********************************************/
 //requirement
-SET Koveras_Uncurse_Ring_Recipe = ~PartyHasItem("BZRNG1")
+OUTER_TEXT_SPRINT Koveras_Uncurse_Ring_Recipe ~PartyHasItem("BZRNG1")
 NumItemsPartyGT("SCRL5G",2)
 NumItemsPartyGT("POTN28",1)
 NumItemsPartyGT("MISC34",2)
 PartyGoldGT(2999)~
 
 //action
-SET Koveras_Uncurse_Ring_Craft = ~TakePartyGold(3000)
+OUTER_TEXT_SPRINT Koveras_Uncurse_Ring_Craft ~TakePartyGold(3000)
 DestroyGold(3000)
 TakePartyItemNum("MISC34",3)
 DestroyItem("MISC34")
