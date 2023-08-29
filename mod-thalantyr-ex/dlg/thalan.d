@@ -90,24 +90,10 @@ APPEND ~THALAN~
       = @1402 // ~I can improve its dispelling chances, and make it deadlier for its expected enemies. [...] ~
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
-    IF 
-~PartyHasItem("AX1H19")
-PartyHasItem("SCRL1E")
-PartyHasItem("MISC42")
-PartyGoldGT(2999)~
+    IF ~%Golden_Axe_2_Recipe%~
       THEN
           REPLY @1403  /* ~Yes, please make it for me.~ */
-          DO
-~TakePartyGold(3000)
-DestroyGold(3000)
-TakePartyItemNum("AX1H19",1)
-DestroyItem("AX1H19")
-TakePartyItemNum("MISC42",1)
-DestroyItem("MISC42")
-TakePartyItemNum("SCRL1E",1)
-DestroyItem("SCRL1E")
-GiveItemCreate("BZAX19B",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Golden_Axe_2_Craft%~
           EXIT
   END
   IF ~~ THEN BEGIN bardez_thalantyr_axe_wizardlayer_1 // from: ThalantyrCraftingState
@@ -115,42 +101,20 @@ CreateVisualEffect("spcrtwpn",[330.230])~
       = @1406 // ~Ah, I feel the enchantment now. Interesting, as if enchanted with mage blood [...] ~
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
-    IF 
-~PartyHasItem("AX1H07")
-PartyHasItem("MISC36")
-PartyGoldGT(2999)~
+    IF ~%Wizard_Slayer_1_Recipe%~
       THEN
           REPLY @1403  /* ~Yes, please make it for me.~ */
-          DO
-~TakePartyGold(3000)
-DestroyGold(3000)
-TakePartyItemNum("AX1H07",1)
-DestroyItem("AX1H07")
-TakePartyItemNum("MISC36",1)
-DestroyItem("MISC36")
-GiveItemCreate("BZAX07A",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Wizard_Slayer_1_Craft%~
           EXIT
   END
   IF ~~ THEN BEGIN bardez_thalantyr_axe_wizardlayer_2 // from: ThalantyrCraftingState
     SAY @1408 /* ~I suppose I could attune it against mages [...] ~ */
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
-    IF 
-~PartyHasItem("BZAX07A")
-PartyHasItem("MISC39")
-PartyGoldGT(5999)~
+    IF ~%Wizard_Slayer_2_Recipe%~
       THEN
           REPLY @1403  /* ~Yes, please make it for me.~ */
-          DO
-~TakePartyGold(6000)
-DestroyGold(6000)
-TakePartyItemNum("BZAX07A",1)
-DestroyItem("BZAX07A")
-TakePartyItemNum("MISC39",1)
-DestroyItem("MISC39")
-GiveItemCreate("BZAX07B",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Wizard_Slayer_2_Craft%~
           EXIT
   END
   IF ~~ THEN BEGIN bardez_thalantyr_axe_stupefier_2 // from: ThalantyrCraftingState
