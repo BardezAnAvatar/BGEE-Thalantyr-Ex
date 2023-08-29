@@ -74,3 +74,28 @@ TakePartyItemNum("BZRNG1",1)
 DestroyItem("BZRNG1")
 GiveItemCreate("RING25",Player1,1,1,1)
 CreateVisualEffect("spcrtwpn",[330.230])~
+
+
+/*************************************
+*   Koveras' Ring of Protection +2   *
+*************************************/
+//requirement
+OUTER_TEXT_SPRINT Koveras_Ring_2_Recipe ~PartyHasItem("RING25")
+PartyHasItem("MISC36")
+PartyHasItem("SCRL07")
+NumItemsPartyGT("SCRL63",2)
+PartyGoldGT(4999)~
+
+//action
+OUTER_TEXT_SPRINT Koveras_Ring_2_Craft ~TakePartyItemNum("RING25",1)
+DestroyItem("RING25")
+TakePartyItemNum("MISC36",1)
+DestroyItem("MISC36")
+TakePartyItemNum("SCRL07",1)
+DestroyItem("SCRL07")
+TakePartyItemNum("SCRL63",3)
+DestroyItem("SCRL63")
+TakePartyGold(5000)
+DestroyGold(5000)
+GiveItemCreate("BZRNG1B",Player1,1,1,1)
+CreateVisualEffect("spcrtwpn",[330.230])~
