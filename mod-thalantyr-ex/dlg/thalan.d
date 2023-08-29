@@ -142,21 +142,10 @@ APPEND ~THALAN~
       = @1703 /* I can enchant this sword further [...] */
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
-    IF 
-~PartyHasItem("SW1H79")
-NumItemsPartyGT("MISC17",5)
-PartyGoldGT(5999)~
+    IF ~%Long_Sword_Harrower_2_Recipe%~
       THEN
           REPLY @1403  /* ~Yes, please make it for me.~ */
-          DO
-~TakePartyGold(6000)
-DestroyGold(6000)
-TakePartyItemNum("MISC17",6)
-DestroyItem("MISC17")
-TakePartyItemNum("SW1H79",1)
-DestroyItem("SW1H79")
-GiveItemCreate("BZSW79B",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Long_Sword_Harrower_2_Craft%~
           EXIT
   END
   IF ~~ THEN BEGIN bardez_thalantyr_crossbow_speed_2 // from: ThalantyrCraftingState

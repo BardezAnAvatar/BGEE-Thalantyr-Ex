@@ -346,3 +346,24 @@ OUTER_TEXT_SPRINT Hammer_Dawn_2_Craft
     DestroyItem("HAMM13")
     GiveItemCreate("BZHM13B",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
+
+
+/******************************
+*   Long Sword +2: Harrower   *
+******************************/
+//requirement
+OUTER_TEXT_SPRINT Long_Sword_Harrower_2_Recipe
+    ~PartyHasItem("SW1H79")
+    NumItemsPartyGT("MISC17",5)
+    PartyGoldGT(5999)~
+
+//action
+OUTER_TEXT_SPRINT Long_Sword_Harrower_2_Craft
+    ~TakePartyGold(6000)
+    DestroyGold(6000)
+    TakePartyItemNum("MISC17",6)
+    DestroyItem("MISC17")
+    TakePartyItemNum("SW1H79",1)
+    DestroyItem("SW1H79")
+    GiveItemCreate("BZSW79B",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[330.230])~
