@@ -152,21 +152,10 @@ APPEND ~THALAN~
     SAY @1801 /* Perhaps. Ah, yes, I believe I can. It will be costly [...] */
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
-    IF 
-~PartyHasItem("XBOW06")
-NumItemsPartyGT("MISC16",5)
-PartyGoldGT(7999)~
+    IF ~%Crossbow_Speed_2_Recipe%~
       THEN
           REPLY @1403  /* ~Yes, please make it for me.~ */
-          DO
-~TakePartyGold(8000)
-DestroyGold(8000)
-TakePartyItemNum("MISC16",6)
-DestroyItem("MISC16")
-TakePartyItemNum("XBOW06",1)
-DestroyItem("XBOW06")
-GiveItemCreate("BZXB06B",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Crossbow_Speed_2_Craft%~
           EXIT
   END
   IF ~~ THEN BEGIN bardez_thalantyr_ankheg_1 // from: ThalantyrCraftingState

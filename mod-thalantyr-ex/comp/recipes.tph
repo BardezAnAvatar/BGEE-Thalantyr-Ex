@@ -367,3 +367,24 @@ OUTER_TEXT_SPRINT Long_Sword_Harrower_2_Craft
     DestroyItem("SW1H79")
     GiveItemCreate("BZSW79B",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
+
+
+/******************************
+*   Long Sword +2: Harrower   *
+******************************/
+//requirement
+OUTER_TEXT_SPRINT Crossbow_Speed_2_Recipe
+    ~PartyHasItem("XBOW06")
+    NumItemsPartyGT("MISC16",5)
+    PartyGoldGT(7999)~
+
+//action
+OUTER_TEXT_SPRINT Crossbow_Speed_2_Craft
+    ~TakePartyGold(8000)
+    DestroyGold(8000)
+    TakePartyItemNum("MISC16",6)
+    DestroyItem("MISC16")
+    TakePartyItemNum("XBOW06",1)
+    DestroyItem("XBOW06")
+    GiveItemCreate("BZXB06B",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[330.230])~
