@@ -39,10 +39,10 @@ APPEND ~THALAN~
     = @1206 /* I could pry at the connection between the two of you, perhaps to guard you from that taint? [...] */
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
-    IF %Koveras_Ring_2_Recipe%
+    IF ~%Koveras_Ring_2_Recipe%~
       THEN
           REPLY @1207 /* ~Yes, please make it for me.~ */
-          DO %Koveras_Ring_2_Craft%
+          DO ~%Koveras_Ring_2_Craft%~
           EXIT
   END
   IF ~~ THEN BEGIN bardez_thalantyr_amulet_protection_2 // from: ThalantyrCraftingState
