@@ -451,3 +451,27 @@ OUTER_TEXT_SPRINT Buckleys_Buckler_1_Craft
     DestroyItem("SHLD33")
     GiveItemCreate("BZSH33A",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
+
+
+/*********************
+*   Kiel's Helm +1   *
+*********************/
+//requirement
+OUTER_TEXT_SPRINT Kiels_Helm_1_Recipe
+    ~PartyHasItem("HELM14")
+    NumItemsPartyGT("MISC21",1)
+    NumItemsPartyGT("SCRL67",1)
+    PartyGoldGT(3999)~
+
+//action
+OUTER_TEXT_SPRINT Kiels_Helm_1_Craft
+    ~TakePartyGold(4000)
+    DestroyGold(4000)
+    TakePartyItemNum("MISC21",2)
+    DestroyItem("MISC21")
+    TakePartyItemNum("SCRL67",2)
+    DestroyItem("SCRL67")
+    TakePartyItemNum("HELM14",1)
+    DestroyItem("HELM14")
+    GiveItemCreate("BZHL14A",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[330.230])~

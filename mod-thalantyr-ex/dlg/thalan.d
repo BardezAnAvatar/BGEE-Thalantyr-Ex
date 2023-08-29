@@ -192,24 +192,10 @@ APPEND ~THALAN~
     SAY @2008 /* I could enchant Kiel's Helmet with armoring improvements [...] */
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
-    IF 
-~PartyHasItem("HELM14")
-NumItemsPartyGT("MISC21",1)
-NumItemsPartyGT("SCRL67",1)
-PartyGoldGT(3999)~
+    IF ~%Kiels_Helm_1_Recipe%~
       THEN
           REPLY @1403  /* ~Yes, please make it for me.~ */
-          DO
-~TakePartyGold(4000)
-DestroyGold(4000)
-TakePartyItemNum("MISC21",2)
-DestroyItem("MISC21")
-TakePartyItemNum("SCRL67",2)
-DestroyItem("SCRL67")
-TakePartyItemNum("HELM14",1)
-DestroyItem("HELM14")
-GiveItemCreate("BZHL14A",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Kiels_Helm_1_Craft%~
           EXIT
   END
   IF ~~ THEN BEGIN bardez_thalantyr_werebane_2 // from: ThalantyrCraftingState
