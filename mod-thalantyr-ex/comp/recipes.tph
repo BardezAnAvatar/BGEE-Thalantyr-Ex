@@ -563,3 +563,67 @@ OUTER_TEXT_SPRINT Algernon_2_Craft_Ring
     DestroyItem("CLCK08")
     GiveItemCreate("BZCLK8B",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
+
+
+/*************************************
+*   Nymph's Cloak of Protection +2   *
+*************************************/
+//requirement: amulet +2
+OUTER_TEXT_SPRINT Nymphs_Cloak_2_Recipe_Amulet
+    ~PartyHasItem("CLCK07")
+    PartyHasItem("BZAML1B")
+    NumItemsPartyGT("SCRL72",1)
+    PartyGoldGT(9999)~
+
+//action: amulet +2
+OUTER_TEXT_SPRINT Nymphs_Cloak_2_Craft_Amulet
+    ~TakePartyGold(10000)
+    DestroyGold(10000)
+    TakePartyItemNum("BZAML1B",1)
+    DestroyItem("BZAML1B")
+    TakePartyItemNum("SCRL72",2)
+    DestroyItem("SCRL72")
+    TakePartyItemNum("CLCK07",1)
+    DestroyItem("CLCK07")
+    GiveItemCreate("BZCLK8B",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[330.230])~
+
+//requirement: cloak +2
+OUTER_TEXT_SPRINT Nymphs_Cloak_2_Recipe_Cloak
+    ~PartyHasItem("CLCK07")
+    PartyHasItem("CLCK02")
+    NumItemsPartyGT("SCRL72",1)
+    PartyGoldGT(9999)~
+
+//action: cloak +2
+OUTER_TEXT_SPRINT Nymphs_Cloak_2_Craft_Cloak
+    ~TakePartyGold(10000)
+    DestroyGold(10000)
+    TakePartyItemNum("CLCK02",1)
+    DestroyItem("CLCK02")
+    TakePartyItemNum("SCRL72",2)
+    DestroyItem("SCRL72")
+    TakePartyItemNum("CLCK07",1)
+    DestroyItem("CLCK07")
+    GiveItemCreate("BZCLK8B",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[330.230])~
+
+//requirement: ring +2
+OUTER_TEXT_SPRINT Nymphs_Cloak_2_Recipe_Ring
+    ~PartyHasItem("CLCK07")
+    PartyHasItem("RING07")
+    NumItemsPartyGT("SCRL72",1)
+    PartyGoldGT(9999)~
+
+//action: ring +2
+OUTER_TEXT_SPRINT Nymphs_Cloak_2_Craft_Ring
+    ~TakePartyGold(10000)
+    DestroyGold(10000)
+    TakePartyItemNum("RING07",1)
+    DestroyItem("RING07")
+    TakePartyItemNum("SCRL72",2)
+    DestroyItem("SCRL72")
+    TakePartyItemNum("CLCK07",1)
+    DestroyItem("CLCK07")
+    GiveItemCreate("BZCLK8B",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[330.230])~

@@ -235,62 +235,20 @@ APPEND ~THALAN~
     = @1313 /* Impertinence ignored, I could enhance it. I would need the cloak [...] */
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
-    IF //amulet
-~PartyHasItem("CLCK07")
-PartyHasItem("BZAML1B")
-NumItemsPartyGT("SCRL72",1)
-PartyGoldGT(9999)~
+    IF ~%Nymphs_Cloak_2_Recipe_Amulet%~
       THEN
           REPLY @1314 /* ~[amulet] Yes, please make it for me.~ */
-          DO
-~TakePartyGold(10000)
-DestroyGold(10000)
-TakePartyItemNum("BZAML1B",1)
-DestroyItem("BZAML1B")
-TakePartyItemNum("SCRL72",2)
-DestroyItem("SCRL72")
-TakePartyItemNum("CLCK07",1)
-DestroyItem("CLCK07")
-GiveItemCreate("BZCLK8B",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Nymphs_Cloak_2_Craft_Amulet%~
           EXIT
-    IF //cloak
-~PartyHasItem("CLCK07")
-PartyHasItem("CLCK02")
-NumItemsPartyGT("SCRL72",1)
-PartyGoldGT(9999)~
+    IF ~%Nymphs_Cloak_2_Recipe_Cloak%~
       THEN
           REPLY @1315 /* ~[cloak] Yes, please make it for me.~ */
-          DO
-~TakePartyGold(10000)
-DestroyGold(10000)
-TakePartyItemNum("CLCK02",1)
-DestroyItem("CLCK02")
-TakePartyItemNum("SCRL72",2)
-DestroyItem("SCRL72")
-TakePartyItemNum("CLCK07",1)
-DestroyItem("CLCK07")
-GiveItemCreate("BZCLK8B",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Nymphs_Cloak_2_Craft_Cloak%~
           EXIT
-    IF //ring
-~PartyHasItem("CLCK07")
-PartyHasItem("RING07")
-NumItemsPartyGT("SCRL72",1)
-PartyGoldGT(9999)~
+    IF ~%Nymphs_Cloak_2_Recipe_Ring%~
       THEN
           REPLY @1316 /* ~[ring] Yes, please make it for me.~ */
-          DO
-~TakePartyGold(10000)
-DestroyGold(10000)
-TakePartyItemNum("RING07",1)
-DestroyItem("RING07")
-TakePartyItemNum("SCRL72",2)
-DestroyItem("SCRL72")
-TakePartyItemNum("CLCK07",1)
-DestroyItem("CLCK07")
-GiveItemCreate("BZCLK8B",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Nymphs_Cloak_2_Craft_Ring%~
           EXIT
   END
 END
