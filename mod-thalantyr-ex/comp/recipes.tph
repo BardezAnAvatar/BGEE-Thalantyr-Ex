@@ -409,3 +409,45 @@ OUTER_TEXT_SPRINT Ankheg_Plate_1_Craft
     DestroyItem("PLAT06")
     GiveItemCreate("BZPM06A",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
+
+
+/************************
+*   Kiel's Buckler +1   *
+************************/
+//requirement
+OUTER_TEXT_SPRINT Kiels_Buckler_1_Recipe
+    ~PartyHasItem("SHLD20")
+    NumItemsPartyGT("MISC40",3)
+    PartyGoldGT(2999)~
+
+//action
+OUTER_TEXT_SPRINT Kiels_Buckler_1_Craft
+    ~TakePartyGold(3000)
+    DestroyGold(3000)
+    TakePartyItemNum("MISC40",4)
+    DestroyItem("MISC40")
+    TakePartyItemNum("SHLD20",1)
+    DestroyItem("SHLD20")
+    GiveItemCreate("BZSH20A",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[330.230])~
+
+
+/***************************
+*   Buckley's Buckler +1   *
+***************************/
+//requirement
+OUTER_TEXT_SPRINT Buckleys_Buckler_1_Recipe
+    ~PartyHasItem("SHLD33")
+    NumItemsPartyGT("MISC23",5)
+    PartyGoldGT(1999)~
+
+//action
+OUTER_TEXT_SPRINT Buckleys_Buckler_1_Craft
+    ~TakePartyGold(2000)
+    DestroyGold(2000)
+    TakePartyItemNum("MISC23",6)
+    DestroyItem("MISC23")
+    TakePartyItemNum("SHLD33",1)
+    DestroyItem("SHLD33")
+    GiveItemCreate("BZSH33A",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[330.230])~
