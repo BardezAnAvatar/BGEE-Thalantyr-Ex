@@ -325,3 +325,24 @@ OUTER_TEXT_SPRINT Mace_Stupefier_2_Craft
     DestroyItem("BLUN41")
     GiveItemCreate("BZMA41B",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
+
+
+/********************************
+*   Hammer +2: Hammer of Dawn   *
+********************************/
+//requirement
+OUTER_TEXT_SPRINT Hammer_Dawn_2_Recipe
+    ~PartyHasItem("HAMM13")
+    NumItemsPartyGT("MISC22",5)
+    PartyGoldGT(3999)~
+
+//action
+OUTER_TEXT_SPRINT Hammer_Dawn_2_Craft
+    ~TakePartyGold(4000)
+    DestroyGold(4000)
+    TakePartyItemNum("MISC22",6)
+    DestroyItem("MISC22")
+    TakePartyItemNum("HAMM13",1)
+    DestroyItem("HAMM13")
+    GiveItemCreate("BZHM13B",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[330.230])~

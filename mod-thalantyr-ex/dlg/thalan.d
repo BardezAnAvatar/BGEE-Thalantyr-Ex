@@ -131,21 +131,10 @@ APPEND ~THALAN~
     SAY @1601 /* ~I could increase its combat enchantment easily enough [...]~ */
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
-    IF 
-~PartyHasItem("HAMM13")
-NumItemsPartyGT("MISC22",5)
-PartyGoldGT(3999)~
+    IF ~%Hammer_Dawn_2_Recipe%~
       THEN
           REPLY @1403  /* ~Yes, please make it for me.~ */
-          DO
-~TakePartyGold(4000)
-DestroyGold(4000)
-TakePartyItemNum("MISC22",6)
-DestroyItem("MISC22")
-TakePartyItemNum("HAMM13",1)
-DestroyItem("HAMM13")
-GiveItemCreate("BZHM13B",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Hammer_Dawn_2_Craft%~
           EXIT
   END
   IF ~~ THEN BEGIN bardez_thalantyr_harrower_2 // from: ThalantyrCraftingState
