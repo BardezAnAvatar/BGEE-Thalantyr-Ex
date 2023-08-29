@@ -1,5 +1,5 @@
 # Thalantyr Item Upgrade Mod Extensions
-Version: 0.0.10
+Version: 0.1.0
 Author: [Bardez](https://github.com/BardezAnAvatar)
 Bugs reports to [repository's GitHub Issues](https://github.com/BardezAnAvatar/BGEE-Thalantyr-Ex/issues)
 
