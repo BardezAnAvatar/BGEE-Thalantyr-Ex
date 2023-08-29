@@ -475,3 +475,91 @@ OUTER_TEXT_SPRINT Kiels_Helm_1_Craft
     DestroyItem("HELM14")
     GiveItemCreate("BZHL14A",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
+
+
+/**************************
+*   Dagger +2: Werebane   *
+**************************/
+//requirement
+OUTER_TEXT_SPRINT Dagger_Werebane_2_Recipe
+    ~PartyHasItem("DAGG09")
+    NumItemsPartyGT("AMUL10",1)
+    NumItemsPartyGT("POTN14",1)
+    PartyGoldGT(4999)~
+
+//action
+OUTER_TEXT_SPRINT Dagger_Werebane_2_Craft
+    ~TakePartyGold(4000)
+    DestroyGold(4000)
+    TakePartyItemNum("AMUL10",2)
+    DestroyItem("AMUL10")
+    TakePartyItemNum("POTN14",2)
+    DestroyItem("POTN14")
+    TakePartyItemNum("DAGG09",1)
+    DestroyItem("DAGG09")
+    GiveItemCreate("BZDG09B",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[330.230])~
+
+
+/*********************************************************
+*   Algernon's Cloak -> Nymph's Cloak of Protection +2   *
+*********************************************************/
+//requirement: amulet +2
+OUTER_TEXT_SPRINT Algernon_2_Recipe_Amulet
+    ~PartyHasItem("CLCK08")
+    PartyHasItem("BZAML1B")
+    NumItemsPartyGT("SCRL72",1)
+    PartyGoldGT(9999)~
+
+//action: amulet +2
+OUTER_TEXT_SPRINT Algernon_2_Craft_Amulet
+    ~TakePartyGold(10000)
+    DestroyGold(10000)
+    TakePartyItemNum("BZAML1B",1)
+    DestroyItem("BZAML1B")
+    TakePartyItemNum("SCRL72",2)
+    DestroyItem("SCRL72")
+    TakePartyItemNum("CLCK08",1)
+    DestroyItem("CLCK08")
+    GiveItemCreate("BZCLK8B",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[330.230])~
+
+//requirement: cloak +2
+OUTER_TEXT_SPRINT Algernon_2_Recipe_Cloak
+    ~PartyHasItem("CLCK08")
+    PartyHasItem("CLCK02")
+    NumItemsPartyGT("SCRL72",1)
+    PartyGoldGT(9999)~
+
+//action: cloak +2
+OUTER_TEXT_SPRINT Algernon_2_Craft_Cloak
+    ~TakePartyGold(10000)
+    DestroyGold(10000)
+    TakePartyItemNum("CLCK02",1)
+    DestroyItem("CLCK02")
+    TakePartyItemNum("SCRL72",2)
+    DestroyItem("SCRL72")
+    TakePartyItemNum("CLCK08",1)
+    DestroyItem("CLCK08")
+    GiveItemCreate("BZCLK8B",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[330.230])~
+
+//requirement: ring +2
+OUTER_TEXT_SPRINT Algernon_2_Recipe_Ring
+    ~PartyHasItem("CLCK08")
+    PartyHasItem("RING07")
+    NumItemsPartyGT("SCRL72",1)
+    PartyGoldGT(9999)~
+
+//action: ring +2
+OUTER_TEXT_SPRINT Algernon_2_Craft_Ring
+    ~TakePartyGold(10000)
+    DestroyGold(10000)
+    TakePartyItemNum("RING07",1)
+    DestroyItem("RING07")
+    TakePartyItemNum("SCRL72",2)
+    DestroyItem("SCRL72")
+    TakePartyItemNum("CLCK08",1)
+    DestroyItem("CLCK08")
+    GiveItemCreate("BZCLK8B",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[330.230])~

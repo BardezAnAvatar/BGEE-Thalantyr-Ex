@@ -203,24 +203,10 @@ APPEND ~THALAN~
     = @2102 /* Academia aside, I can improve this lycanthrope-hunting dagger for you [...] */
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
-    IF 
-~PartyHasItem("DAGG09")
-NumItemsPartyGT("AMUL10",1)
-NumItemsPartyGT("POTN14",1)
-PartyGoldGT(4999)~
+    IF ~%Dagger_Werebane_2_Recipe%~
       THEN
           REPLY @1403  /* ~Yes, please make it for me.~ */
-          DO
-~TakePartyGold(4000)
-DestroyGold(4000)
-TakePartyItemNum("AMUL10",2)
-DestroyItem("AMUL10")
-TakePartyItemNum("POTN14",2)
-DestroyItem("POTN14")
-TakePartyItemNum("DAGG09",1)
-DestroyItem("DAGG09")
-GiveItemCreate("BZDG09B",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Dagger_Werebane_2_Craft%~
           EXIT
   END
   IF ~~ THEN BEGIN bardez_thalantyr_algernon_cloak_2 // from: ThalantyrCraftingState
@@ -228,62 +214,20 @@ CreateVisualEffect("spcrtwpn",[330.230])~
     = @1313 /* Impertinence ignored, I could enhance it. I would need the cloak [...] */
     IF ~~ THEN REPLY @9000 /* ~I don't need it right now. Maybe I have something else you could alter?~ */ 
       GOTO %ThalantyrCraftingState%
-    IF //amulet
-~PartyHasItem("CLCK08")
-PartyHasItem("BZAML1B")
-NumItemsPartyGT("SCRL72",1)
-PartyGoldGT(9999)~
+    IF ~%Algernon_2_Recipe_Amulet%~
       THEN
           REPLY @1314 /* ~[amulet] Yes, please make it for me.~ */
-          DO
-~TakePartyGold(10000)
-DestroyGold(10000)
-TakePartyItemNum("BZAML1B",1)
-DestroyItem("BZAML1B")
-TakePartyItemNum("SCRL72",2)
-DestroyItem("SCRL72")
-TakePartyItemNum("CLCK08",1)
-DestroyItem("CLCK08")
-GiveItemCreate("BZCLK8B",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Algernon_2_Craft_Amulet%~
           EXIT
-    IF //cloak
-~PartyHasItem("CLCK08")
-PartyHasItem("CLCK02")
-NumItemsPartyGT("SCRL72",1)
-PartyGoldGT(9999)~
+    IF ~%Algernon_2_Recipe_Cloak%~
       THEN
           REPLY @1315 /* ~[cloak] Yes, please make it for me.~ */
-          DO
-~TakePartyGold(10000)
-DestroyGold(10000)
-TakePartyItemNum("CLCK02",1)
-DestroyItem("CLCK02")
-TakePartyItemNum("SCRL72",2)
-DestroyItem("SCRL72")
-TakePartyItemNum("CLCK08",1)
-DestroyItem("CLCK08")
-GiveItemCreate("BZCLK8B",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Algernon_2_Craft_Cloak%~
           EXIT
-    IF //ring
-~PartyHasItem("CLCK08")
-PartyHasItem("RING07")
-NumItemsPartyGT("SCRL72",1)
-PartyGoldGT(9999)~
+    IF ~%Algernon_2_Recipe_Ring%~
       THEN
           REPLY @1316 /* ~[ring] Yes, please make it for me.~ */
-          DO
-~TakePartyGold(10000)
-DestroyGold(10000)
-TakePartyItemNum("RING07",1)
-DestroyItem("RING07")
-TakePartyItemNum("SCRL72",2)
-DestroyItem("SCRL72")
-TakePartyItemNum("CLCK08",1)
-DestroyItem("CLCK08")
-GiveItemCreate("BZCLK8B",Player1,1,1,1)
-CreateVisualEffect("spcrtwpn",[330.230])~
+          DO ~%Algernon_2_Craft_Ring%~
           EXIT
   END
   IF ~~ THEN BEGIN bardez_thalantyr_nymph_cloak_2 // from: ThalantyrCraftingState
