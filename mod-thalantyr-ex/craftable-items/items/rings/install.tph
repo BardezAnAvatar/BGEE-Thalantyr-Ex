@@ -1,6 +1,8 @@
-
+/*********************************
+*   Cursed Ring: Koveras' Gift   *
+*********************************/
 //make cursed ring
-COPY_EXISTING ~RING25.ITM~ ~override/BZRNG1.ITM~ //Koveras Gift, cursed
+COPY_EXISTING ~RING25.ITM~ ~override/BZRNG25!.ITM~ //Koveras Gift, cursed
     //Patches
         SAY NAME1 @30000
         SAY NAME2 @30001
@@ -88,6 +90,10 @@ COPY_EXISTING ~RING25.ITM~ ~override/BZRNG1.ITM~ //Koveras Gift, cursed
                 resource = ~~           // unused for opcode
         END
 
+
+/*******************************************
+*   Ring of Protection +1: Koveras' Gift   *
+*******************************************/
 //make +1
 COPY_EXISTING ~RING25.ITM~ ~override/RING25.ITM~ //Koveras Gift, +1
     //Patches
@@ -158,8 +164,11 @@ COPY_EXISTING ~RING25.ITM~ ~override/RING25.ITM~ //Koveras Gift, +1
         END
 
 
+/*******************************************
+*   Ring of Protection +2: Koveras' Gift   *
+*******************************************/
 //make +2 version
-COPY_EXISTING ~RING07.ITM~ ~override/BZRNG1B.ITM~ //Koveras' Gift, +2
+COPY_EXISTING ~RING07.ITM~ ~override/BZRNG25B.ITM~ //Koveras' Gift, +2
     //Patches
         SAY NAME2 @30200
         SAY IDENTIFIED_DESC @30201

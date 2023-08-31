@@ -60,7 +60,7 @@ OUTER_TEXT_SPRINT Varscona_3_Craft
 **********************************************/
 //requirement
 OUTER_TEXT_SPRINT Koveras_Uncurse_Ring_Recipe
-    ~PartyHasItem("BZRNG1")
+    ~PartyHasItem("BZRNG25!")
     NumItemsPartyGT("SCRL5G",2)
     NumItemsPartyGT("POTN28",1)
     NumItemsPartyGT("MISC34",2)
@@ -76,8 +76,8 @@ OUTER_TEXT_SPRINT Koveras_Uncurse_Ring_Craft
     DestroyItem("POTN28")
     TakePartyItemNum("SCRL5G",3)
     DestroyItem("SCRL5G")
-    TakePartyItemNum("BZRNG1",1)
-    DestroyItem("BZRNG1")
+    TakePartyItemNum("BZRNG25!",1)
+    DestroyItem("BZRNG25!")
     GiveItemCreate("RING25",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
@@ -105,7 +105,7 @@ OUTER_TEXT_SPRINT Koveras_Ring_2_Craft
     DestroyItem("SCRL63")
     TakePartyGold(5000)
     DestroyGold(5000)
-    GiveItemCreate("BZRNG1B",Player1,1,1,1)
+    GiveItemCreate("BZRNG25B",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
 

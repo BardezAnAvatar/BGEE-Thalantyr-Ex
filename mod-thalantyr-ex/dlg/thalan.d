@@ -328,7 +328,7 @@ EXTEND_TOP ~THALAN~
       THEN 
           REPLY @1311 /* ~I have a nymph's cloak. Can you make it any more useful?~ */
           GOTO bardez_thalantyr_nymph_cloak_2
-    IF ~PartyHasItem("BZRNG1")~
+    IF ~PartyHasItem("BZRNG25!")~
       THEN 
           REPLY @1200 /* ~I have this cursed ring given to me in Candlekeep. Can you remove the curse?~ */
           GOTO bardez_thalantyr_koveras_uncurse
