@@ -1,0 +1,42 @@
+/* Reserving range 110000-119999 */
+
+
+/**************************
+*   Dagger +2: Werebane   *
+**************************/
+@110000 = ~Ornate Silver/Gold Dagger~
+@110001 = ~Dagger +2: Werebane~
+@110002 = ~This plain silver and gold dagger has a pointed, double-edged blade.
+
+STATISTICS:
+
+Damage: 1d4 (piercing)
+Speed Factor: 2
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+@110003 = ~Dagger +2: Werebane
+
+Dynala Goldenhand, an elven Ranger who wished to rid her homeland of its werejackal problem, forged the dagger. She was killed by a tribe of orcs in the Graypeak Mountains as she tracked the werejackal leader.
+
+This dagger has been enchanted to become a returning throwing dagger.
+
+STATISTICS:
+
+Combat abilities:
+– +1 additional attack per round
+– Returns to the wielder's hand when thrown
+
+THAC0: +2, +5 vs. lycanthropes
+Damage: 1d4+2, +5 vs. lycanthropes
+Damage type: Piercing (held); Missile (thrown)
+Speed Factor: 1
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
