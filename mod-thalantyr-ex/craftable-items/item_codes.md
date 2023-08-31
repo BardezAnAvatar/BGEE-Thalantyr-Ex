@@ -9,7 +9,7 @@
 | Dagger          | BZDAG __ _ |
 | Dart            | BZDRT __ _ |
 | Flail           | BZFLA __ _ |
-| Halberd         | BAHAL __ _ |
+| Halberd         | BZHAL __ _ |
 | Hammer          | BZHAM __ _ |
 | Mace            | BZMAC __ _ |
 | Morning Star    | BZMRN __ _ |
