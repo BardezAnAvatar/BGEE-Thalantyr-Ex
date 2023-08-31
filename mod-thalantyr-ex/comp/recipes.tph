@@ -473,7 +473,7 @@ OUTER_TEXT_SPRINT Kiels_Helm_1_Craft
     DestroyItem("SCRL67")
     TakePartyItemNum("HELM14",1)
     DestroyItem("HELM14")
-    GiveItemCreate("BZHL14A",Player1,1,1,1)
+    GiveItemCreate("BZHLM14A",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
 
