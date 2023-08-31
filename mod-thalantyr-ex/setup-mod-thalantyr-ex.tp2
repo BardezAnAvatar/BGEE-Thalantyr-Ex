@@ -22,6 +22,7 @@ LANGUAGE
     ~en_US~
         //There is a problem with using %MOD_FOLDER% here: https://forums.pocketplane.net/index.php?topic=29521.0
         ~./mod-thalantyr-ex/tra/en_US/setup.tra~
+        ~./mod-thalantyr-ex/tra/en_US/thalan.tra~
         ~./mod-thalantyr-ex/craftable-items/tra/en_US/cloaks.tra~
         ~./mod-thalantyr-ex/craftable-items/tra/en_US/rings.tra~
         ~./mod-thalantyr-ex/craftable-items/tra/en_US/axes.tra~
@@ -33,8 +34,7 @@ LANGUAGE
         ~./mod-thalantyr-ex/craftable-items/tra/en_US/swords.tra~
         ~./mod-thalantyr-ex/craftable-items/tra/en_US/daggers.tra~
         ~./mod-thalantyr-ex/craftable-items/tra/en_US/hammers.tra~
-        ~./mod-thalantyr-ex/tra/en_US/remainder.tra~
-        ~./mod-thalantyr-ex/tra/en_US/thalan.tra~
+        ~./mod-thalantyr-ex/craftable-items/tra/en_US/crossbows.tra~
 
 
 /**********************************
