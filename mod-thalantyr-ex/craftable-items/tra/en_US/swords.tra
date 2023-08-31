@@ -1,5 +1,11 @@
-@101 = ~Long Sword +3: Varscona~
-@102 = ~Long Sword +3: Varscona
+/* Reserving range 100000-109999 */
+
+
+/******************************
+*   Long Sword +3: Varscona   *
+******************************/
+@100000 = ~Long Sword +3: Varscona~
+@100001 = ~Long Sword +3: Varscona
 
 Blades of this type were long used by Sharran priests during the sacrificial rites of "Feast of the Moon" ceremonies. 
 
@@ -23,3 +29,25 @@ Requires:
  5 Strength
 
 Weight: 3~
+
+
+/******************************
+*   Long Sword +2: Harrower   *
+******************************/
+@100100 = ~Long Sword +2: Harrower~
+@100101 = ~Long Sword +2: Harrower
+
+This double-edged long sword gleams white even in the reddest of torchlight. The Dethek runes along its sides name the blade "Harrower", a weapon once wielded by Ariabel, a Waterdhavian Paladin of Lathander who once carried the weapon into combat against the vampire Zerafex and her host of unholy spawn. Ariabel did not survive the contest, but decades later a gang of Tethyrian tomb robbers recovered her sword from the crypt where she fell.
+
+STATISTICS:
+
+THAC0: +2, +4 vs. undead
+Damage: 1d8+2, +4 vs. undead
+Damage type: Slashing
+Speed Factor: 4
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
