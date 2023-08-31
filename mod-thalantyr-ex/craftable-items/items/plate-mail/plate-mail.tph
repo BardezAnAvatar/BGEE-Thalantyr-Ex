@@ -1,0 +1,22 @@
+/***************************
+*   Ankheg Plate Mail +1   *
+***************************/
+// Ankheg Plate Mail +1 Inventory BAM
+COPY ~%MOD_FOLDER%/craftable-items/plate-mail/BZPM06AI.BAM~ ~override/BZPM06AI.BAM~
+
+//Ankheg Plate Mail -> +1
+COPY_EXISTING ~PLAT06.ITM~ ~override/BZPM06A.ITM~
+    //Patches
+        SAY NAME2 @50000
+        SAY IDENTIFIED_DESC @50001
+        WRITE_LONG 0x18 0b01101100              // flags: 2-3, 5-6 (6 is newly set)
+        WRITE_ASCII_TERMINATE 0x3A "BZPM06AI"   // Icon
+        WRITE_LONG 0x34 16500                   // Price
+        WRITE_LONG 0x42 70                      // Lore to Identify
+        LPF ~ALTER_ITEM_EFFECT~
+            INT_VAR
+                header = 1
+                check_globals = 1
+                match_opcode = 0                // AC bonus
+                parameter1 = 0                  // AC Set to 0
+        END
