@@ -1,48 +1,49 @@
-| Type | Prefix |
+| Type            | Prefix     | Inventory BAM |
+| --------------- | ---------- | ------------- |
+| Axe, 1-handed   | BZ1AX __ _ | BZ1A __ _ I   |
+| Axe, 2-handed   | BZ2AX __ _ | BZ2A __ _ I   |
+| Blunt           | BZBLN __ _ | BZBN __ _ I   |
+| Bow             | BZBOW __ _ | BZBW __ _ I   |
+| Club            | BZCLB __ _ | BZBC __ _ I   |
+| Crossbow        | BZXBW __ _ | BZXB __ _ I   |
+| Dagger          | BZDAG __ _ | BZDG __ _ I   |
+| Dart            | BZDRT __ _ | BZDT __ _ I   |
+| Flail           | BZFLA __ _ | BZFL __ _ I   |
+| Halberd         | BZHAL __ _ | BZHL __ _ I   |
+| Hammer          | BZHAM __ _ | BZHM __ _ I   |
+| Mace            | BZMAC __ _ | BZMA __ _ I   |
+| Morning Star    | BZMRN __ _ | BZMS __ _ I   |
+| Sling           | BZSNG __ _ | BZSL __ _ I   |
+| Spear           | BZSPR __ _ | BZSR __ _ I   |
+| Staff           | BZSTF __ _ | BZST __ _ I   |
+| Sword, 1-handed | BZ1SW __ _ | BZ1S __ _ I   |
+| Sword, 2-handed | BZ2SW __ _ | BZ2S __ _ I   |
 | ---- | ------ |
-| Axe, 1-handed   | BZ1AX __ _ |
-| Axe, 2-handed   | BZ2AX __ _ |
-| Blunt           | BZBLN __ _ |
-| Bow             | BZBOW __ _ |
-| Club            | BZCLB __ _ |
-| Crossbow        | BZXBW __ _ |
-| Dagger          | BZDAG __ _ |
-| Dart            | BZDRT __ _ |
-| Flail           | BZFLA __ _ |
-| Halberd         | BZHAL __ _ |
-| Hammer          | BZHAM __ _ |
-| Mace            | BZMAC __ _ |
-| Morning Star    | BZMRN __ _ |
-| Sling           | BZSNG __ _ |
-| Spear           | BZSPR __ _ |
-| Staff           | BZSTF __ _ |
-| Sword, 1-handed | BZ1SW __ _ |
-| Sword, 2-handed | BZ2SW __ _ |
+| Chain Mail      | BZCHM __ _ | BZCM __ _ I   |
+| Helm            | BZHLM __ _ | BZHE __ _ I   |
+| Leather         | BZLEA __ _ | BZLE __ _ I   |
+| Plate Mail      | BZPLM __ _ | BZPM __ _ I   |
+| Shield          | BZSHL __ _ | BZSH __ _ I   |
 | ---- | ------ |
-| Chain Mail      | BZCHM __ _ |
-| Helm            | BZHLM __ _ |
-| Leather         | BZLEA __ _ |
-| Plate Mail      | BZPLM __ _ |
-| Shield          | BZSHL __ _ |
+| Amulet          | BZAML __ _ | BZAM __ _ I   |
+| Cloak           | BZCLK __ _ | BZCL __ _ I   |
+| Bracers         | BZBRA __ _ | BZBR 
+__ _ I   |
+| Ring            | BZRNG __ _ | BZRN __ _ I   |
+| Belt            | BZBEL __ _ | BZBT __ _ I   |
 | ---- | ------ |
-| Amulet          | BZAML __ _ |
-| Cloak           | BZCLK __ _ |
-| Bracers         | BZBRA __ _ |
-| Ring            | BZRNG __ _ |
-| Belt            | BZBEL __ _ |
+| Arrow           | BZARO __ _ | BZAW __ _ I   |
+| Bolt            | BZBOL __ _ | BZBO __ _ I   |
+| Bullet          | BZBUL __ _ | BZBU __ _ I   |
+| Quiver          | BZQIV __ _ | BZQV __ _ I   |
 | ---- | ------ |
-| Arrow           | BZARO __ _ |
-| Bolt            | BZBOL __ _ |
-| Bullet          | BZBUL __ _ |
-| Quiver          | BZQIV __ _ |
+| Potion          | BZPTN __ _ | BZPN __ _ I   |
+| Scroll          | BZSCL __ _ | BZSC __ _ I   |
+| Wand            | BZWND __ _ | BZWN __ _ I   |
 | ---- | ------ |
-| Potion          | BZPTN __ _ |
-| Scroll          | BZSCL __ _ |
-| Wand            | BZWND __ _ |
-| ---- | ------ |
-| Bag             | BZBAG __ _ |
-| Misc            | BZMSC __ _ |
-| Note            | BZNOT __ _ |
+| Bag             | BZBAG __ _ | BZBG __ _ I   |
+| Misc            | BZMSC __ _ | BZMI __ _ I   |
+| Note            | BZNOT __ _ | BZNO __ _ I   |
 
 
 
