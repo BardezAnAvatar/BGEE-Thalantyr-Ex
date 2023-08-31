@@ -1,13 +1,17 @@
-COPY ~%MOD_FOLDER%/comp/axes/BZAX19BI.BAM~ ~override/BZAX19BI.BAM~  //+2 Golden Axe Inventory BAM
+/********************************
+*   Battle Axe +2: Golden Axe   *
+********************************/
+COPY ~%MOD_FOLDER%/comp/axes/BZ1A19BI.BAM~ ~override/BZ1A19BI.BAM~  //+2 Golden Axe Inventory BAM
 COPY ~%MOD_FOLDER%/comp/axes/BZH2ELF.EFF~ ~override/BZH2ELF.EFF~    //+2 to hit elves
 COPY ~%MOD_FOLDER%/comp/axes/BZH2HELF.EFF~ ~override/BZH2HELF.EFF~  //+2 to hit half-elves
-COPY ~%MOD_FOLDER%/comp/axes/BZ2DAM.EFF~ ~override/BZ2DAM.EFF~      //+2 damage
+COPY ~%MOD_FOLDER%/comp/axes/BZ2DAMS.EFF~ ~override/BZ2DAMS.EFF~    //+2 damage (slashing)
 
-COPY_EXISTING ~AX1H19.ITM~ ~override/BZAX19B.ITM~ //Golden Axe +1 -> +2
+//Golden Axe +1 -> +2
+COPY_EXISTING ~AX1H19.ITM~ ~override/BZ1AX19B.ITM~
     //Patches
         SAY NAME2 @40000
         SAY IDENTIFIED_DESC @40001
-        WRITE_ASCII_TERMINATE 0x3A "BZAX19BI"   // Icon
+        WRITE_ASCII_TERMINATE 0x3A "BZ1A19BI"   // Icon
         WRITE_LONG 0x34 4000                    // Price
         WRITE_LONG 0x42 60                      // Lore to Identify
         WRITE_LONG 0x60 2                       // Enchantment
@@ -17,7 +21,7 @@ COPY_EXISTING ~AX1H19.ITM~ ~override/BZAX19B.ITM~ //Golden Axe +1 -> +2
                 thac0_bonus = 2
                 damage_bonus = 2
             STR_VAR
-                icon = ~BZAX19BI~       //icon to display for melee
+                icon = ~BZ1A19BI~       //icon to display for melee
         END
         //remove weird 10% effect nonsense
         LPF ~DELETE_ITEM_EFFECT~
@@ -178,7 +182,7 @@ COPY_EXISTING ~AX1H19.ITM~ ~override/BZAX19B.ITM~ //Golden Axe +1 -> +2
                 insert_point = "-1"     // add to end
                 type = 1                // Type of header: Melee
             STR_VAR
-                resource = ~BZ2DAM~     // Which EFF
+                resource = ~BZ2DAMS~     // Which EFF
         END
         LPF ~ADD_ITEM_EFFECT~           // Damage vs half-elves
             INT_VAR
@@ -200,15 +204,18 @@ COPY_EXISTING ~AX1H19.ITM~ ~override/BZAX19B.ITM~ //Golden Axe +1 -> +2
                 insert_point = "-1"     // add to end
                 type = 1                // Type of header: Melee
             STR_VAR
-                resource = ~BZ2DAM~     // Which EFF
+                resource = ~BZ2DAMS~     // Which EFF
         END
-        
-COPY ~%MOD_FOLDER%/comp/axes/BZAX07AI.BAM~ ~override/BZAX07AI.BAM~  //Wizard Slayer +1 Inventory BAM
-COPY_EXISTING ~AX1H07.ITM~ ~override/BZAX07A.ITM~ //Wizard Slayer -> +1
+
+/***********************************
+*   Battle Axe +1: Wizard Slayer   *
+***********************************/
+COPY ~%MOD_FOLDER%/comp/axes/BZ1A07AI.BAM~ ~override/BZ1A07AI.BAM~  //Wizard Slayer +1 Inventory BAM
+COPY_EXISTING ~AX1H07.ITM~ ~override/BZ1AX07A.ITM~ //Wizard Slayer -> +1
     //Patches
         SAY NAME2 @40100
         SAY IDENTIFIED_DESC @40101
-        WRITE_ASCII_TERMINATE 0x3A "BZAX07AI"   // Icon
+        WRITE_ASCII_TERMINATE 0x3A "BZ1A07AI"   // Icon
         WRITE_LONG 0x34 2300                    // Price
         WRITE_LONG 0x42 80                      // Lore to Identify
         WRITE_LONG 0x60 1                       // Enchantment
@@ -218,19 +225,22 @@ COPY_EXISTING ~AX1H07.ITM~ ~override/BZAX07A.ITM~ //Wizard Slayer -> +1
                 thac0_bonus = 1
                 damage_bonus = 1
             STR_VAR
-                icon = ~BZAX07AI~       //icon to display for melee
+                icon = ~BZ1A07AI~       //icon to display for melee
         END
         
-COPY ~%MOD_FOLDER%/comp/axes/BZAX07BI.BAM~ ~override/BZAX07BI.BAM~  //Wizard Slayer +2 Inventory BAM
+/***********************************
+*   Battle Axe +2: Wizard Slayer   *
+***********************************/
+COPY ~%MOD_FOLDER%/comp/axes/BZ1A07BI.BAM~ ~override/BZ1A07BI.BAM~  //Wizard Slayer +2 Inventory BAM
 COPY ~%MOD_FOLDER%/comp/axes/BZH1MAGE.EFF~ ~override/BZH1MAGE.EFF~  //+1 to hit mages
 COPY ~%MOD_FOLDER%/comp/axes/BZH1OGMA.EFF~ ~override/BZH1OGMA.EFF~  //+1 to hit ogre mages
 COPY ~%MOD_FOLDER%/comp/axes/BZH1EMST.EFF~ ~override/BZH1EMST.EFF~  //+1 to hit Elminster class
 COPY ~%MOD_FOLDER%/comp/axes/BZ1DAMS.EFF~ ~override/BZ1DAMS.EFF~    //+1 slashing damage
-COPY_EXISTING ~BZAX07A.ITM~ ~override/BZAX07B.ITM~ //Wizard Slayer +1 -> +2
+COPY_EXISTING ~BZ1AX07A.ITM~ ~override/BZ1AX07B.ITM~ //Wizard Slayer +1 -> +2
     //Patches
         SAY NAME2 @40200
         SAY IDENTIFIED_DESC @40201
-        WRITE_ASCII_TERMINATE 0x3A "BZAX07BI"   // Icon
+        WRITE_ASCII_TERMINATE 0x3A "BZ1A07BI"   // Icon
         WRITE_LONG 0x34 6400                    // Price
         WRITE_LONG 0x42 120                     // Lore to Identify
         WRITE_LONG 0x60 2                       // Enchantment
@@ -240,7 +250,7 @@ COPY_EXISTING ~BZAX07A.ITM~ ~override/BZAX07B.ITM~ //Wizard Slayer +1 -> +2
                 thac0_bonus = 2
                 damage_bonus = 2
             STR_VAR
-                icon = ~BZAX07BI~       //icon to display for melee
+                icon = ~BZ1A07BI~       //icon to display for melee
         END
         LPF ~ADD_ITEM_EQEFFECT~         // thac0 vs MAGE_ALL
             INT_VAR

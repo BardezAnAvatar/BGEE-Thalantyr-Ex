@@ -260,7 +260,7 @@ OUTER_TEXT_SPRINT Golden_Axe_2_Craft
     DestroyItem("MISC42")
     TakePartyItemNum("SCRL1E",1)
     DestroyItem("SCRL1E")
-    GiveItemCreate("BZAX19B",Player1,1,1,1)
+    GiveItemCreate("BZ1AX19B",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
 
@@ -281,7 +281,7 @@ OUTER_TEXT_SPRINT Wizard_Slayer_1_Craft
     DestroyItem("AX1H07")
     TakePartyItemNum("MISC36",1)
     DestroyItem("MISC36")
-    GiveItemCreate("BZAX07A",Player1,1,1,1)
+    GiveItemCreate("BZ1AX07A",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
 
@@ -290,7 +290,7 @@ OUTER_TEXT_SPRINT Wizard_Slayer_1_Craft
 ***********************/
 //requirement
 OUTER_TEXT_SPRINT Wizard_Slayer_2_Recipe
-    ~PartyHasItem("BZAX07A")
+    ~PartyHasItem("BZ1AX07A")
     PartyHasItem("MISC39")
     PartyGoldGT(5999)~
 
@@ -298,11 +298,11 @@ OUTER_TEXT_SPRINT Wizard_Slayer_2_Recipe
 OUTER_TEXT_SPRINT Wizard_Slayer_2_Craft
     ~TakePartyGold(6000)
     DestroyGold(6000)
-    TakePartyItemNum("BZAX07A",1)
-    DestroyItem("BZAX07A")
+    TakePartyItemNum("BZ1AX07A",1)
+    DestroyItem("BZ1AX07A")
     TakePartyItemNum("MISC39",1)
     DestroyItem("MISC39")
-    GiveItemCreate("BZAX07B",Player1,1,1,1)
+    GiveItemCreate("BZ1AX07B",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
 
