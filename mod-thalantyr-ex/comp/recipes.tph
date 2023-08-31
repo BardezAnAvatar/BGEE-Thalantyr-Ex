@@ -21,7 +21,7 @@ OUTER_TEXT_SPRINT Shandalar_Cloak_Craft
     DestroyItem("SCRL05")
     TakePartyItemNum("SCRL06",2)
     DestroyItem("SCRL06")
-    GiveItemCreate("BZCLK1",Player1,1,1,1)
+    GiveItemCreate("BZCL22B",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
 

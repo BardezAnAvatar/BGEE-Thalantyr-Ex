@@ -62,7 +62,6 @@ INCLUDE ~%MOD_FOLDER%/craftable-items/items/axes/install.tph~
 INCLUDE ~%MOD_FOLDER%/craftable-items/items/rings/install.tph~
 INCLUDE ~%MOD_FOLDER%/craftable-items/items/amulets/install.tph~
 INCLUDE ~%MOD_FOLDER%/craftable-items/items/cloaks/install.tph~
-INCLUDE ~%MOD_FOLDER%/comp/shandalar-cloak/shandalar-cloak.tph~  // Shandalar's Cloak
 INCLUDE ~%MOD_FOLDER%/comp/varscona3/varscona3.tph~  // Varscona +3
 INCLUDE ~%MOD_FOLDER%/comp/protection/protection.tph~  // Protection amulet, etc.
 INCLUDE ~%MOD_FOLDER%/comp/remainder/remainder.tph~  // remainder

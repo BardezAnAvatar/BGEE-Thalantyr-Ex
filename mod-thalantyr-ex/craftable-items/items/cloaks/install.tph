@@ -1,3 +1,98 @@
+/*****************************************
+*   Shandalar's Cloak of Protection +2   *
+*****************************************/
+COPY ~%MOD_FOLDER%/comp/shandalar-cloak/BZCL22BI.BAM~ ~override/BZCL22BI.BAM~
+COPY_EXISTING ~CLCK02.ITM~ ~override/BZCL22B.ITM~ //cloak of protection +2 -> Shandalar's Cloak
+    //Patches
+        SAY NAME2 @20000
+        SAY IDENTIFIED_DESC @20001
+        WRITE_LONG 0x34 12000                   // Price
+        WRITE_ASCII_TERMINATE 0x3A "BZCL22BI"   // Inventory icon
+        WRITE_LONG 0x42 85                      // Lore to Identify
+        LPF ~ADD_ITEM_EQEFFECT~
+            INT_VAR
+                opcode = 29             // Type: Electrical Resistance Bonus
+                target = 1              // Self
+                timing = 2              // Timing Mode: Instant/While Equipped
+                parameter1 = 50         // value of resistance bonus
+                parameter2 = 0          // Modifier Type: Increment
+                power = 0
+                resist_dispel = 0       // Natural/Nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused for opcode
+        END
+        LPF ~ADD_ITEM_EQEFFECT~
+            INT_VAR
+                opcode = 142            // Type: Display Portrait Icon
+                target = 1              // Self
+                timing = 2              // Timing Mode: Instant/While Equipped
+                parameter1 = 0          // unused 
+                parameter2 = 27         // Icon: Protection from Electricity
+                power = 0
+                resist_dispel = 0       // Natural/Nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused for opcode
+        END
+        LPF ~ADD_ITEM_EQEFFECT~
+            INT_VAR
+                opcode = 30             // Type: Fire Resistance Bonus
+                target = 1              // Self
+                timing = 2              // Timing Mode: Instant/While Equipped
+                parameter1 = 25         // value of resistance bonus
+                parameter2 = 0          // Modifier Type: Increment
+                power = 0
+                resist_dispel = 0       // Natural/Nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused for opcode
+        END
+        LPF ~ADD_ITEM_EQEFFECT~
+            INT_VAR
+                opcode = 142            // Type: Display Portrait Icon
+                target = 1              // Self
+                timing = 2              // Timing Mode: Instant/While Equipped
+                parameter1 = 0          // unused 
+                parameter2 = 16         // Icon: Protection from Fire
+                power = 0
+                resist_dispel = 0       // Natural/Nonmagical
+                duration = 0
+                probability1 = 100
+                probability2 = 0
+                dicenumber = 0
+                dicesize = 0
+                savingthrow = 0
+                savebonus = 0
+                special = 0
+                insert_point = "-1"     // add to end
+            STR_VAR
+                resource = ~~           // unused for opcode
+        END
 
 /*************************************
 *   Nymph's Cloak of Protection +2   *
