@@ -1,22 +1,23 @@
 
-
-//Algernon's Cloak +2
-COPY ~%MOD_FOLDER%/comp/protection/BZCLK8BI.BAM~ ~override/BZCLK8BI.BAM~
-COPY ~%MOD_FOLDER%/comp/protection/BZCL8B_C.BAM~ ~override/BZCL8B_C.BAM~
-COPY ~%MOD_FOLDER%/comp/protection/BZCL8B_F.BAM~ ~override/BZCL8B_F.BAM~
-COPY_EXISTING ~CLCK08.ITM~ ~override/BZCLK8B.ITM~
+/*************************************
+*   Nymph's Cloak of Protection +2   *
+*************************************/
+COPY ~%MOD_FOLDER%/comp/protection/BZCL07BI.BAM~ ~override/BZCL07BI.BAM~
+COPY ~%MOD_FOLDER%/comp/protection/BZCL7B_C.BAM~ ~override/BZCL7B_C.BAM~
+COPY ~%MOD_FOLDER%/comp/protection/BZCL7B_F.BAM~ ~override/BZCL7B_F.BAM~
+COPY_EXISTING ~CLCK08.ITM~ ~override/BZCLK07B.ITM~
     //Patches
         SAY NAME2 @20100
         SAY IDENTIFIED_DESC @20101
         WRITE_LONG 0x34 14000                   // Price
-        WRITE_ASCII_TERMINATE 0x3A "BZCLK8BI"   // Icon
+        WRITE_ASCII_TERMINATE 0x3A "BZCL07BI"   // Icon
         WRITE_LONG 0x42 90                      // Lore to Identify
         LPF ~ALTER_ITEM_HEADER~
             INT_VAR
                 header = 1
                 charges = 2
             STR_VAR
-                icon = ~BZCL8B_C~       // icon to display for ranged
+                icon = ~BZCL7B_C~       // icon to display for ranged
         END
         LPF ~ALTER_ITEM_EFFECT~
             INT_VAR
@@ -58,7 +59,7 @@ COPY_EXISTING ~CLCK08.ITM~ ~override/BZCLK8B.ITM~
                 copy_header = 0
                 insert_point = ~-1~
             STR_VAR
-                icon = ~BZCL8B_F~
+                icon = ~BZCL7B_F~
         END
         LPF ~ADD_ITEM_EFFECT~           // Visuals
             INT_VAR
