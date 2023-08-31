@@ -3,8 +3,8 @@ COPY ~%MOD_FOLDER%/comp/protection/BZAML1BI.BAM~ ~override/BZAML1BI.BAM~
 //make amulet +2
 COPY_EXISTING ~AMUL14.ITM~ ~override/BZAML1B.ITM~ //Amulet of Protection +2
     //Patches
-        SAY NAME2 @400
-        SAY IDENTIFIED_DESC @401
+        SAY NAME2 @80000
+        SAY IDENTIFIED_DESC @80001
         WRITE_LONG 0x34 9000                    // Price
         WRITE_ASCII_TERMINATE 0x3A "BZAML1BI"   // Icon
         WRITE_LONG 0x42 70                      // Lore to Identify
