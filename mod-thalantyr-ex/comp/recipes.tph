@@ -51,7 +51,7 @@ OUTER_TEXT_SPRINT Varscona_3_Craft
     DestroyItem("SCRL1Q")
     TakePartyItemNum("SCRL2F",1)
     DestroyItem("SCRL2F")
-    GiveItemCreate("BZS1H1C",Player1,1,1,1)
+    GiveItemCreate("BZ1SW06C",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
 
@@ -365,7 +365,7 @@ OUTER_TEXT_SPRINT Long_Sword_Harrower_2_Craft
     DestroyItem("MISC17")
     TakePartyItemNum("SW1H79",1)
     DestroyItem("SW1H79")
-    GiveItemCreate("BZSW79B",Player1,1,1,1)
+    GiveItemCreate("BZ1SW79B",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
 

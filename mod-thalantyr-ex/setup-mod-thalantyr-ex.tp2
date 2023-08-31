@@ -62,6 +62,7 @@ INCLUDE ~%MOD_FOLDER%/craftable-items/items/axes/install-axes.tph~
 INCLUDE ~%MOD_FOLDER%/craftable-items/items/rings/install-rings.tph~
 INCLUDE ~%MOD_FOLDER%/craftable-items/items/amulets/install-amulets.tph~
 INCLUDE ~%MOD_FOLDER%/craftable-items/items/cloaks/install-cloaks.tph~
+INCLUDE ~%MOD_FOLDER%/craftable-items/items/swords/install-swords.tph~
 INCLUDE ~%MOD_FOLDER%/comp/varscona3/varscona3.tph~  // Varscona +3
 INCLUDE ~%MOD_FOLDER%/comp/protection/protection.tph~  // Protection amulet, etc.
 INCLUDE ~%MOD_FOLDER%/comp/remainder/remainder.tph~  // remainder

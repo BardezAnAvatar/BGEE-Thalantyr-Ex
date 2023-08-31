@@ -1,11 +1,14 @@
-COPY ~%MOD_FOLDER%/comp/varscona3/BZS1H1CI.BAM~ ~override/BZS1H1CI.BAM~
-COPY ~%MOD_FOLDER%/comp/varscona3/BZS1H1C.SPL~ ~override/BZS1H1C.SPL~
-COPY_EXISTING ~SW1H06.ITM~ ~override/BZS1H1C.ITM~ //Varscona +2 ->Varscona +3
+/******************************
+*   Long Sword +3: Varscona   *
+******************************/
+COPY ~%MOD_FOLDER%/comp/varscona3/BZ1S06CI.BAM~ ~override/BZ1S06CI.BAM~
+COPY ~%MOD_FOLDER%/comp/varscona3/BZ1SW06C.SPL~ ~override/BZ1SW06C.SPL~
+COPY_EXISTING ~SW1H06.ITM~ ~override/BZ1SW06C.ITM~ //Varscona +2 ->Varscona +3
     //Patches
         SAY NAME2 @100000
         SAY IDENTIFIED_DESC @100001
         WRITE_LONG 0x34 9515                    // Price
-        WRITE_ASCII_TERMINATE 0x3A "BZS1H1CI"   // Icon
+        WRITE_ASCII_TERMINATE 0x3A "BZ1S06CI"   // Icon
         WRITE_LONG 0x42 90                      // Lore to Identify
         WRITE_LONG 0x60 3                       // Enchantment
         LPF ~ALTER_ITEM_HEADER~
@@ -14,7 +17,7 @@ COPY_EXISTING ~SW1H06.ITM~ ~override/BZS1H1C.ITM~ //Varscona +2 ->Varscona +3
                 thac0_bonus = 3
                 damage_bonus = 3
             STR_VAR
-                icon = ~BZS1H1CI~        //icon to display for melee
+                icon = ~BZ1S06CI~        //icon to display for melee
         END
         LPF ~ALTER_ITEM_EFFECT~
             INT_VAR
@@ -44,7 +47,7 @@ COPY_EXISTING ~SW1H06.ITM~ ~override/BZS1H1C.ITM~ //Varscona +2 ->Varscona +3
                 insert_point = "-1"     // add to end
                 type = 1                // Type of header: Melee
             STR_VAR
-                resource = ~BZS1H1C~    // Which spell
+                resource = ~BZ1SW06C~    // Which spell
         END
         LPF ~ADD_ITEM_EQEFFECT~
             INT_VAR
@@ -87,4 +90,32 @@ COPY_EXISTING ~SW1H06.ITM~ ~override/BZS1H1C.ITM~ //Varscona +2 ->Varscona +3
                 insert_point = "-1"     // add to end
             STR_VAR
                 resource = ~~           // unused for opcode
+        END
+
+
+/******************************
+*   Long Sword +2: Harrower   *
+******************************/
+COPY ~%MOD_FOLDER%/comp/remainder/BZ1S79BI.BAM~ ~override/BZ1S79BI.BAM~
+COPY_EXISTING ~SW1H79.ITM~ ~override/BZ1SW79B.ITM~   //Harrower +1 -> +2
+    //Patches
+        SAY NAME2 @100100
+        SAY IDENTIFIED_DESC @100101
+        WRITE_ASCII_TERMINATE 0x3A "BZ1S79BI"   // Icon
+        WRITE_LONG 0x34 5000                    // Price
+        WRITE_LONG 0x42 60                      // Lore to Identify
+        WRITE_LONG 0x60 2                       // Enchantment
+        LPF ~ALTER_ITEM_HEADER~
+            INT_VAR
+                header = 1
+                thac0_bonus = 2
+                damage_bonus = 2
+            STR_VAR
+                icon = ~BZ1S79BI~       // icon to display for melee
+        END
+        LPF ~ALTER_ITEM_EFFECT~
+            INT_VAR
+                check_headers = 1
+                match_opcode = 344      // Enchantment vs. Creature Type
+                special = 4             // enchantment
         END
