@@ -5,8 +5,8 @@ COPY ~%MOD_FOLDER%/comp/axes/BZ2DAM.EFF~ ~override/BZ2DAM.EFF~      //+2 damage
 
 COPY_EXISTING ~AX1H19.ITM~ ~override/BZAX19B.ITM~ //Golden Axe +1 -> +2
     //Patches
-        SAY NAME2 @500
-        SAY IDENTIFIED_DESC @501
+        SAY NAME2 @40000
+        SAY IDENTIFIED_DESC @40001
         WRITE_ASCII_TERMINATE 0x3A "BZAX19BI"   // Icon
         WRITE_LONG 0x34 4000                    // Price
         WRITE_LONG 0x42 60                      // Lore to Identify
@@ -206,8 +206,8 @@ COPY_EXISTING ~AX1H19.ITM~ ~override/BZAX19B.ITM~ //Golden Axe +1 -> +2
 COPY ~%MOD_FOLDER%/comp/axes/BZAX07AI.BAM~ ~override/BZAX07AI.BAM~  //Wizard Slayer +1 Inventory BAM
 COPY_EXISTING ~AX1H07.ITM~ ~override/BZAX07A.ITM~ //Wizard Slayer -> +1
     //Patches
-        SAY NAME2 @502
-        SAY IDENTIFIED_DESC @503
+        SAY NAME2 @40100
+        SAY IDENTIFIED_DESC @40101
         WRITE_ASCII_TERMINATE 0x3A "BZAX07AI"   // Icon
         WRITE_LONG 0x34 2300                    // Price
         WRITE_LONG 0x42 80                      // Lore to Identify
@@ -228,8 +228,8 @@ COPY ~%MOD_FOLDER%/comp/axes/BZH1EMST.EFF~ ~override/BZH1EMST.EFF~  //+1 to hit 
 COPY ~%MOD_FOLDER%/comp/axes/BZ1DAMS.EFF~ ~override/BZ1DAMS.EFF~    //+1 slashing damage
 COPY_EXISTING ~BZAX07A.ITM~ ~override/BZAX07B.ITM~ //Wizard Slayer +1 -> +2
     //Patches
-        SAY NAME2 @504
-        SAY IDENTIFIED_DESC @505
+        SAY NAME2 @40200
+        SAY IDENTIFIED_DESC @40201
         WRITE_ASCII_TERMINATE 0x3A "BZAX07BI"   // Icon
         WRITE_LONG 0x34 6400                    // Price
         WRITE_LONG 0x42 120                     // Lore to Identify
