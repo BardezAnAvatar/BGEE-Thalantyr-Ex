@@ -85,8 +85,8 @@ COPY ~%MOD_FOLDER%/comp/armor/BZHL14AI.BAM~ ~override/BZHL14AI.BAM~  // Kiel's H
 
 COPY_EXISTING ~HELM14.ITM~ ~override/BZHL14A.ITM~ //Kiel's Helmet -> +1
     //Patches
-        SAY NAME2 @706
-        SAY IDENTIFIED_DESC @707
+        SAY NAME2 @60000
+        SAY IDENTIFIED_DESC @60001
         WRITE_ASCII_TERMINATE 0x3A "BZHL14AI"   // Icon
         WRITE_LONG 0x34 6500                    // Price
         WRITE_LONG 0x42 90                      // Lore to Identify
