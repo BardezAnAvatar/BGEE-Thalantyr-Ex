@@ -18,29 +18,28 @@
 | Staff           | BZSTF __ _ | BZST __ _ I   |
 | Sword, 1-handed | BZ1SW __ _ | BZ1S __ _ I   |
 | Sword, 2-handed | BZ2SW __ _ | BZ2S __ _ I   |
-| ---- | ------ |
+| --------------- | ---------- | ------------- |
 | Chain Mail      | BZCHM __ _ | BZCM __ _ I   |
 | Helm            | BZHLM __ _ | BZHE __ _ I   |
 | Leather         | BZLEA __ _ | BZLE __ _ I   |
 | Plate Mail      | BZPLM __ _ | BZPM __ _ I   |
 | Shield          | BZSHL __ _ | BZSH __ _ I   |
-| ---- | ------ |
+| --------------- | ---------- | ------------- |
 | Amulet          | BZAML __ _ | BZAM __ _ I   |
 | Cloak           | BZCLK __ _ | BZCL __ _ I   |
-| Bracers         | BZBRA __ _ | BZBR 
-__ _ I   |
+| Bracers         | BZBRA __ _ | BZBR __ _ I   |
 | Ring            | BZRNG __ _ | BZRN __ _ I   |
 | Belt            | BZBEL __ _ | BZBT __ _ I   |
-| ---- | ------ |
+| --------------- | ---------- | ------------- |
 | Arrow           | BZARO __ _ | BZAW __ _ I   |
 | Bolt            | BZBOL __ _ | BZBO __ _ I   |
 | Bullet          | BZBUL __ _ | BZBU __ _ I   |
 | Quiver          | BZQIV __ _ | BZQV __ _ I   |
-| ---- | ------ |
+| --------------- | ---------- | ------------- |
 | Potion          | BZPTN __ _ | BZPN __ _ I   |
 | Scroll          | BZSCL __ _ | BZSC __ _ I   |
 | Wand            | BZWND __ _ | BZWN __ _ I   |
-| ---- | ------ |
+| --------------- | ---------- | ------------- |
 | Bag             | BZBAG __ _ | BZBG __ _ I   |
 | Misc            | BZMSC __ _ | BZMI __ _ I   |
 | Note            | BZNOT __ _ | BZNO __ _ I   |
