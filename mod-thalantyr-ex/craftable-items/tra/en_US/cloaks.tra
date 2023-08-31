@@ -1,5 +1,8 @@
-@201 = ~Shandalar's Cloak of Protection +2~
-@202 = ~This cloak was originally stolen from Shandalar by the powerful mage Semia, presumably for the powerful magics woven into the fabric.
+/*****************************************
+*   Shandalar's Cloak of Protection +2   *
+*****************************************/
+@20000 = ~Shandalar's Cloak of Protection +2~
+@20001 = ~This cloak was originally stolen from Shandalar by the powerful mage Semia, presumably for the powerful magics woven into the fabric.
 
 Considering that Shandalar sent your group to a teleportation prison just to retrieve it, he will undoubtably want this cloak back as a point of personal pride.
 
