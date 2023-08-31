@@ -1,8 +1,11 @@
+/* Reserving range 70000-79999 */
 
 
-//Kiel's Buckler
-@702 = ~Kiel's Buckler +1~
-@703 = ~Kiel's Buckler +1
+/************************
+*   Kiel's Buckler +1   *
+************************/
+@70000 = ~Kiel's Buckler +1~
+@70001 = ~Kiel's Buckler +1
 
 This is the buckler of Kiel the Legion Killer, firstborn son of Durlag Trollkiller and Clan-prince of his father's ill-fated tower. Its light weight and excellent craftsmanship increase the Dexterity of all who bear it by a single point.
 
@@ -18,9 +21,12 @@ Requires:
 
 Weight: 2~
 
-//Buckley's Buckler
-@704 = ~Buckley's Buckler +1~
-@705 = ~Buckley's Buckler +1
+
+/***************************
+*   Buckley's Buckler +1   *
+***************************/
+@70100 = ~Buckley's Buckler +1~
+@70101 = ~Buckley's Buckler +1
 
 A rectangle of mammoth hide forms this small shield. No amount of cleansing can dispel the pong of decay from this poorly tanned device, yet somehow the malodorous shield fortifies its wielder.
 

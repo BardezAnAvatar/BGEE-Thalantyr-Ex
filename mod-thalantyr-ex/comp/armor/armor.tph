@@ -22,8 +22,8 @@ COPY ~%MOD_FOLDER%/comp/armor/BZSH20AI.BAM~ ~override/BZSH20AI.BAM~  // Kiel's B
 
 COPY_EXISTING ~SHLD20.ITM~ ~override/BZSH20A.ITM~ //Kiel's Buckler -> +1
     //Patches
-        SAY NAME2 @702
-        SAY IDENTIFIED_DESC @703
+        SAY NAME2 @70000
+        SAY IDENTIFIED_DESC @70001
         WRITE_ASCII_TERMINATE 0x3A "BZSH20AI"   // Icon
         WRITE_LONG 0x34 4500                    // Price
         WRITE_LONG 0x42 90                      // Lore to Identify
@@ -53,8 +53,8 @@ COPY_EXISTING ~SHLD20.ITM~ ~override/BZSH20A.ITM~ //Kiel's Buckler -> +1
 COPY ~%MOD_FOLDER%/comp/armor/BZSH33AI.BAM~ ~override/BZSH33AI.BAM~  // Buckley's Buckler +1 Inventory BAM
 COPY_EXISTING ~SHLD33.ITM~ ~override/BZSH33A.ITM~ //Buckley's Buckler -> +1
     //Patches
-        SAY NAME2 @704
-        SAY IDENTIFIED_DESC @705
+        SAY NAME2 @70100
+        SAY IDENTIFIED_DESC @70101
         WRITE_ASCII_TERMINATE 0x3A "BZSH33AI"   // Icon
         WRITE_LONG 0x34 2800                    // Price
         WRITE_LONG 0x42 70                      // Lore to Identify
