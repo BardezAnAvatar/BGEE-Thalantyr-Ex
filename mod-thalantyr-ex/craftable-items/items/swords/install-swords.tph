@@ -1,8 +1,8 @@
 /******************************
 *   Long Sword +3: Varscona   *
 ******************************/
-COPY ~%MOD_FOLDER%/comp/varscona3/BZ1S06CI.BAM~ ~override/BZ1S06CI.BAM~
-COPY ~%MOD_FOLDER%/comp/varscona3/BZ1SW06C.SPL~ ~override/BZ1SW06C.SPL~
+COPY ~%MOD_FOLDER%/craftable-items/items/swords/BZ1S06CI.BAM~ ~override/BZ1S06CI.BAM~
+COPY ~%MOD_FOLDER%/craftable-items/items/swords/BZ1SW06C.SPL~ ~override/BZ1SW06C.SPL~
 COPY_EXISTING ~SW1H06.ITM~ ~override/BZ1SW06C.ITM~ //Varscona +2 ->Varscona +3
     //Patches
         SAY NAME2 @100000
@@ -96,7 +96,7 @@ COPY_EXISTING ~SW1H06.ITM~ ~override/BZ1SW06C.ITM~ //Varscona +2 ->Varscona +3
 /******************************
 *   Long Sword +2: Harrower   *
 ******************************/
-COPY ~%MOD_FOLDER%/comp/remainder/BZ1S79BI.BAM~ ~override/BZ1S79BI.BAM~
+COPY ~%MOD_FOLDER%/craftable-items/items/swords/BZ1S79BI.BAM~ ~override/BZ1S79BI.BAM~
 COPY_EXISTING ~SW1H79.ITM~ ~override/BZ1SW79B.ITM~   //Harrower +1 -> +2
     //Patches
         SAY NAME2 @100100

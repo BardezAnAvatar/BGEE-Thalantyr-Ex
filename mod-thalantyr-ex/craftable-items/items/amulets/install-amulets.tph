@@ -1,7 +1,7 @@
 /******************************
 *   Amulet of Protection +2   *
 ******************************/
-COPY ~%MOD_FOLDER%/comp/protection/BZAM14BI.BAM~ ~override/BZAM14BI.BAM~
+COPY ~%MOD_FOLDER%/craftable-items/items/amulets/BZAM14BI.BAM~ ~override/BZAM14BI.BAM~
 
 //make amulet +2
 COPY_EXISTING ~AMUL14.ITM~ ~override/BZAML14B.ITM~ //Amulet of Protection +2

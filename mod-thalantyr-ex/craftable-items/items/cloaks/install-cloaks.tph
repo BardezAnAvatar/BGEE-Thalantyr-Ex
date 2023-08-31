@@ -1,7 +1,7 @@
 /*****************************************
 *   Shandalar's Cloak of Protection +2   *
 *****************************************/
-COPY ~%MOD_FOLDER%/comp/shandalar-cloak/BZCL22BI.BAM~ ~override/BZCL22BI.BAM~
+COPY ~%MOD_FOLDER%/craftable-items/items/cloaks/BZCL22BI.BAM~ ~override/BZCL22BI.BAM~
 COPY_EXISTING ~CLCK02.ITM~ ~override/BZCL22B.ITM~ //cloak of protection +2 -> Shandalar's Cloak
     //Patches
         SAY NAME2 @20000
@@ -97,9 +97,9 @@ COPY_EXISTING ~CLCK02.ITM~ ~override/BZCL22B.ITM~ //cloak of protection +2 -> Sh
 /*************************************
 *   Nymph's Cloak of Protection +2   *
 *************************************/
-COPY ~%MOD_FOLDER%/comp/protection/BZCL07BI.BAM~ ~override/BZCL07BI.BAM~
-COPY ~%MOD_FOLDER%/comp/protection/BZCL7B_C.BAM~ ~override/BZCL7B_C.BAM~
-COPY ~%MOD_FOLDER%/comp/protection/BZCL7B_F.BAM~ ~override/BZCL7B_F.BAM~
+COPY ~%MOD_FOLDER%/craftable-items/items/cloaks/BZCL07BI.BAM~ ~override/BZCL07BI.BAM~
+COPY ~%MOD_FOLDER%/craftable-items/items/cloaks/BZCL7B_C.BAM~ ~override/BZCL7B_C.BAM~
+COPY ~%MOD_FOLDER%/craftable-items/items/cloaks/BZCL7B_F.BAM~ ~override/BZCL7B_F.BAM~
 COPY_EXISTING ~CLCK08.ITM~ ~override/BZCLK07B.ITM~
     //Patches
         SAY NAME2 @20100

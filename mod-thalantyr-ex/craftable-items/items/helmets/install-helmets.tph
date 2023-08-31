@@ -2,7 +2,7 @@
 *   Kiel's Helm +1   *
 *********************/
 // Kiel's Helmet +1 Inventory BAM
-COPY ~%MOD_FOLDER%/comp/armor/BZHE14AI.BAM~ ~override/BZHE14AI.BAM~
+COPY ~%MOD_FOLDER%/craftable-items/items/helmets/BZHE14AI.BAM~ ~override/BZHE14AI.BAM~
 
 COPY_EXISTING ~HELM14.ITM~ ~override/BZHLM14A.ITM~ //Kiel's Helmet -> +1
     //Patches
