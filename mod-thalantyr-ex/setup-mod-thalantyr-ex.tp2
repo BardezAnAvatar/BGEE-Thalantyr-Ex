@@ -55,7 +55,7 @@ PRINT @3 //found state
 //copy over items
 INCLUDE ~%MOD_FOLDER%/lib/macros.tph~
 INCLUDE ~%MOD_FOLDER%/comp/recipes.tph~
-INCLUDE ~%MOD_FOLDER%/craftable-items/items/plate-mail/plate-mail.tph~
+INCLUDE ~%MOD_FOLDER%/craftable-items/items/plate-mail/install.tph~
 INCLUDE ~%MOD_FOLDER%/craftable-items/items/helmets/install.tph~
 INCLUDE ~%MOD_FOLDER%/comp/shandalar-cloak/shandalar-cloak.tph~  // Shandalar's Cloak
 INCLUDE ~%MOD_FOLDER%/comp/varscona3/varscona3.tph~  // Varscona +3
