@@ -1,8 +1,14 @@
-//Cursed ring
-@300 = "Gorion's Legacy"
-@301 = ~Cursed Ring: Koveras' Gift~
-//Cursed ring, not identified
-@302 = ~Ring of Protection +1: Gorion's Legacy
+/* Reserving range 30000-39999 */
+
+
+/*********************************
+*   Cursed Ring: Koveras' Gift   *
+*********************************/
+@30000 = "Gorion's Legacy"  //unidentified name
+@30001 = ~Cursed Ring: Koveras' Gift~   //identified name
+
+//Unidentified description
+@30002 = ~Ring of Protection +1: Gorion's Legacy 
 
 This gold ring was given to you by Koveras, an associate of Gorion that <CHARNAME> met when returning to Candlekeep. He claimed to carry this ring on Gorion's behalf for <CHARNAME>, were anything to happen during <PRO_HISHER> flight from Candlekeep. It bears some lovely markings and imprints.
 
@@ -14,8 +20,8 @@ Equipped abilities:
 
 Weight: 0~
 
-//Cursed ring: Identified
-@303 = ~Cursed Ring: Koveras' Gift
+//Identified Description
+@30003 = ~Cursed Ring: Koveras' Gift
 
 This gold ring was minted with an Amnian imprint and bears a mark of the Shadow Thieves' guild of Amn upon it. It was given to <CHARNAME> by Koveras (an anadrome for Sarevok). It was given as part of an attempt to identify <CHARNAME> as the murderer of the Iron Throne leadership at Candlekeep.
 
@@ -29,11 +35,14 @@ Equipped abilities:
 
 Weight: 0~
 
-//Base ring +1, renamed
-@304 = ~Ring of Protection +1: Koveras' Gift~
 
-//Base ring +1, no curse
-@305 = ~Ring of Protection +1: Koveras' Gift
+/*******************************************
+*   Ring of Protection +1: Koveras' Gift   *
+*******************************************/
+@30100 = ~Ring of Protection +1: Koveras' Gift~ //Identified name
+
+//Identified description; was never cursed
+@30101 = ~Ring of Protection +1: Koveras' Gift
 
 This gold ring was minted with an Amnian imprint and bears a mark of the Shadow Thieves' guild of Amn upon it. It was given to <CHARNAME> by Koveras (an alias for Sarevok). It was given as part of an attempt to identify <CHARNAME> as the murderer of the Iron Throne leadership at Candlekeep.
 
@@ -47,8 +56,8 @@ Equipped abilities:
 
 Weight: 0~
 
-//Base ring +1, curse lifted
-@306 = ~Ring of Protection +1: Koveras' Gift
+//Identified description; curse lifted
+@30102 = ~Ring of Protection +1: Koveras' Gift
 
 This gold ring was minted with an Amnian imprint and bears a mark of the Shadow Thieves' guild of Amn upon it. It was given to <CHARNAME> by "Koveras" (an alias for Sarevok), imbued with a strong curse. It was given as part of an attempt to identify <CHARNAME> as the murderer of the Iron Throne leadership at Candlekeep.
 
@@ -64,9 +73,13 @@ Equipped abilities:
 
 Weight: 0~
 
-//ring +2, upgraded
-@307 = ~Ring of Protection +2: Koveras' Gift~
-@308 = ~Ring of Protection +2: Koveras' Gift
+
+/*******************************************
+*   Ring of Protection +2: Koveras' Gift   *
+*******************************************/
+@30200 = ~Ring of Protection +2: Koveras' Gift~ //Identified name
+//Identified description
+@30201 = ~Ring of Protection +2: Koveras' Gift
 
 This gold ring was minted with an Amnian imprint and bears a mark of the Shadow Thieves' guild of Amn upon it. It was given to <CHARNAME> by Sarevok (under the alias Koveras). It was given as part of an attempt to identify <CHARNAME> as the murderer of the Iron Throne leadership.
 

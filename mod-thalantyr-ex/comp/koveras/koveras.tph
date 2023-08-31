@@ -2,10 +2,10 @@
 //make cursed ring
 COPY_EXISTING ~RING25.ITM~ ~override/BZRNG1.ITM~ //Koveras Gift, cursed
     //Patches
-        SAY NAME1 @300
-        SAY NAME2 @301
-        SAY UNIDENTIFIED_DESC @302
-        SAY IDENTIFIED_DESC @303
+        SAY NAME1 @30000
+        SAY NAME2 @30001
+        SAY UNIDENTIFIED_DESC @30002
+        SAY IDENTIFIED_DESC @30003
         WRITE_LONG 0x34 300                     // Price
         WRITE_LONG 0x42 80                      // Lore to Identify
         WRITE_LONG 0x18 0b111100                // flags: 2-6, 4 being cursed
@@ -91,7 +91,7 @@ COPY_EXISTING ~RING25.ITM~ ~override/BZRNG1.ITM~ //Koveras Gift, cursed
 //make +1
 COPY_EXISTING ~RING25.ITM~ ~override/RING25.ITM~ //Koveras Gift, +1
     //Patches
-        SAY NAME2 @304
+        SAY NAME2 @30100
         WRITE_LONG 0x34 4500            // Price
         LPF ~ADD_ITEM_EQEFFECT~
             INT_VAR
@@ -161,8 +161,8 @@ COPY_EXISTING ~RING25.ITM~ ~override/RING25.ITM~ //Koveras Gift, +1
 //make +2 version
 COPY_EXISTING ~RING07.ITM~ ~override/BZRNG1B.ITM~ //Koveras' Gift, +2
     //Patches
-        SAY NAME2 @307
-        SAY IDENTIFIED_DESC @308
+        SAY NAME2 @30200
+        SAY IDENTIFIED_DESC @30201
         WRITE_LONG 0x34 9000            // Price
         WRITE_LONG 0x42 80              // Lore to Identify
         LPF ~ADD_ITEM_EQEFFECT~
