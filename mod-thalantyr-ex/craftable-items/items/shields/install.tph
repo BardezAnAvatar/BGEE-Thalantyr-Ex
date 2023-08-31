@@ -1,9 +1,11 @@
+/************************
+*   Kiel's Buckler +1   *
+************************/
+// Kiel's Buckler +1 Inventory BAM
+COPY ~%MOD_FOLDER%/comp/armor/BZSH20AI.BAM~ ~override/BZSH20AI.BAM~
 
-
-//Kiel's Buckler +1
-COPY ~%MOD_FOLDER%/comp/armor/BZSH20AI.BAM~ ~override/BZSH20AI.BAM~  // Kiel's Buckler +1 Inventory BAM
-
-COPY_EXISTING ~SHLD20.ITM~ ~override/BZSH20A.ITM~ //Kiel's Buckler -> +1
+//Kiel's Buckler -> +1
+COPY_EXISTING ~SHLD20.ITM~ ~override/BZSH20A.ITM~
     //Patches
         SAY NAME2 @70000
         SAY IDENTIFIED_DESC @70001
@@ -32,9 +34,15 @@ COPY_EXISTING ~SHLD20.ITM~ ~override/BZSH20A.ITM~ //Kiel's Buckler -> +1
                 parameter1 = "-2"               // AC bonus of -2
         END
 
-//Buckley's Buckler
-COPY ~%MOD_FOLDER%/comp/armor/BZSH33AI.BAM~ ~override/BZSH33AI.BAM~  // Buckley's Buckler +1 Inventory BAM
-COPY_EXISTING ~SHLD33.ITM~ ~override/BZSH33A.ITM~ //Buckley's Buckler -> +1
+
+/***************************
+*   Buckley's Buckler +1   *
+***************************/
+// Buckley's Buckler +1 Inventory BAM
+COPY ~%MOD_FOLDER%/comp/armor/BZSH33AI.BAM~ ~override/BZSH33AI.BAM~
+
+//Buckley's Buckler -> +1
+COPY_EXISTING ~SHLD33.ITM~ ~override/BZSH33A.ITM~
     //Patches
         SAY NAME2 @70100
         SAY IDENTIFIED_DESC @70101
