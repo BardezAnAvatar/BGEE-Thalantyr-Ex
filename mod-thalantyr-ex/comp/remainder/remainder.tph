@@ -3,8 +3,8 @@ COPY ~%MOD_FOLDER%/comp/remainder/BZMA41BI.BAM~ ~override/BZMA41BI.BAM~
 
 COPY_EXISTING ~BLUN41.ITM~ ~override/BZMA41B.ITM~ //Mace +1 Stupefier -> +2
     //Patches
-        SAY NAME2 @600
-        SAY IDENTIFIED_DESC @601
+        SAY NAME2 @90000
+        SAY IDENTIFIED_DESC @90001
         WRITE_ASCII_TERMINATE 0x3A "BZMA41BI"   // Icon
         WRITE_LONG 0x34 4500                    // Price
         WRITE_LONG 0x42 60                      // Lore to Identify

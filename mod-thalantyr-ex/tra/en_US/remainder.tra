@@ -1,24 +1,3 @@
-//Mace: Stupefier
-@600 = ~Mace +2: The Stupefier~
-@601 = ~Mace +2: The Stupefier
-
-This mace isn't just sleek and elegant, it's stunning. With a shot to just the right spot, it can render a foe completely paralytic.
-
-STATISTICS:
-
-Combat abilities:
-– 15% chance per hit of stunning target for 1 round (Save vs. Spell at -1 negates)
-
-THAC0: +2
-Damage: 1d6+3 (crushing)
-Speed Factor: 6
-Proficiency Type: Mace/Morning Star
-Type: One-handed
-Requires:
- 10 Strength
-
-Weight: 8~
-
 //Hammer of Dawn
 @602 = ~War Hammer +2: Hammer of Dawn~
 @603 = ~War Hammer +2: Hammer of Dawn
