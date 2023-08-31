@@ -126,7 +126,7 @@ OUTER_TEXT_SPRINT Amulet_Protection_2_Craft_Amulets
     DestroyItem("MISC27")
     TakePartyGold(5000)
     DestroyGold(5000)
-    GiveItemCreate("BZAML1B",Player1,1,1,1)
+    GiveItemCreate("BZAML14B",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
 //requirement: cloak
@@ -146,7 +146,7 @@ OUTER_TEXT_SPRINT Amulet_Protection_2_Craft_Cloak
     DestroyItem("MISC27")
     TakePartyGold(5000)
     DestroyGold(5000)
-    GiveItemCreate("BZAML1B",Player1,1,1,1)
+    GiveItemCreate("BZAML14B",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
 //requirement: ring
@@ -166,7 +166,7 @@ OUTER_TEXT_SPRINT Amulet_Protection_2_Craft_Ring
     DestroyItem("MISC27")
     TakePartyGold(5000)
     DestroyGold(5000)
-    GiveItemCreate("BZAML1B",Player1,1,1,1)
+    GiveItemCreate("BZAML14B",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
 
@@ -507,7 +507,7 @@ OUTER_TEXT_SPRINT Dagger_Werebane_2_Craft
 //requirement: amulet +2
 OUTER_TEXT_SPRINT Algernon_2_Recipe_Amulet
     ~PartyHasItem("CLCK08")
-    PartyHasItem("BZAML1B")
+    PartyHasItem("BZAML14B")
     NumItemsPartyGT("SCRL72",1)
     PartyGoldGT(9999)~
 
@@ -515,8 +515,8 @@ OUTER_TEXT_SPRINT Algernon_2_Recipe_Amulet
 OUTER_TEXT_SPRINT Algernon_2_Craft_Amulet
     ~TakePartyGold(10000)
     DestroyGold(10000)
-    TakePartyItemNum("BZAML1B",1)
-    DestroyItem("BZAML1B")
+    TakePartyItemNum("BZAML14B",1)
+    DestroyItem("BZAML14B")
     TakePartyItemNum("SCRL72",2)
     DestroyItem("SCRL72")
     TakePartyItemNum("CLCK08",1)
@@ -571,7 +571,7 @@ OUTER_TEXT_SPRINT Algernon_2_Craft_Ring
 //requirement: amulet +2
 OUTER_TEXT_SPRINT Nymphs_Cloak_2_Recipe_Amulet
     ~PartyHasItem("CLCK07")
-    PartyHasItem("BZAML1B")
+    PartyHasItem("BZAML14B")
     NumItemsPartyGT("SCRL72",1)
     PartyGoldGT(9999)~
 
@@ -579,8 +579,8 @@ OUTER_TEXT_SPRINT Nymphs_Cloak_2_Recipe_Amulet
 OUTER_TEXT_SPRINT Nymphs_Cloak_2_Craft_Amulet
     ~TakePartyGold(10000)
     DestroyGold(10000)
-    TakePartyItemNum("BZAML1B",1)
-    DestroyItem("BZAML1B")
+    TakePartyItemNum("BZAML14B",1)
+    DestroyItem("BZAML14B")
     TakePartyItemNum("SCRL72",2)
     DestroyItem("SCRL72")
     TakePartyItemNum("CLCK07",1)
