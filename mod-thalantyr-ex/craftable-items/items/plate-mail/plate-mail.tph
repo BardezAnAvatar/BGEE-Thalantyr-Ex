@@ -5,7 +5,7 @@
 COPY ~%MOD_FOLDER%/craftable-items/plate-mail/BZPM06AI.BAM~ ~override/BZPM06AI.BAM~
 
 //Ankheg Plate Mail -> +1
-COPY_EXISTING ~PLAT06.ITM~ ~override/BZPM06A.ITM~
+COPY_EXISTING ~PLAT06.ITM~ ~override/BZPLM06A.ITM~
     //Patches
         SAY NAME2 @50000
         SAY IDENTIFIED_DESC @50001

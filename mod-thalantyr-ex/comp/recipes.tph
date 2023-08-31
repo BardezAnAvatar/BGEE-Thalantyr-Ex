@@ -407,7 +407,7 @@ OUTER_TEXT_SPRINT Ankheg_Plate_1_Craft
     DestroyItem("MISC42")
     TakePartyItemNum("PLAT06",1)
     DestroyItem("PLAT06")
-    GiveItemCreate("BZPM06A",Player1,1,1,1)
+    GiveItemCreate("BZPLM06A",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
 
