@@ -51,8 +51,8 @@ COPY ~%MOD_FOLDER%/comp/protection/BZCL8B_C.BAM~ ~override/BZCL8B_C.BAM~
 COPY ~%MOD_FOLDER%/comp/protection/BZCL8B_F.BAM~ ~override/BZCL8B_F.BAM~
 COPY_EXISTING ~CLCK08.ITM~ ~override/BZCLK8B.ITM~
     //Patches
-        SAY NAME2 @402
-        SAY IDENTIFIED_DESC @403
+        SAY NAME2 @20100
+        SAY IDENTIFIED_DESC @20101
         WRITE_LONG 0x34 14000                   // Price
         WRITE_ASCII_TERMINATE 0x3A "BZCLK8BI"   // Icon
         WRITE_LONG 0x42 90                      // Lore to Identify
