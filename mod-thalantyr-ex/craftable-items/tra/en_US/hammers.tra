@@ -1,0 +1,28 @@
+/* Reserving range 120000-129999 */
+
+
+/************************************
+*   War Hammer +2: Hammer of Dawn   *
+************************************/
+@120000 = ~War Hammer +2: Hammer of Dawn~
+@120001 = ~War Hammer +2: Hammer of Dawn
+
+Crafted from the scales and bones of a gold dragon servant of Lathander, this warhammer sometimes channels the power of the ancient wyrm's mighty wings.
+
+STATISTICS:
+
+Combat abilities:
+– 15% chance per hit target is knocked back as if struck by a wing buffet
+
+Equipped abilities:
+– The wearer's non-detectable by magical means such as Detect Invisibility and Scrying
+
+THAC0: +2
+Damage: 1d4+3 (crushing)
+Speed Factor: 3
+Proficiency Type: War Hammer
+Type: One-handed
+Requires:
+ 9 Strength
+
+Weight: 6~
