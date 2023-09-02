@@ -1,7 +1,7 @@
 /*****************************************
 *   Light Crossbow +2: The Army Scythe   *
 *****************************************/
-COPY ~%MOD_FOLDER%/comp/remainder/BZXB06BI.BAM~ ~override/BZXB06BI.BAM~
+COPY ~%MOD_FOLDER%/craftable-items/items/crossbows/BZXB06BI.BAM~ ~override/BZXB06BI.BAM~
 COPY_EXISTING ~XBOW06.ITM~ ~override/BZXBW06B.ITM~   //Crossbow of speed +1 -> +2
     //Patches
         SAY NAME2 @130000
