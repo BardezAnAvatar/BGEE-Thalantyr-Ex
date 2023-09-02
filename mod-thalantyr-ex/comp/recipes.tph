@@ -344,7 +344,7 @@ OUTER_TEXT_SPRINT Hammer_Dawn_2_Craft
     DestroyItem("MISC22")
     TakePartyItemNum("HAMM13",1)
     DestroyItem("HAMM13")
-    GiveItemCreate("BZHM13B",Player1,1,1,1)
+    GiveItemCreate("BZHAM13B",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
 
