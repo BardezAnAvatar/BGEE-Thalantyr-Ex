@@ -323,7 +323,7 @@ OUTER_TEXT_SPRINT Mace_Stupefier_2_Craft
     DestroyItem("MISC33")
     TakePartyItemNum("BLUN41",1)
     DestroyItem("BLUN41")
-    GiveItemCreate("BZMA41B",Player1,1,1,1)
+    GiveItemCreate("BZMAC41B",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
 
