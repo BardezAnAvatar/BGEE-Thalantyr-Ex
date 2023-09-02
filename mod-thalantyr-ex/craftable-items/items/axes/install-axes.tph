@@ -231,7 +231,7 @@ COPY_EXISTING ~AX1H07.ITM~ ~override/BZ1AX07A.ITM~ //Wizard Slayer -> +1
 /***********************************
 *   Battle Axe +2: Wizard Slayer   *
 ***********************************/
-COPY ~%MOD_FOLDER%/craftable-items/items/BZ1A07BI.BAM~ ~override/BZ1A07BI.BAM~      //Wizard Slayer +2 Inventory BAM
+COPY ~%MOD_FOLDER%/craftable-items/items/axes/BZ1A07BI.BAM~ ~override/BZ1A07BI.BAM~      //Wizard Slayer +2 Inventory BAM
 COPY ~%MOD_FOLDER%/craftable-items/effects/BZH1MAGE.EFF~ ~override/BZH1MAGE.EFF~    //+1 to hit mages
 COPY ~%MOD_FOLDER%/craftable-items/effects/BZH1OGMA.EFF~ ~override/BZH1OGMA.EFF~    //+1 to hit ogre mages
 COPY ~%MOD_FOLDER%/craftable-items/effects/BZH1EMST.EFF~ ~override/BZH1EMST.EFF~    //+1 to hit Elminster class
