@@ -54,7 +54,7 @@ PRINT @3 //found state
 
 //copy over items
 INCLUDE ~%MOD_FOLDER%/lib/macros.tph~
-INCLUDE ~%MOD_FOLDER%/comp/recipes.tph~
+INCLUDE ~%MOD_FOLDER%/craftable-items/recipes.tph~
 INCLUDE ~%MOD_FOLDER%/craftable-items/items/plate-mail/install-plate-mail.tph~
 INCLUDE ~%MOD_FOLDER%/craftable-items/items/helmets/install-helmets.tph~
 INCLUDE ~%MOD_FOLDER%/craftable-items/items/shields/install-shields.tph~
@@ -67,7 +67,6 @@ INCLUDE ~%MOD_FOLDER%/craftable-items/items/hammers/install-hammers.tph~
 INCLUDE ~%MOD_FOLDER%/craftable-items/items/daggers/install-daggers.tph~
 INCLUDE ~%MOD_FOLDER%/craftable-items/items/crossbows/install-crossbows.tph~
 INCLUDE ~%MOD_FOLDER%/craftable-items/items/maces/install-maces.tph~
-INCLUDE ~%MOD_FOLDER%/comp/remainder/remainder.tph~  // remainder
 
 //Update Thalantyr's dialog
 COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dlg/THALAN.d~
