@@ -497,7 +497,7 @@ OUTER_TEXT_SPRINT Dagger_Werebane_2_Craft
     DestroyItem("POTN14")
     TakePartyItemNum("DAGG09",1)
     DestroyItem("DAGG09")
-    GiveItemCreate("BZDG09B",Player1,1,1,1)
+    GiveItemCreate("BZDAG09B",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
 

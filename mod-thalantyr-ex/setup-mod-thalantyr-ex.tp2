@@ -64,6 +64,7 @@ INCLUDE ~%MOD_FOLDER%/craftable-items/items/amulets/install-amulets.tph~
 INCLUDE ~%MOD_FOLDER%/craftable-items/items/cloaks/install-cloaks.tph~
 INCLUDE ~%MOD_FOLDER%/craftable-items/items/swords/install-swords.tph~
 INCLUDE ~%MOD_FOLDER%/craftable-items/items/hammers/install-hammers.tph~
+INCLUDE ~%MOD_FOLDER%/craftable-items/items/daggers/install-daggers.tph~
 INCLUDE ~%MOD_FOLDER%/comp/remainder/remainder.tph~  // remainder
 
 //Update Thalantyr's dialog
