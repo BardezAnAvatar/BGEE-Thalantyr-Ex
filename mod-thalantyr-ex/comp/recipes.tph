@@ -386,7 +386,7 @@ OUTER_TEXT_SPRINT Crossbow_Speed_2_Craft
     DestroyItem("MISC16")
     TakePartyItemNum("XBOW06",1)
     DestroyItem("XBOW06")
-    GiveItemCreate("BZXB06B",Player1,1,1,1)
+    GiveItemCreate("BZXBW06B",Player1,1,1,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
 
