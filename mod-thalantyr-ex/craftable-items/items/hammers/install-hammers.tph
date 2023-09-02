@@ -1,7 +1,7 @@
 /************************************
 *   War Hammer +2: Hammer of Dawn   *
 ************************************/
-COPY ~%MOD_FOLDER%/comp/remainder/BZHM13BI.BAM~ ~override/BZHM13BI.BAM~
+COPY ~%MOD_FOLDER%/craftable-items/items/hammers/BZHM13BI.BAM~ ~override/BZHM13BI.BAM~
 COPY_EXISTING ~HAMM13.ITM~ ~override/BZHAM13B.ITM~ //Hammer of Dawn +1 -> +2
     //Patches
         SAY NAME2 @120000
