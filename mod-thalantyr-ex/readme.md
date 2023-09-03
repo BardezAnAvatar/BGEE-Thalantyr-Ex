@@ -10,7 +10,7 @@ This mod is a collection of items that I want to expand or enhance using the Tha
 I am using the `BZ` prefix for my items, as I have not seen it used or referenced prior.
 
 
-## Status
+## Change Log
 | Item Name                          | Implemented? | Version |
 | ---------------------------------- | ------------ | ------- |
 | Shandalar's Cloak                  | ✔️ | 0.0.1  |
@@ -32,7 +32,7 @@ I am using the `BZ` prefix for my items, as I have not seen it used or reference
 | Werebane +2                        | ✔️ | 0.0.9  |
 | Algernon's Cloak +2                | ✔️ | 0.0.10 |
 | Extract recipes into variables     | ✔️ | 0.1.0  |
-| Re-organize items' TPH files       | ❌ | n/a |
+| Re-organize items' TPH files       | ✔️ | 0.2.0  |
 | Verify BG2 readiness for TPH       | ❌ | n/a |
 | Refactor items into submodule      | ❌ | n/a |
 | Refactor recipes into submodle/TRA | ❌ | n/a |
