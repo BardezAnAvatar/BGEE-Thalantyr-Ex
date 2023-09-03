@@ -521,7 +521,7 @@ OUTER_TEXT_SPRINT Algernon_2_Craft_Amulet
     DestroyItem("SCRL72")
     TakePartyItemNum("CLCK08",1)
     DestroyItem("CLCK08")
-    GiveItemCreate("BZCLK07B",Player1,1,1,1)
+    GiveItemCreate("BZCLK07B",Player1,1,2,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
 //requirement: cloak +2
@@ -541,7 +541,7 @@ OUTER_TEXT_SPRINT Algernon_2_Craft_Cloak
     DestroyItem("SCRL72")
     TakePartyItemNum("CLCK08",1)
     DestroyItem("CLCK08")
-    GiveItemCreate("BZCLK07B",Player1,1,1,1)
+    GiveItemCreate("BZCLK07B",Player1,1,2,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
 //requirement: ring +2
@@ -561,7 +561,7 @@ OUTER_TEXT_SPRINT Algernon_2_Craft_Ring
     DestroyItem("SCRL72")
     TakePartyItemNum("CLCK08",1)
     DestroyItem("CLCK08")
-    GiveItemCreate("BZCLK07B",Player1,1,1,1)
+    GiveItemCreate("BZCLK07B",Player1,1,2,1)
     CreateVisualEffect("spcrtwpn",[330.230])~
 
 
