@@ -115,13 +115,13 @@ COPY_EXISTING ~DAGG05.ITM~ ~override/BZDAG09B.ITM~   //Werebane +1 -> +2
         //I cannot update based on parameters, so delete these
         LPF ~DELETE_EFFECT~
             INT_VAR
-                check_globals  = 1
+                check_globals = 1
                 match_opcode = 7        // Match Set color
                 match_parameter1 = 27
         END
         LPF ~DELETE_EFFECT~
             INT_VAR
-                check_globals  = 1
+                check_globals = 1
                 match_opcode = 7        // Match Set color
                 match_parameter1 = 239
         END
