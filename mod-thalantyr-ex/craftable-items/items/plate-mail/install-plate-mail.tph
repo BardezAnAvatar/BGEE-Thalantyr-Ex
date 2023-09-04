@@ -13,7 +13,7 @@ COPY_EXISTING ~PLAT06.ITM~ ~override/BZPLM06A.ITM~
         WRITE_ASCII_TERMINATE 0x3A "BZPM06AI"   // Icon
         WRITE_LONG 0x34 16500                   // Price
         WRITE_LONG 0x42 70                      // Lore to Identify
-        //I cannot update based on parameters, so delete these
+        //I cannot update based on parameters, so delete instead
         LPF ~DELETE_EFFECT~
             INT_VAR
                 check_globals = 1
