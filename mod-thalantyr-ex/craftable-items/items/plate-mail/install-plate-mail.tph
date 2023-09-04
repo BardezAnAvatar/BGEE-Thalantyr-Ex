@@ -18,7 +18,7 @@ COPY_EXISTING ~PLAT06.ITM~ ~override/BZPLM06A.ITM~
             INT_VAR
                 check_globals = 1
                 match_opcode = 0        // AC bonus
-                match_parameter1 = 4
+                match_parameter2 = 4
         END
         //Re-add the flat AC bonus
         LPF ~ADD_ITEM_EQEFFECT~         // Flat AC bonus
