@@ -7,6 +7,9 @@ AUTHOR ~Bardez; support at: https://github.com/BardezAnAvatar/BGEE-Thalantyr-Ex/
 /* WeiDU versions newer than v203 allow tp2 level version listing in the .log for troubleshooting  */
 VERSION ~v0.2.2~
 
+//Display the readme?
+README ~readme-thalantyr-ex.md~
+
 //TP2 flags
 MODDER // Enable all error messages; nothing suppressed. comment this out for release version
 ASK_EVERY_COMPONENT
