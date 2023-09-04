@@ -279,3 +279,11 @@ BLUN41 (Stupifier +1) 2-> 3 [SoD]
 ### SoA Parallel Mod Plans
 BLUN09 (Kiel's Morning Star +3) [Remove Curse, something] [SoA]
 SHLD19 (Pellan's Shield +2) 2-> 3 [SoA]
+
+
+
+## Dedication
+This mod is dedicated to Elliana. I was mid-playthrough of BG:EE when she was born. I started this
+mod right after she was born, in the few wee hours when I had precious few moments not rocking her
+to sleep, feeding her, or when her mom wasn't asking me to wash bottles. Mostly between the hours
+of 10 PM and 2 AM, my solo watch as kiddo slept. I love you, pumpkin.
