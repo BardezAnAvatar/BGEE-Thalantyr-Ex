@@ -33,6 +33,7 @@ I am using the `BZ` prefix for my items. It is registered at Black Wyrm Lair: ht
 | Algernon's Cloak +2                | ✔️ | 0.0.10 |
 | Extract recipes into variables     | ✔️ | 0.1.0  |
 | Re-organize items' TPH files       | ✔️ | 0.2.0  |
+| Bugfix Ankheg Plate +1 AC bonuses  | ✔️ | 0.2.1  |
 | Verify BG2 readiness for TPH       | ❌ | n/a |
 | Refactor items into submodule      | ❌ | n/a |
 | Refactor recipes into submodle/TRA | ❌ | n/a |
