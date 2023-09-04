@@ -2,6 +2,8 @@
 *   Dagger +2: Werebane   *
 **************************/
 COPY ~%MOD_FOLDER%/craftable-items/items/daggers/BZDG09BI.BAM~ ~override/BZDG09BI.BAM~
+COPY ~%MOD_FOLDER%/craftable-items/items/daggers/BZDG09BM.BAM~ ~override/BZDG09BM.BAM~
+COPY ~%MOD_FOLDER%/craftable-items/items/daggers/BZDG09BR.BAM~ ~override/BZDG09BR.BAM~
 COPY_EXISTING ~DAGG05.ITM~ ~override/BZDAG09B.ITM~   //Werebane +1 -> +2
     //Patches
         SAY NAME1 @110000
