@@ -18,7 +18,7 @@ COPY_EXISTING ~PLAT06.ITM~ ~override/BZPLM06A.ITM~
             INT_VAR
                 check_globals = 1
                 match_opcode = 0        // AC bonus
-                match_parameter2 = 4
+                match_parameter2 = BIT4
         END
         //Re-add the flat AC bonus
         LPF ~ADD_ITEM_EQEFFECT~         // Flat AC bonus
@@ -27,7 +27,7 @@ COPY_EXISTING ~PLAT06.ITM~ ~override/BZPLM06A.ITM~
                 target = 1              // Self
                 power = 0
                 parameter1 = 0          // Actual AC Bonus
-                parameter2 = 4          // Set base AC to value
+                parameter2 = BIT4       // Set base AC to value
                 timing = 2              // Timing Mode: Instant/While Equiped
                 resist_dispel = 0       // Natural/nonmagical
                 duration = 0
