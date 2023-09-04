@@ -24,7 +24,7 @@ COPY_EXISTING ~DAGG05.ITM~ ~override/BZDAG09B.ITM~   //Werebane +1 -> +2
                 animation_overhand = 100
                 bullet = 0              // make returning
             STR_VAR
-                icon = ~BZDG09BI~       // icon to display for ranged
+                icon = ~BZDG09BR~       // icon to display for ranged
         END
         LPF ~ADD_ITEM_HEADER~       // Add melee header
             INT_VAR
@@ -60,7 +60,7 @@ COPY_EXISTING ~DAGG05.ITM~ ~override/BZDAG09B.ITM~   //Werebane +1 -> +2
                 copy_header = 0
                 insert_point = ~-1~
             STR_VAR
-                icon = ~BZDG09BI~
+                icon = ~BZDG09BM~
         END
         LPF ~ADD_ITEM_EQEFFECT~         // thac0 vs Lycanthropes
             INT_VAR
