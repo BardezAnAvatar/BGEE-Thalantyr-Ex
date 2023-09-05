@@ -293,6 +293,6 @@ of 10 PM and 2 AM, my solo watch as kiddo slept. I love you, pumpkin.
 ## Legal
 tl;dr: Creative Commons Attribution 4.0 International Public License
 
-See [the license file](https://github.com/BardezAnAvatar/BGEE-Thalantyr-Ex/LICENSE.md).
+See [the license file](https://github.com/BardezAnAvatar/BGEE-Thalantyr-Ex/blob/main/LICENSE.md).
 
 tl;dr: do what you will with it, credit me (Bardez) for starting the mod.
