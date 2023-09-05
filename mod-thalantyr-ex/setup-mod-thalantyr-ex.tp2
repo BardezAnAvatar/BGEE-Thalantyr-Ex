@@ -56,7 +56,7 @@ OUTER_SET ThalantyrCraftingState = STATE_WHICH_SAYS @9001 FROM ~THALAN~
 PRINT @3 //found state
 
 //copy over items
-INCLUDE ~%MOD_FOLDER%/lib/macros.tph~
+INCLUDE ~%MOD_FOLDER%/craftable-items/weidu/lib/macros.tph~
 INCLUDE ~%MOD_FOLDER%/craftable-items/weidu/recipes.tph~
 INCLUDE ~%MOD_FOLDER%/craftable-items/weidu/items/plate-mail/install-plate-mail.tph~
 INCLUDE ~%MOD_FOLDER%/craftable-items/weidu/items/helmets/install-helmets.tph~
