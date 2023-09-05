@@ -44,7 +44,7 @@ I am using the `BZ` prefix for my items. It is registered at Black Wyrm Lair: ht
 | Bugfix Ankheg Plate +1 AC bonuses  |  0.2.1  |
 | Add melee/ranged icons to dagger   |  0.2.2  |
 | Refactor items into submodule      |  0.9.0  |
-| Github automation                  |  0.9.1  |
+| Github automation                  |  0.9.2  |
 
 
 
