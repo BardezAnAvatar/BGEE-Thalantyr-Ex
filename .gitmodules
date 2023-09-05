@@ -1,0 +1,3 @@
+[submodule "mod-thalantyr-ex/craftable-items"]
+	path = mod-thalantyr-ex/craftable-items
+	url = https://github.com/BardezAnAvatar/BGEE-Craftable-Items
