@@ -246,42 +246,6 @@ The upgrate will require Werebane; 2 gold necklaces; 2 oils of speed; and 5,000 
 
 
 
-## Future Plans
-
-### Scroll of Death Ward
-This would make way more sense for the Koveras Ring of Protection, so add it in at a later date. Add to temple stores, etc.
-
-
-### Pickpocket Golden Axe and Hammer of Dawn
-Give a less murder-y way to receive these unique magical items.
-
-
-### SoD Parallel Mod Plans
-AX1H03 from +2-> +3 [SoD]
-AX1h06 +2-> +3 [SoD]
-BDBLUN05 +2-> +3 [SoD]
-BDBLUN08 (glimmer of hope) 2-> 3 [SoD]
-BDDAGG01 (elements' fury) [SoD] 2-> 3
-BDHALB01 (storm pike +2)  [SoD] 2-> 3
-BDHALB03 (cold fury +2) [SoD] 2-> 3
-BDSW1H22 (Severance +2) [SoD] 2-> 3
-BLUN11/42 (Skullcrusher +2) [SoD] 2-> 3
-BLUN39 (Thresher +2) [SoD] 2-> 3
-BDAX1h05 (Grubdoubler's Axe +1) 1-> 2 [SoD]
-BDBLUN02 (Cudgel of Montonger +1) 1-> 2 [SoD]
-BDSW1H08 (Dervish Crescent +2) 2-> 3 [SoD]
-BDSW1H20 (Ophyllis' Short Sword +2) 2-> 3 [SoD]
-BDSW1H21 (Vexaction +2) 2-> 3 [SoD]
-BDSW1H25 (Spell Breaker +2) 2-> 3 [SoD]
-BLUN41 (Stupifier +1) 2-> 3 [SoD]
-
-
-### SoA Parallel Mod Plans
-BLUN09 (Kiel's Morning Star +3) [Remove Curse, something] [SoA]
-SHLD19 (Pellan's Shield +2) 2-> 3 [SoA]
-
-
-
 ## Dedication
 This mod is dedicated to Elliana. I was mid-playthrough of BG:EE when she was born. I started this
 mod right after she was born, in the few wee hours when I had precious few moments not rocking her
