@@ -1,5 +1,5 @@
 # Thalantyr Item Upgrade Mod Extensions
-Version: 1.0.0
+Version: 0.9.0
 
 Author: [Bardez](https://github.com/BardezAnAvatar)
 
@@ -42,7 +42,7 @@ I am using the `BZ` prefix for my items. It is registered at Black Wyrm Lair: ht
 | Re-organize items' TPH files       |  0.2.0  |
 | Bugfix Ankheg Plate +1 AC bonuses  |  0.2.1  |
 | Add melee/ranged icons to dagger   |  0.2.2  |
-| Refactor items into submodule      |  1.0.0  |
+| Refactor items into submodule      |  0.9.0  |
 
 
 
