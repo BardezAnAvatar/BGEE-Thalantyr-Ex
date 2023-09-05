@@ -1,43 +1,49 @@
 # Thalantyr Item Upgrade Mod Extensions
-Version: 0.2.0
+Version: 1.0.0
+
 Author: [Bardez](https://github.com/BardezAnAvatar)
+
 Bugs reports to [repository's GitHub Issues](https://github.com/BardezAnAvatar/BGEE-Thalantyr-Ex/issues)
+
+
 
 ## Introduction
 This mod is a collection of items that I want to expand or enhance using the Thalantyr Item Upgrade Mod.
+
+
 
 ## Remarks
 I am using the `BZ` prefix for my items. It is registered at Black Wyrm Lair: http://www.blackwyrmlair.net/prefixes/
 
 
+
 ## Change Log
-| Item Name                          | Implemented? | Version |
-| ---------------------------------- | ------------ | ------- |
-| Shandalar's Cloak                  | ✔️ | 0.0.1  |
-| Varscona +3                        | ✔️ | 0.0.2  |
-| Koveras' Ring                      | ✔️ | 0.0.3  |
-| Amulet of Protection +2            | ✔️ | 0.0.5  |
-| Cloak of Protection +2             | ✔️ | 0.0.5  |
-| Golden Axe +2                      | ✔️ | 0.0.6  |
-| Axe +1 Wizard Slayer               | ✔️ | 0.0.6  |
-| Axe +2 Wizard Slayer               | ✔️ | 0.0.6  |
-| Mace +2: The Stupifier             | ✔️ | 0.0.7  |
-| Hammer +2: The Hammer of Dawn      | ✔️ | 0.0.7  |
-| Long Sword +2: Harrower            | ✔️ | 0.0.7  |
-| Light Crossbow +2: The Army Scythe | ✔️ | 0.0.7  |
-| Ankheg Plate + 1                   | ✔️ | 0.0.8  |
-| Buckley's Buckler +2               | ✔️ | 0.0.8  |
-| Kiel's Helmet +1                   | ✔️ | 0.0.8  |
-| Kiel's Buckler +1                  | ✔️ | 0.0.8  |
-| Werebane +2                        | ✔️ | 0.0.9  |
-| Algernon's Cloak +2                | ✔️ | 0.0.10 |
-| Extract recipes into variables     | ✔️ | 0.1.0  |
-| Re-organize items' TPH files       | ✔️ | 0.2.0  |
-| Bugfix Ankheg Plate +1 AC bonuses  | ✔️ | 0.2.1  |
-| Add melee/ranged icons to dagger   | ✔️ | 0.2.2  |
-| Verify BG2 readiness for TPH       | ❌ | n/a |
-| Refactor items into submodule      | ❌ | n/a |
-| Refactor recipes into submodle/TRA | ❌ | n/a |
+| Item Name                          | Version |
+| ---------------------------------- | ------- |
+| Shandalar's Cloak                  |  0.0.1  |
+| Varscona +3                        |  0.0.2  |
+| Koveras' Ring                      |  0.0.3  |
+| Amulet of Protection +2            |  0.0.5  |
+| Cloak of Protection +2             |  0.0.5  |
+| Golden Axe +2                      |  0.0.6  |
+| Axe +1 Wizard Slayer               |  0.0.6  |
+| Axe +2 Wizard Slayer               |  0.0.6  |
+| Mace +2: The Stupifier             |  0.0.7  |
+| Hammer +2: The Hammer of Dawn      |  0.0.7  |
+| Long Sword +2: Harrower            |  0.0.7  |
+| Light Crossbow +2: The Army Scythe |  0.0.7  |
+| Ankheg Plate + 1                   |  0.0.8  |
+| Buckley's Buckler +2               |  0.0.8  |
+| Kiel's Helmet +1                   |  0.0.8  |
+| Kiel's Buckler +1                  |  0.0.8  |
+| Werebane +2                        |  0.0.9  |
+| Algernon's Cloak +2                |  0.0.10 |
+| Extract recipes into variables     |  0.1.0  |
+| Re-organize items' TPH files       |  0.2.0  |
+| Bugfix Ankheg Plate +1 AC bonuses  |  0.2.1  |
+| Add melee/ranged icons to dagger   |  0.2.2  |
+| Refactor items into submodule      |  1.0.0  |
+
 
 
 ## Items
