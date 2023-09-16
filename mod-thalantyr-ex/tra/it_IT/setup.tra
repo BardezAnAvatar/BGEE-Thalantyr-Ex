@@ -1,0 +1,18 @@
+@0 = "estensioni al mod  Thalantyr Item Upgrade by Bardez"
+@1 = "Devi avere installato il mod Thalantyr Item Upgrade!"
+@2 = "Tentativo di individuare lo stato di creazione da THALAN.DLG..."
+@3 = "THALAN.DLG risultato della ricerca sullo stato di creazione: %ThalantyrCraftingState%"
+
+//unused
+@10 = ~Ma ntello di Shandalar~
+@11 = ~Varscona +3~
+@12 = ~Anello di Protezione di Koveras [Nucleo]~
+
+//used
+@13 = ~Anello di Protezione di Koveras +2~
+@14 = ~Anello di Koveras: Dono maledetto~
+@15 = ~Anello di Koveras: Dono non maledetto~
+
+//BG1NPC Project detection
+@16 = ~Inizializzazione Rilevamento BG1NPC Project~
+@17 = "BG1NPC Project Risultato dell'installazione del Rilevamento: %Bg1NpcProjectInstalled%"
