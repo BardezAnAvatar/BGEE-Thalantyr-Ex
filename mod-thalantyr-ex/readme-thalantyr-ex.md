@@ -45,6 +45,7 @@ I am using the `BZ` prefix for my items. It is registered at Black Wyrm Lair: ht
 | Add melee/ranged icons to dagger   |  0.2.2  |
 | Refactor items into submodule      |  0.9.0  |
 | Github automation                  |  1.0.0  |
+| Italian translation by Zaramorte   |         |
 
 
 
