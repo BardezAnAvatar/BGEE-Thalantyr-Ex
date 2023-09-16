@@ -1,0 +1,96 @@
+//Thalantyr Mod Base state/response
+@9000 = ~Non ne ho bisogno adesso. Forse ho qualcos'altro che potresti modificare?~
+@9001 = ~Mostrami quello che hai e ti dirò se può essere modificato.~ //the state with all the crafting
+
+//Shandalar's Cloak
+@1001 = ~Ho un mantello benigno che appartiene a Shandalar. Certamente puoi ripristinarne la magia, vero?~
+@1002 = ~Oh, è pregevole. O sei incredibilmente fortunato o toccato dagli dei. In ogni caso, sei straordinariamente stupido per aver contrastato un mago potente come Shandalar.~
+@1003 = ~Le mie interazioni con Shandalar sono rare, ma questa opportunità potrebbe rivelarsi piuttosto irritante per lui, dal punto di vista accademico, e questo mi diverte. Ti farò questa offerta: posso prendere il mantello di Shandalar, la pietra guardiana di Shandalar, due pergamene di protezione dall'elettricità e due dal fuoco. A causa del rischio sociale insito, avrò bisogno, diciamo, anche di... 10.000 monete d'oro. Vuoi che realizzi questo articolo per te?~
+@1004 = ~Si, grazie, ripristinalo.~
+
+//Varscona +3
+@1100 = ~Ho una spada lunga, in sintonia con il freddo. Puoi fare qualcosa con questo?~
+@1101 = ~Vediamo... ah, la Varscona, credo? Ho sicuramente una o due tesi per modificare un'arma del genere. Se mi porti la spada lunga Varscona, uno smeraldo, una pergamena di Cono di Freddo, una pergamena di Tocco Vampirico, una pergamena di Protezione che blocca il fuoco e, per così dire, 6.000 monete d'oro, potrei potenziare le sue abilità. Vuoi che realizzi questo articolo per te?~
+@1102 = ~Si, incanta Varscona per me.~
+
+//Koveras' Ring of Protection
+@1200 = ~Ho ricevuto questo anello maledetto a Candlekeep. Puoi rimuovere la maledizione?~
+@1201 = ~Fammi vedere.~
+@1202 = ~Ah. Questa è una maledizione particolarmente brutta. Anche potente. Suppongo che, se questo avesse un valore sentimentale, potrei invertire la maledizione per te. Avrei bisogno di tre pergamene di Rimuovi Maledizione, due pozioni di fortezza, 3 granati e 3.000 oro. Devo procedere?~
+@1203 = ~Sì, per favore rimuovi la maledizione per me.~
+@1204 = ~Ho questo anello donatomi da uno che mi vuole morto. C'è qualcosa che puoi fare con questo?~
+@1205 = ~Affascinante. Questo anello porta con sé una sorta di contaminazione omicida, come se invocasse vendetta, vendetta e spargimento di sangue. C'è chiaramente qualche intento malevolo tra il donatore e il ricevente.~
+@1206 = ~Potrei curiosare nel legame tra voi due, forse per proteggerti da quella contaminazione. Avrei bisogno di una perla, una pergamena di protezione dalla magia, tre pergamene di Resuscita Morti e 5.000 oro. Devo realizzare questo articolo per te?~
+@1207 = ~Si, per favore, fallo.~
+
+//Amulet of protection +2
+@1300 = ~Puoi fare qualcosa con questo Amuleto di Protezione +1?~
+@1301 = Sì, posso crearti un Amuleto di Protezione +2 da due Amuleti di Protezione +1, o un amuleto e il suo mantello o anello equivalente. Avrò anche bisogno di quattro gemme lunari. Come pagamento prenderò 5.000 monete d'oro. Devo realizzare questo articolo per te?~
+@1302 = ~\[2 amuleti\] Sì, per favore, fallo.~
+@1303 = ~\[1 amuleto, 1 mantello\] Sì, per favore, fallo.~
+@1304 = ~\[1 amuleto, 1 anello\] Sì, per favore, fallo.~
+//Cloak of Protection +2
+@1305 = ~Puoi fare qualcosa con questo Mantello di Protezione +1?~
+@1306 = ~Sì, posso crearti un Mantello di Protezione +2 da due Mantelli di Protezione +1, oppure un mantello e il suo amuleto o anello equivalente. Avrò anche bisogno di quattro gemme iol e un opale nero. Come pagamento prenderò 5.000 monete d'oro. Devo realizzare questo articolo per te?~
+@1307 = ~\[2 mantelli\] Sì, per favore, fallo.~
+@1308 = ~\[1 mantello, 1 amuleto\] Sì, per favore, fallo.~
+@1309 = ~\[1 mantello, 1 anello\] Sì, per favore, fallo.~
+
+//Algernon's Cloak +1
+@1310 = ~Ho il mantello di Algernon. Puoi renderlo più utile?~
+@1311 = ~Ho un mantello di ninfa. Puoi renderlo più utile?~
+@1312 = ~Un mantello Charmante di ninfa, "più utile"? Sei davvero così ottuso da non vedere il valore di questo oggetto?~
+@1313 = ~Se ignoro l'impertinenza, forse potrei valorizzarla. Avrei bisogno del mantello; due pergamene di Amicizia; un mantello, un anello o un amuleto di protezione +2; e 10.000 oro. Devo realizzare questo articolo per te?~
+@1314 = ~\[amuleto di protezione +2\] Sì, per favore, fallo.~
+@1315 = ~\[mantello di protezione +2\] Sì, per favore, fallo.~
+@1316 = ~\[anello di protezione +2\] Sì, per favore, fallo.~
+
+//axes
+@1400 = ~Ho quest'ascia nanica, dorata. Puoi migliorarla?~
+@1401 = ~Hrm. L'ascia di Dawrven, che dissolve gli incantesimi, sembra destinata alla difesa nel Sottosuolo.~
+@1402 = ~Posso migliorare le sue possibilità di dissolvenza e renderla più letale per i suoi nemici previsti. Mi servirebbero un diamante e una pergamena di Dissolvi Magia. Come pagamento prenderò 3.000 monete d'oro. Devo realizzare questo articolo per te?~
+@1403 = ~Sì, per favore, fallo.~
+
+@1404 = ~Ho questa ascia, banale in combattimento tranne che contro gli incantatori. Cosa puoi farci?~
+@1405 = ~Questa... "ascia" è rozza, perché vorresti incantarla?~
+@1406 = ~Ah, Sento l'incanto adesso. Interessante, come se fosse incantata col sangue di mago... non importa. Posso potenziare le sue abilità in combattimento se mi porti una perla e 3.000 monete d'oro. Devo realizzare questo articolo per te?~
+
+@1407 = ~Ho ancora l'ascia AmmazzaStregoni; potresti migliorarla?~
+@1408 = ~Suppongo che potrei sintonizzarla contro i maghi e migliorarne l'uso normale nel combattimento. Richiederà l'ascia AmmazzaStregoni +1; un opale d'acqua; più 6.000 oro. Devo realizzare questo articolo per te?~
+
+//mace(s)
+@1500 = ~Ho questa Mazza +1, la Straordinaria. C'è qualcosa che puoi farci?~
+@1501 = ~Senza dubbio. Posso aumentarne l'efficacia marziale con relativa facilità. Avrei bisogno della Straordinaria; due gemme di acquamarina; e 4.000 oro. Devo realizzare questo articolo per te?~
+
+//hammer(s)
+@1600 = ~Ho il Martello dell'Alba +1. Puoi farci qualcosa?~
+@1601 = ~Potrei aumentare abbastanza facilmente il suo incantesimo di combattimento e incrementare leggermente la sua probabilità di colpire. Avrei bisogno del Martello dell'Alba; sei gemme andar; e 4.000 pezzi d'oro. Devo realizzare questo articolo per te?~
+
+//sword(s)
+@1700 = ~Ho questa spada lunga efficace contro i non morti. Puoi incantarla ulteriormente?~
+@1701 = ~Impresa~
+@1702 = ~Ah, queste rune identificano questa spada l'"Erpice". La conosco.~
+@1703 = ~Posso incantare ulteriormente questa spada per renderla più utile nel combattimento regolare. Avrei bisogno della spada, di sei gemme occhio di lince e di 6.000 monete d'oro. Devo realizzare questo articolo per te?~
+
+//Crossbow(s)
+@1800 = ~Ho questa balestra leggera, più veloce della maggior parte delle balestre nel lanciare dardi. Puoi farci qualcosa?~
+@1801 = ~Forse. Ah, sì, credo di poterlo fare. Sarà costoso, ma con la balestra, sei gemme di agata di fuoco e 8.000 monete d'oro posso incantarla ulteriormente per te. Devo realizzare questo articolo per te?~
+
+//Armor(s)
+@2000 = ~Ho questa armatura leggera fatta di chitina ankheg. Puoi incantarla?~
+@2001 = ~Odissea Spaziale~
+@2002 = ~Ankheg, eh? Posso ancora sentirne l'odore. Il lavoro di Taerom, giusto? Posso incantarla, data l'armatura; due diamanti; e una carica di 8.000 monete d'oro. Devo realizzare questo articolo per te?~
+
+@2003 = ~Ho il Buckler di Kiel. Potresti migliorarlo?~
+@2004 = ~il Buckler di Kiel sorprendentemente manca di incantesimi di base, che posso aggiungere. Mi servirà lo scudo; quattro gemme lunari e 3.000 monete. Devo realizzare questo articolo per te?~
+
+@2005 = ~Ho questo scudo di pelle, che ha sopra un incantesimo di vigore. Puoi migliorarlo?~
+@2006 = ~Sebbene rozzo, questo scudo può essere incantato con rune di protezione di base. Avrò bisogno dello Buckler di Buckley; sei gemme di diaspro e 2.000 monete d'oro. Devo realizzare questo articolo per te?~
+
+@2007 = ~Ho questo casco indossato da Kiel. Puoi incantarlo ulteriormente?~
+@2008 = ~Potrei incantare l'Elmo di Kiel con miglioramenti dell'armatura. Avrei bisogno dell'elmo di Kiel; due pergamene di armatura; due gemme Lacrime del Cielo; e 4.000 pezzi oro. Devo realizzare questo articolo per te?~
+
+//Daggers
+@2100 = ~Ho questo pugnale per combattere i licantropi; puoi migliorarlo?~
+@2101 = ~L'incantesimo di questo pugnale... sembra quasi uno di Dradeel, ma non ricordo nessun artefatto del genere registrato.~
+@2102 = ~A parte il mondo accademico, posso migliorare per te questo pugnale da caccia ai licantropi; richiederà questa lama "Mannara", due collane d'oro, due oli bianchi di velocità e 5.000 monete. Devo realizzare questo articolo per te?~
