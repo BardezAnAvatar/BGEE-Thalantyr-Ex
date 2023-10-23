@@ -8,7 +8,7 @@ AUTHOR ~Bardez; support at: https://github.com/BardezAnAvatar/BGEE-Thalantyr-Ex/
 VERSION ~v1.0.0~
 
 //Display the readme?
-README ~readme-thalantyr-ex.md~
+README ~./%MOD_FOLDER%/readme-thalantyr-ex.md~
 
 //TP2 flags
 MODDER // Enable all error messages; nothing suppressed. comment this out for release version
@@ -21,7 +21,7 @@ AUTO_TRA ~%MOD_FOLDER%/tra/%s~ //match strings to matching *.d/*.tra files -- ht
 *   languages   *
 ****************/
 LANGUAGE
-    ~English~ 
+    ~English~
     ~en_US~
         //There is a problem with using %MOD_FOLDER% here: https://forums.pocketplane.net/index.php?topic=29521.0
         ~./mod-thalantyr-ex/tra/en_US/setup.tra~
@@ -43,7 +43,7 @@ LANGUAGE
 /*********************
 *   Mod Components   *
 *********************/
-BEGIN @0 
+BEGIN @0
     //Require Thalantyr Item Upgrade Mod
     REQUIRE_COMPONENT ~THALAN/THALAN.TP2~ "0" @1 //must have base mod installed
 
