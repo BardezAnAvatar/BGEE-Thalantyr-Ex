@@ -79,7 +79,6 @@ jobs:
           rm mod-thalantyr-ex/craftable-items/README.md
           rm mod-thalantyr-ex/craftable-items/reserved_strings.md
 
-
       - name: Create Infinity Engine Mod Packages (.iemod and .zip)
         uses: ALIENQuake/CreateIEModZipPackage@master
         id: CreateIEModZipPackage
