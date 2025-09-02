@@ -1,0 +1,18 @@
+@0 = "Bardez's extensions to Thalantyr Item Upgrade Mod"
+@1 = "You must have the Thalantyr Item Upgrade Mod installed to extend (this mod) it!"
+@2 = "Attempting to locate the crafting state from THALAN.DLG..."
+@3 = "THALAN.DLG crafting state search result: %ThalantyrCraftingState%"
+
+//unused
+@10 = ~Shandalar's Cloak~
+@11 = ~Varscona +3~
+@12 = ~Koveras' Ring of Protection [Core]~
+
+//used
+@13 = ~Koveras' Ring of Protection +2~
+@14 = ~Koveras' Ring: Cursed Gift~
+@15 = ~Koveras' Ring: No Cursed gift~
+
+//BG1NPC Project detection
+@16 = ~Initializing BG1NPC Project Detection~
+@17 = "BG1NPC Project Detection install result: %Bg1NpcProjectInstalled%"
