@@ -20,10 +20,10 @@ AUTO_TRA ~%MOD_FOLDER%/tra/%s~ //match strings to matching *.d/*.tra files -- ht
 /****************
 *   languages   *
 ****************/
+//There is a problem with using %MOD_FOLDER% here: https://forums.pocketplane.net/index.php?topic=29521.0
 LANGUAGE
     ~English~
     ~en_US~
-        //There is a problem with using %MOD_FOLDER% here: https://forums.pocketplane.net/index.php?topic=29521.0
         ~./mod-thalantyr-ex/tra/en_US/setup.tra~
         ~./mod-thalantyr-ex/tra/en_US/thalan.tra~
         ~./mod-thalantyr-ex/craftable-items/weidu/tra/en_US/cloaks.tra~
@@ -38,7 +38,23 @@ LANGUAGE
         ~./mod-thalantyr-ex/craftable-items/weidu/tra/en_US/daggers.tra~
         ~./mod-thalantyr-ex/craftable-items/weidu/tra/en_US/hammers.tra~
         ~./mod-thalantyr-ex/craftable-items/weidu/tra/en_US/crossbows.tra~
-
+LANGUAGE
+	~Russian (by CblblP & Arcanecoast.ru)~
+	~ru_RU~
+		~./mod-thalantyr-ex/tra/ru_RU/setup.tra~
+		~./mod-thalantyr-ex/tra/ru_RU/thalan.tra~
+		~./mod-thalantyr-ex/craftable-items/weidu/tra/ru_RU/cloaks.tra~
+		~./mod-thalantyr-ex/craftable-items/weidu/tra/ru_RU/rings.tra~
+		~./mod-thalantyr-ex/craftable-items/weidu/tra/ru_RU/axes.tra~
+		~./mod-thalantyr-ex/craftable-items/weidu/tra/ru_RU/plate-mail.tra~
+		~./mod-thalantyr-ex/craftable-items/weidu/tra/ru_RU/helmets.tra~
+		~./mod-thalantyr-ex/craftable-items/weidu/tra/ru_RU/shields.tra~
+		~./mod-thalantyr-ex/craftable-items/weidu/tra/ru_RU/amulets.tra~
+		~./mod-thalantyr-ex/craftable-items/weidu/tra/ru_RU/maces.tra~
+		~./mod-thalantyr-ex/craftable-items/weidu/tra/ru_RU/swords.tra~
+		~./mod-thalantyr-ex/craftable-items/weidu/tra/ru_RU/daggers.tra~
+		~./mod-thalantyr-ex/craftable-items/weidu/tra/ru_RU/hammers.tra~
+		~./mod-thalantyr-ex/craftable-items/weidu/tra/ru_RU/crossbows.tra~
 
 /*********************
 *   Mod Components   *
